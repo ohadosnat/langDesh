@@ -1,0 +1,2486 @@
+[
+  {
+    "id": 1,
+    "en": "I (1sg)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ja",
+        "translation": "я",
+        "audioID": "a4fd7810"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "en": "you (2sg)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ty",
+        "translation": "ты",
+        "audioID": "bf5460f8"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "en": "he, she, it (3sg)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "on",
+        "translation": "он",
+        "audioID": "fc38bfb1"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "en": "we (1pl)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "my",
+        "translation": "мы",
+        "audioID": "291dcf07"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "en": "you (2pl)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vy",
+        "translation": "вы",
+        "audioID": "2383e20d"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "en": "they (3pl)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "oní",
+        "translation": "они",
+        "audioID": "a35b2182"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "en": "this",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "éto",
+        "translation": "это",
+        "audioID": "f06e508c"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "en": "that",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "to",
+        "translation": "то",
+        "audioID": "f0fc959a"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "en": "here",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zdesʹ",
+        "translation": "здесь",
+        "audioID": "8a925891"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "en": "there",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tam",
+        "translation": "там",
+        "audioID": "0363f0ea"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "en": "who",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kto",
+        "translation": "кто",
+        "audioID": "2833e7bf"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "en": "what",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "što",
+        "translation": "что",
+        "audioID": "bade482d"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "en": "where",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "gde",
+        "translation": "где",
+        "audioID": "2aaba201"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "en": "when",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kogdá",
+        "translation": "когда",
+        "audioID": "fc8518f0"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "en": "how",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kak",
+        "translation": "как",
+        "audioID": "b00d753d"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "en": "not",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ne",
+        "translation": "не",
+        "audioID": "f0a589da"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "en": "all",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vsjo",
+        "translation": "всё",
+        "audioID": "a8cf1e3f"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "en": "many",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "mnógije",
+        "translation": "многие",
+        "audioID": "70e60f63"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "en": "some",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "néskolʹko",
+        "translation": "несколько",
+        "audioID": "595ed41a"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "en": "few",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nemnógije",
+        "translation": "немногие",
+        "audioID": "fffb1020"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "en": "other",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "drugój",
+        "translation": "другой",
+        "audioID": "f2bc5608"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "en": "one",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "odín",
+        "translation": "один",
+        "audioID": "3dfd336c"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "en": "two",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dva",
+        "translation": "два",
+        "audioID": "ec6cf62c"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "en": "three",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tri",
+        "translation": "три",
+        "audioID": "98d9b606"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "en": "four",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "četýre",
+        "translation": "четыре",
+        "audioID": "3070115b"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "en": "five",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pjatʹ",
+        "translation": "пять",
+        "audioID": "5fa254b2"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "en": "big",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "bolʹšój",
+        "translation": "большой",
+        "audioID": "ccc39b0c"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "en": "long",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dlínnyj",
+        "translation": "длинный",
+        "audioID": "6309b2ad"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "en": "wide",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "širókij",
+        "translation": "широкий",
+        "audioID": "9d5592db"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "en": "thick",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tólstyj",
+        "translation": "толстый",
+        "audioID": "5a04c2e4"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "en": "heavy",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tjažólyj",
+        "translation": "тяжёлый",
+        "audioID": "d9b9689c"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "en": "small",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "málenʹkij",
+        "translation": "маленький",
+        "audioID": "3e9047a2"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "en": "short",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "korótkij",
+        "translation": "короткий",
+        "audioID": "481923d1"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "en": "narrow",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "úzkij",
+        "translation": "узкий",
+        "audioID": "799b6325"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "en": "thin",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tónkij",
+        "translation": "тонкий",
+        "audioID": "9d9c2b14"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "en": "woman",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "žénščina",
+        "translation": "женщина",
+        "audioID": "a25421e3"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "en": "man (adult male)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "mužčína",
+        "translation": "мужчина",
+        "audioID": "111b6f75"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "en": "man (human being)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "čelovék",
+        "translation": "человек",
+        "audioID": "93b6b6f0"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "en": "child",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "rebjónok",
+        "translation": "ребёнок",
+        "audioID": "00b10bed"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "en": "wife",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "žená",
+        "translation": "жена",
+        "audioID": "4b08eaed"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "en": "husband",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "muž",
+        "translation": "муж",
+        "audioID": "a86af01a"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "en": "mother",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "matʹ",
+        "translation": "мать",
+        "audioID": "8667b2dd"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "en": "father",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "otéc",
+        "translation": "отец",
+        "audioID": "7808e6d9"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "en": "animal",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zverʹ",
+        "translation": "зверь",
+        "audioID": "e880079c"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "en": "fish",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "rýba",
+        "translation": "рыба",
+        "audioID": "9046563d"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "en": "bird",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ptíca",
+        "translation": "птица",
+        "audioID": "fdf8f58d"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "en": "dog",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sobáka",
+        "translation": "собака",
+        "audioID": "f336530a"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "en": "louse",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vošʹ",
+        "translation": "вошь",
+        "audioID": "64fff237"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "en": "snake",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zmejá",
+        "translation": "змея",
+        "audioID": "4101ceec"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "en": "worm",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "červʹ",
+        "translation": "червь",
+        "audioID": "d11a2036"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "en": "tree",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dérevo",
+        "translation": "дерево",
+        "audioID": "500e3b51"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "en": "forest",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "les",
+        "translation": "лес",
+        "audioID": "23b64603"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "en": "stick",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pálka",
+        "translation": "палка",
+        "audioID": "fffb1053"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "en": "fruit",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "plod",
+        "translation": "плод",
+        "audioID": "648b6b1f"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "en": "seed",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sémja",
+        "translation": "семя",
+        "audioID": "44d907e4"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "en": "leaf",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "list",
+        "translation": "лист",
+        "audioID": "964e54cc"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "en": "root",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kórenʹ",
+        "translation": "корень",
+        "audioID": "5abda976"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "en": "bark (of a tree)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "korá",
+        "translation": "кора",
+        "audioID": "6f77a02e"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "en": "flower",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "cvetók",
+        "translation": "цветок",
+        "audioID": "3f17e80f"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "en": "grass",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "travá",
+        "translation": "трава",
+        "audioID": "f175c9f7"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "en": "rope",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "verjóvka",
+        "translation": "верёвка",
+        "audioID": "499fdb43"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "en": "skin",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kóža",
+        "translation": "кожа",
+        "audioID": "f72d5e69"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "en": "meat",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "mjáso",
+        "translation": "мясо",
+        "audioID": "bdc090b7"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "en": "blood",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "krovʹ",
+        "translation": "кровь",
+        "audioID": "021a33a4"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "en": "bone",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kostʹ",
+        "translation": "кость",
+        "audioID": "42169332"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "en": "fat (noun)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "žir",
+        "translation": "жир",
+        "audioID": "fffb1063"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "en": "egg",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "jajcó",
+        "translation": "яйцо",
+        "audioID": "0893a7e0"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "en": "horn",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "rog",
+        "translation": "рог",
+        "audioID": "e3829311"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "en": "tail",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "xvost",
+        "translation": "хвост",
+        "audioID": "962ff2d7"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "en": "feather",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "peró",
+        "translation": "перо",
+        "audioID": "ad27939f"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "en": "hair",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vólos",
+        "translation": "волос",
+        "audioID": "327f4584"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "en": "head",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "golová",
+        "translation": "голова",
+        "audioID": "0dc65d2f"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "en": "ear",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "úxo",
+        "translation": "ухо",
+        "audioID": "4a11f868"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "en": "eye",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "glaz",
+        "translation": "глаз",
+        "audioID": "30bc7ddb"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "en": "nose",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nos",
+        "translation": "нос",
+        "audioID": "a0a35c42"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "en": "mouth",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "rot",
+        "translation": "рот",
+        "audioID": "ab47a26a"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "en": "tooth",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zub",
+        "translation": "зуб",
+        "audioID": "41de54a8"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "en": "tongue (organ)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "jazýk",
+        "translation": "язык",
+        "audioID": "b8164ecb"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "en": "fingernail",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nógotʹ",
+        "translation": "ноготь",
+        "audioID": "fffb1079"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "en": "foot",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "stopá",
+        "translation": "стопа",
+        "audioID": "e88fc929"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "en": "leg",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nogá",
+        "translation": "нога",
+        "audioID": "3441a20c"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "en": "knee",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "koléno",
+        "translation": "колено",
+        "audioID": "edbf3881"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "en": "hand",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ruká",
+        "translation": "рука",
+        "audioID": "ac63f21d"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "en": "wing",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kryló",
+        "translation": "крыло",
+        "audioID": "7e9a8cb9"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "en": "belly",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "živót",
+        "translation": "живот",
+        "audioID": "985a1279"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "en": "guts",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kiškí",
+        "translation": "кишки",
+        "audioID": "fffb1086"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "en": "neck",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "šéja",
+        "translation": "шея",
+        "audioID": "e9d37af7"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "en": "back",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "spiná",
+        "translation": "спина",
+        "audioID": "61552ceb"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "en": "breast",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "grudʹ",
+        "translation": "грудь",
+        "audioID": "38d956df"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "en": "heart",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sérdce",
+        "translation": "сердце",
+        "audioID": "a3fa4a71"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "en": "liver",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "péčenʹ",
+        "translation": "печень",
+        "audioID": "6c18a567"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "en": "to drink",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pitʹ",
+        "translation": "пить",
+        "audioID": "87ffe381"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "en": "to eat",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "jestʹ",
+        "translation": "есть",
+        "audioID": "44e2b59d"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "en": "to bite",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kusátʹ",
+        "translation": "кусать",
+        "audioID": "fffb1094"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "en": "to suck",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sosátʹ",
+        "translation": "сосать",
+        "audioID": "fffb1095"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "en": "to spit",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "plevátʹ",
+        "translation": "плевать",
+        "audioID": "3b2e90ec"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "en": "to vomit",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "rvatʹ",
+        "translation": "рвать",
+        "audioID": "86769aa7"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "en": "to blow",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dutʹ",
+        "translation": "дуть",
+        "audioID": "9855ed49"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "en": "to breathe",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dyšátʹ",
+        "translation": "дышать",
+        "audioID": "ef2b680c"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "en": "to laugh",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "smejátʹsja",
+        "translation": "смеяться",
+        "audioID": "20f4979b"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "en": "to see",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vídetʹ",
+        "translation": "видеть",
+        "audioID": "946975ae"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "en": "to hear",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "slýšatʹ",
+        "translation": "слышать",
+        "audioID": "92361af9"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "en": "to know",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "znatʹ",
+        "translation": "знать",
+        "audioID": "d5ac2c6b"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "en": "to think",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dúmatʹ",
+        "translation": "думать",
+        "audioID": "c4754bcb"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "en": "to smell",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "njúxatʹ",
+        "translation": "нюхать",
+        "audioID": "fffb1105"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "en": "to fear",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "bojátʹsja",
+        "translation": "бояться",
+        "audioID": "b449dd61"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "en": "to sleep",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "spatʹ",
+        "translation": "спать",
+        "audioID": "f0daef24"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "en": "to live",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "žitʹ",
+        "translation": "жить",
+        "audioID": "1267a652"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "en": "to die",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "umirátʹ",
+        "translation": "умирать",
+        "audioID": "10c0637f"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "en": "to kill",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ubivátʹ",
+        "translation": "убивать",
+        "audioID": "28029a9d"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "en": "to fight",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "borótʹsja",
+        "translation": "бороться",
+        "audioID": "3677060e"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "en": "to hunt",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "oxótitʹsja",
+        "translation": "охотиться",
+        "audioID": "fffb1112"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "en": "to hit",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "udarjátʹ",
+        "translation": "ударять",
+        "audioID": "f9f6dcd0"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "en": "to cut",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "rézatʹ",
+        "translation": "резать",
+        "audioID": "778db9a6"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "en": "to split",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "razdeljátʹ",
+        "translation": "разделять",
+        "audioID": "40df7be6"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "en": "to stab",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kolótʹ",
+        "translation": "колоть",
+        "audioID": "fffb1116"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "en": "to scratch",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "carápatʹ",
+        "translation": "царапать",
+        "audioID": "fffb1117"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "en": "to dig",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kopátʹ",
+        "translation": "копать",
+        "audioID": "fffb1118"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "en": "to swim",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "plávatʹ",
+        "translation": "плавать",
+        "audioID": "71b9d5a3"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "en": "to fly",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "letátʹ",
+        "translation": "летать",
+        "audioID": "d192b3fa"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "en": "to walk",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "xodítʹ",
+        "translation": "ходить",
+        "audioID": "8517da65"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "en": "to come",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "prixodítʹ",
+        "translation": "приходить",
+        "audioID": "cb433194"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "en": "to lie (as in a bed)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ležátʹ",
+        "translation": "лежать",
+        "audioID": "41143225"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "en": "to sit",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sidétʹ",
+        "translation": "сидеть",
+        "audioID": "be4414dc"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "en": "to stand",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "stojátʹ",
+        "translation": "стоять",
+        "audioID": "6e241962"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "en": "to turn (intransitive)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vraščátʹ",
+        "translation": "вращать",
+        "audioID": "fffb1126"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "en": "to fall",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pádatʹ",
+        "translation": "падать",
+        "audioID": "2cc515c1"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "en": "to give",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "davátʹ",
+        "translation": "давать",
+        "audioID": "6c34a7bf"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "en": "to hold",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "deržátʹ",
+        "translation": "держать",
+        "audioID": "f1bacef9"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "en": "to squeeze",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sžimátʹ",
+        "translation": "сжимать",
+        "audioID": "fffb1130"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "en": "to rub",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "terétʹ",
+        "translation": "тереть",
+        "audioID": "fffb1131"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "en": "to wash",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "mytʹ",
+        "translation": "мыть",
+        "audioID": "9bcae8ef"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "en": "to wipe",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vytirátʹ",
+        "translation": "вытирать",
+        "audioID": "fffb1133"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "en": "to pull",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tjanútʹ",
+        "translation": "тянуть",
+        "audioID": "f2916fa8"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "en": "to push",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tolkátʹ",
+        "translation": "толкать",
+        "audioID": "6c0ec57c"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "en": "to throw",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "brosátʹ",
+        "translation": "бросать",
+        "audioID": "86523de7"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "en": "to tie",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vjazátʹ",
+        "translation": "вязать",
+        "audioID": "fffb1137"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "en": "to sew",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "šitʹ",
+        "translation": "шить",
+        "audioID": "269178c3"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "en": "to count",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sčitátʹ",
+        "translation": "считать",
+        "audioID": "77ed472a"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "en": "to say",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "govorítʹ",
+        "translation": "говорить",
+        "audioID": "e67f3a04"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "en": "to sing",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "petʹ",
+        "translation": "петь",
+        "audioID": "7f6f2730"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "en": "to play",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "igrátʹ",
+        "translation": "играть",
+        "audioID": "acf5bd58"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "en": "to float",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "plávatʹ",
+        "translation": "плавать",
+        "audioID": "71b9d5a3"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "en": "to flow",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tečʹ",
+        "translation": "течь",
+        "audioID": "7cba21d7"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "en": "to freeze",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zamerzátʹ",
+        "translation": "замерзать",
+        "audioID": "fffb1145"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "en": "to swell",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "púxnutʹ",
+        "translation": "пухнуть",
+        "audioID": "fffb1146"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "en": "sun",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sólnce",
+        "translation": "солнце",
+        "audioID": "4a7147eb"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "en": "moon",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "luná",
+        "translation": "луна",
+        "audioID": "cfe215ae"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "en": "star",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zvezdá",
+        "translation": "звезда",
+        "audioID": "0289b827"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "en": "water",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "vodá",
+        "translation": "вода",
+        "audioID": "c746c460"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "en": "rain",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "doždʹ",
+        "translation": "дождь",
+        "audioID": "cad301d4"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "en": "river",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "reká",
+        "translation": "река",
+        "audioID": "495e6c9e"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "en": "lake",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ózero",
+        "translation": "озеро",
+        "audioID": "c7d7fea1"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "en": "sea",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "móre",
+        "translation": "море",
+        "audioID": "7ccd619b"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "en": "salt",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "solʹ",
+        "translation": "соль",
+        "audioID": "af4f71ca"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "en": "stone",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "kámenʹ",
+        "translation": "камень",
+        "audioID": "3116bd5c"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "en": "sand",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pesók",
+        "translation": "песок",
+        "audioID": "fffb1157"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "en": "dust",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pylʹ",
+        "translation": "пыль",
+        "audioID": "39244b08"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "en": "earth",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zemljá",
+        "translation": "земля",
+        "audioID": "29bc67cd"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "en": "cloud",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "óblako",
+        "translation": "облако",
+        "audioID": "4f701d27"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "en": "fog",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tumán",
+        "translation": "туман",
+        "audioID": "785896b8"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "en": "sky",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nébo",
+        "translation": "небо",
+        "audioID": "a7ad6a74"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "en": "wind",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "véter",
+        "translation": "ветер",
+        "audioID": "2c47c75b"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "en": "snow",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "sneg",
+        "translation": "снег",
+        "audioID": "4d0c3a6c"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "en": "ice",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ljod",
+        "translation": "лёд",
+        "audioID": "ebe63a38"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "en": "smoke",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "dym",
+        "translation": "дым",
+        "audioID": "76dc037d"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "en": "fire",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ogónʹ",
+        "translation": "огонь",
+        "audioID": "018b9ac4"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "en": "ash",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zolá",
+        "translation": "зола",
+        "audioID": "fffb1168"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "en": "to burn",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "žečʹ",
+        "translation": "жечь",
+        "audioID": "ec3ca008"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "en": "road",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "doróga",
+        "translation": "дорога",
+        "audioID": "43f1d3ad"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "en": "mountain",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "gorá",
+        "translation": "гора",
+        "audioID": "faefe5fd"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "en": "red",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "krásnyj",
+        "translation": "красный",
+        "audioID": "11b0538a"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "en": "green",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "zeljónyj",
+        "translation": "зелёный",
+        "audioID": "718f9ad6"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "en": "yellow",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "žóltyj",
+        "translation": "жёлтый",
+        "audioID": "8b4c50dd"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "en": "white",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "bélyj",
+        "translation": "белый",
+        "audioID": "a2f0e47a"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "en": "black",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "čórnyj",
+        "translation": "чёрный",
+        "audioID": "77ee85aa"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "en": "night",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nočʹ",
+        "translation": "ночь",
+        "audioID": "99ebc5e3"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "en": "day",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "denʹ",
+        "translation": "день",
+        "audioID": "eae3b602"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "en": "year",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "god",
+        "translation": "год",
+        "audioID": "503b1741"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "en": "warm",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tjóplyj",
+        "translation": "тёплый",
+        "audioID": "1b78096d"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "en": "cold",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "xolódnyj",
+        "translation": "холодный",
+        "audioID": "c5182071"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "en": "full",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pólnyj",
+        "translation": "полный",
+        "audioID": "aaa6b4e6"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "en": "new",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "nóvyj",
+        "translation": "новый",
+        "audioID": "4bd321e5"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "en": "old",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "stáryj",
+        "translation": "старый",
+        "audioID": "fc323b03"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "en": "good",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "xoróšij",
+        "translation": "хороший",
+        "audioID": "227100a5"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "en": "bad",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ploxój",
+        "translation": "плохой",
+        "audioID": "7218bef2"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "en": "rotten",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "gnilój",
+        "translation": "гнилой",
+        "audioID": "fffb1187"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "en": "dirty",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "grjáznyj",
+        "translation": "грязный",
+        "audioID": "8f76ada9"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "en": "straight",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "prjamój",
+        "translation": "прямой",
+        "audioID": "946d2ce9"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "en": "round",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "krúglyj",
+        "translation": "круглый",
+        "audioID": "95d885e6"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "en": "sharp (as a knife)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "óstryj",
+        "translation": "острый",
+        "audioID": "16de4096"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "en": "dull (as a knife)",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "tupój",
+        "translation": "тупой",
+        "audioID": "320b057b"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "en": "smooth",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "gládkij",
+        "translation": "гладкий",
+        "audioID": "fffb1193"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "en": "wet",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "mókryj",
+        "translation": "мокрый",
+        "audioID": "fffb1194"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "en": "dry",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "suxój",
+        "translation": "сухой",
+        "audioID": "2b4b4a3c"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "en": "correct",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "právilʹnyj",
+        "translation": "правильный",
+        "audioID": "54cbf013"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "en": "near",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "blízkij",
+        "translation": "близкий",
+        "audioID": "f6e7be4c"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "en": "far",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "daljókij",
+        "translation": "далёкий",
+        "audioID": "91a3bae6"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "en": "right",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "právyj",
+        "translation": "правый",
+        "audioID": "23c007b3"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "en": "left",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "lévyj",
+        "translation": "левый",
+        "audioID": "3ace0c95"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "en": "at",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "pri",
+        "translation": "при",
+        "audioID": "0a341994"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "en": "in",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "v",
+        "translation": "в",
+        "audioID": "e58e0540"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "en": "with",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "s",
+        "translation": "с",
+        "audioID": "43455517"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "en": "and",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "i",
+        "translation": "и",
+        "audioID": "055bec5e"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "en": "if",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "jésli",
+        "translation": "если",
+        "audioID": "ef4bc913"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "en": "because",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "potomú što",
+        "translation": "потому",
+        "audioID": "5ad852aa"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "en": "name",
+    "translations": [
+      {
+        "lang": "rus",
+        "en_pron": "ímja",
+        "translation": "имя",
+        "audioID": "8c7f2a5b"
+      }
+    ]
+  }
+]
