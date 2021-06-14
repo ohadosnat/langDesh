@@ -27,12 +27,12 @@ export function AuthProvider({ children }) {
           uid: userCredential.user.uid,
           progress: {
             course150: [
-              { id: "a4fd7810", ita_strength: 0, rus_strength: 0 },
-              { id: "bf5460f8", ita_strength: 0, rus_strength: 0 },
+              { id: 1, ita_strength: 0, rus_strength: 0 },
+              { id: 2, ita_strength: 0, rus_strength: 0 },
             ],
             course51100: [],
-            course101150: [],
-            course151207: [],
+            course101153: [],
+            course154207: [],
           },
           activeLangs: [],
         });

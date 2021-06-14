@@ -4,9 +4,11 @@ import { useEffect, useRef, useState } from "react";
 
 // find the current word's srength based on the user's data.
 const findWordStrength = (wordID, userDoc, courseID, langID) => {
-  const wordStrength = userDoc.progress[`course${courseID}`].find(
+  const findWord = userDoc.progress[`course${courseID}`].find(
     (result) => result.id === wordID
-  )[`${langID}_strength`];
+  );
+
+  const wordStrength = findWord ? findWord[`${langID}_strength`] : 0;
   switch (wordStrength) {
     case 1:
       return 20;
@@ -34,7 +36,9 @@ const WordRow = ({
   // States.
   const [wordStrength, setWordStrength] = useState(0);
   const playBtnRef = useRef(null);
-  const wordAudio = new Audio(`/audio/${langID}Audio/${langID}-${wordID}.flac`);
+  const wordAudio = new Audio(
+    `/audio/${langID}Audio/${langID}-${wordTranslation.audioID}.flac`
+  );
 
   useEffect(() => {
     lottie.loadAnimation({

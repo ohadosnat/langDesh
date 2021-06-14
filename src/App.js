@@ -12,6 +12,7 @@ import Quiz from "./components/Quiz";
 import Flashcards from "./components/Flashcards";
 import Words from "./components/Course/CourseWords/Words";
 import AddNewLanguage from "./components/AddNewLanguage/AddNewLanguage";
+import FirestoreFileTransfer from "./utils/FirestoreFileTransfer";
 
 function App() {
   return (
@@ -33,6 +34,10 @@ function App() {
             <PrivateRoute path="/addlanguage" component={AddNewLanguage} />
             <Route path="/signup" component={Signup} />
             <Route path="/signin" component={SignIn} />
+            <Route
+              path="/toFireStoreTesting"
+              component={FirestoreFileTransfer}
+            />
             <Route path="/" component={NotFound} />
           </Switch>
         </LangsProvider>

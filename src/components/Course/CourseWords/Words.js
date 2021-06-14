@@ -10,7 +10,6 @@ import { useEffect, useState } from "react";
 const findCorrectTranslation = (word, langID) => {
   return word.translations.find((translate) => translate.lang === langID);
 };
-
 const Words = () => {
   // Hooks & Deconstruct Values.
   const [filteredValues, setFilteredValues] = useState([]);
@@ -43,7 +42,6 @@ const Words = () => {
           (word) => word[`${langID}_strength`] === parseInt(values.search)
         );
       const wordRefID = userDocWordRef !== undefined && userDocWordRef.id;
-
       return (
         word.en
           .toLocaleLowerCase()
@@ -52,7 +50,7 @@ const Words = () => {
           .find((wordTranslation) => wordTranslation.lang === langID)
           .translation.toLocaleLowerCase()
           .includes(values.search.toLocaleLowerCase()) ||
-        word.id.includes(wordRefID)
+        word.id.toString().includes(wordRefID)
       );
     });
   };
