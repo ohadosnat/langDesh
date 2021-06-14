@@ -1,0 +1,24 @@
+.startAnimation {
+  animation: startLoading 500ms ease-in-out;
+}
+.endAnimation {
+  animation: endLoading 500ms ease-in-out;
+}
+
+@keyframes startLoading {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes endLoading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

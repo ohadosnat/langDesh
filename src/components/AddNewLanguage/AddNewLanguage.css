@@ -1,0 +1,10 @@
+input[type="radio"] {
+  @apply appearance-none w-full h-full border-2 absolute inset-0  rounded-lg hover:border-general-base focus:ring-0 focus:outline-none;
+}
+input[type="radio"]:checked {
+  @apply border-generalOrange-base;
+}
+
+input[type="radio"]:disabled {
+  @apply border-[1px] border-[#BCBCBC] border-opacity-20;
+}
