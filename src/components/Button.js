@@ -1,4 +1,4 @@
-const Button = ({ type, children, variant, textColor }) => {
+const Button = ({ type, children, variant, textColor, isDisabled }) => {
   const btnStyle = `
       ${variant !== "disabled" ? textColor : "text-black"}
       ${variant ? variant : ""} ${
@@ -10,7 +10,7 @@ const Button = ({ type, children, variant, textColor }) => {
 
   return (
     <>
-      <button type={type} className={btnStyle}>
+      <button type={type} className={btnStyle} disabled={isDisabled}>
         {children}
       </button>
     </>

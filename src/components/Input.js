@@ -113,7 +113,6 @@ const iconDecider = (type) => {
       break;
   }
 };
-
 const Input = ({
   inputName,
   value,

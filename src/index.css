@@ -62,10 +62,10 @@ svg {
 .general:hover {
   @apply bg-general-dark;
 }
-.defualt {
+.default {
   @apply bg-default-base;
 }
-.defualt:hover {
+.default:hover {
   @apply bg-default-dark;
 }
 .generalOrange {

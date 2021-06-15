@@ -75,7 +75,12 @@ const CourseCard = ({
           card defaultBG flex flex-col justify-center items-center font-medium text-center py-4 px-6 h-64 w-52`}
         >
           <div className="rounded-lg global-transition w-full h-full flex flex-col justify-evenly items-stretch">
-            <Link to={`${langID}/${courseID}/session/quiz`}>
+            <Link
+              to={{
+                pathname: `${langID}/${courseID}/session/quiz`,
+                state: { courseID, langID, wordsData },
+              }}
+            >
               <Button variant={langID} textColor="text-white">
                 Quiz
               </Button>
