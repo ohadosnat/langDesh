@@ -9,20 +9,11 @@ const findWordStrength = (wordID, userDoc, courseID, langID) => {
   );
 
   const wordStrength = findWord ? findWord[`${langID}_strength`] : 0;
-  switch (wordStrength) {
-    case 1:
-      return 20;
-    case 2:
-      return 40;
-    case 3:
-      return 60;
-    case 4:
-      return 80;
-    case 5:
-      return 100;
-    default:
-      return 0;
-  }
+  if (wordStrength > 0 && wordStrength < 2) return 20;
+  if (wordStrength > 1 && wordStrength < 3) return 40;
+  if (wordStrength > 2 && wordStrength < 4) return 60;
+  if (wordStrength > 3 && wordStrength < 5) return 80;
+  if (wordStrength === 5) return 100;
 };
 
 const WordRow = ({

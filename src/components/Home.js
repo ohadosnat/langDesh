@@ -25,19 +25,19 @@ const Home = () => {
         <h1 className="text-4xl mb-10 text-center">Home</h1>
         <hr /> <br />
         <Link to="/main">
-          <Button variant="defualt">User Dashboard</Button>
+          <Button variant="default">User Dashboard</Button>
         </Link>
         <hr /> <br />
         <Link to="/signup">
-          <Button variant="defualt">Sign up</Button>
+          <Button variant="default">Sign up</Button>
         </Link>
         <hr /> <br />
         <Link to="/signin">
-          <Button variant="defualt">Log in</Button>
+          <Button variant="default">Log in</Button>
         </Link>
         <hr /> <br />
         <Link to="/404">
-          <Button variant="defualt">404 Page</Button>
+          <Button variant="default">404 Page</Button>
         </Link>
         <hr /> <br />
         {currentUserDoc && (

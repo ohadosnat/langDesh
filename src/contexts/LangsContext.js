@@ -63,6 +63,81 @@ export const LangsProvider = ({ children }) => {
     });
   };
 
+  // Update Words Wrapper
+  const updateWords = (score, currentUserDoc, courseID, langID) => {
+    if (score.correct.length > 0) {
+      score.correct.forEach((wordID) => {
+        console.log("wordID", wordID);
+        updateWordSrength(currentUserDoc, wordID, "correct", courseID, langID);
+      });
+    }
+    if (score.wrong.length > 0) {
+      score.wrong.forEach((wordID) => {
+        console.log("wordID", wordID);
+        updateWordSrength(currentUserDoc, wordID, "wrong", courseID, langID);
+      });
+    }
+    if (score.skipped.length > 0) {
+      score.skipped.forEach((wordID) => {
+        console.log("wordID", wordID);
+        updateWordSrength(currentUserDoc, wordID, "skipped", courseID, langID);
+      });
+    }
+  };
+
+  // Update word strength
+  const updateWordSrength = (userDoc, id, type, courseID, langID) => {
+    const coursePath = userDoc.progress[`course${courseID}`];
+    const word = coursePath.find((word) => word.id === id);
+
+    if (type === "correct") {
+      if (word) {
+        word[`${langID}_strength`]
+          ? (word[`${langID}_strength`] += 0.5)
+          : (word[`${langID}_strength`] = 0.5);
+      } else {
+        // creates a new word object, if the word doesn't exists on userDoc (yet)
+        coursePath.push({ id, [`${langID}_strength`]: 0.5 });
+      }
+      updateWordInFirestore(coursePath, userDoc.uid, courseID);
+    } else {
+      if (word) {
+        word[`${langID}_strength`] && word[`${langID}_strength`] > 0
+          ? (word[`${langID}_strength`] -= 0.5)
+          : word[`${langID}_strength`] || (word[`${langID}_strength`] = 0);
+      }
+      updateWordInFirestore(coursePath, userDoc.uid, courseID);
+    }
+  };
+
+  const updateWordInFirestore = (path, uid, courseID) => {
+    switch (courseID) {
+      case 150:
+        database.users.doc(uid).update({
+          "progress.course150": path,
+        });
+        break;
+      case 51100:
+        database.users.doc(uid).update({
+          "progress.course51100": path,
+        });
+        break;
+      case 101153:
+        database.users.doc(uid).update({
+          "progress.course101153": path,
+        });
+        break;
+      case 154207:
+        database.users.doc(uid).update({
+          "progress.course154207": path,
+        });
+        break;
+
+      default:
+        break;
+    }
+  };
+
   const values = {
     coursesData,
     userActiveLangs,
@@ -71,6 +146,7 @@ export const LangsProvider = ({ children }) => {
     getAllLangs,
     getLangDoc,
     getActiveLangs,
+    updateWords,
   };
   return (
     <LangsContext.Provider value={values}>{children}</LangsContext.Provider>
