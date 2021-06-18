@@ -19,7 +19,7 @@ const SignIn = () => {
     try {
       setError("");
       await signin(values.email, values.password);
-      history.push("/");
+      history.push("/main");
     } catch {
       setError("Failed to Sign In");
     }
@@ -27,7 +27,11 @@ const SignIn = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <img src="/logo512.png" alt="app's logo" className="h-40" />
+      <img
+        src="/assets/imgs/utils/signin.png"
+        alt="doodle of a woman reading a book"
+        className="h-40 mb-5"
+      />
       <h1 className="text-2xl">Welcome</h1>
       <hr className="h-[1px] w-1/5 my-2" />
       {error && <p className="text-wrong-base">{error}</p>}

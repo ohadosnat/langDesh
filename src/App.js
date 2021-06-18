@@ -13,6 +13,7 @@ import Flashcards from "./components/Flashcards";
 import Words from "./components/Course/CourseWords/Words";
 import AddNewLanguage from "./components/AddNewLanguage/AddNewLanguage";
 import FirestoreFileTransfer from "./utils/FirestoreFileTransfer";
+import Profile from "./components/Profile";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home} />
             <PrivateRoute path="/main" component={Main} />
+            <PrivateRoute path="/profile" component={Profile} />
             <PrivateRoute
               path="/:lang/:courseID/session/quiz"
               component={Quiz}

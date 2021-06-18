@@ -1,5 +1,6 @@
 // General Imports: from React, CSS & Other Libraries.
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import lottie from "lottie-web";
 import "./animations.css";
 // Custom Hooks & Utils
@@ -13,6 +14,7 @@ import DashboardEmptyState from "./DashboardEmptyState";
 // Animations
 import loadingCube from "../../assets/lottie/loadingCube.json";
 import cryingBlob from "../../assets/lottie/cryingBlob.json";
+import Menu from "../Menu";
 
 const Dashboard = () => {
   // Custom Hooks
@@ -78,7 +80,7 @@ const Dashboard = () => {
   }, [noResults]);
 
   return (
-    <div className="overflow-x-hidden p-6 w-full">
+    <div className="overflow-x-hidden p-6 pb-20 w-full">
       {isLoading ? (
         <div
           style={toAnimate ? startLoadingAnimation : endLoadingAnimation}
@@ -100,16 +102,18 @@ const Dashboard = () => {
           />
 
           {!noResults ? (
-            filteredData.map((lang) => (
-              <CoursesWrapper
-                key={lang.id}
-                lang={lang.id}
-                title={lang.name}
-                flag={lang.flagPath}
-              />
-            ))
+            <>
+              {filteredData.map((lang) => (
+                <CoursesWrapper
+                  key={lang.id}
+                  lang={lang.id}
+                  title={lang.name}
+                  flag={lang.flagPath}
+                />
+              ))}
+            </>
           ) : (
-            <div className="flex flex-col justify-center items-center mx-auto my-8">
+            <div className="z-[-1] fixed inset-0 flex flex-col justify-center items-center mx-auto my-8">
               <div className="w-60" ref={noResultsRef} />
               <p className="font-medium text-xl -mt-4">
                 Can't find{" "}
@@ -119,6 +123,7 @@ const Dashboard = () => {
           )}
         </>
       )}
+      <Menu currentPage="main" />
     </div>
   );
 };

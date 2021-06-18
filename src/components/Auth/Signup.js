@@ -27,7 +27,7 @@ export const Signup = () => {
     try {
       setError("");
       await signup(values.email, values.password, values.name);
-      history.push("/");
+      history.push("/main");
     } catch {
       setError("Failed to create an account 😭");
     }
@@ -35,7 +35,11 @@ export const Signup = () => {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen">
-      <img src="/logo512.png" alt="app's logo" className="h-40" />
+      <img
+        src="/assets/imgs/utils/signup.png"
+        alt="app's logo"
+        className="h-40 mb-5"
+      />
       <h1 className="text-2xl">Welcome</h1>
       <hr className="h-[1px] w-1/5 my-2" />
       {error && <p className="text-wrong-base">{error}</p>}

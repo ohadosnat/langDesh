@@ -104,9 +104,9 @@ const Words = () => {
         {/* Top Section */}
         <section className="max-w-max mx-auto flex items-center mb-8">
           <img
-            src={`/assets/imgs/flags/${langID}-flag.png`}
+            src={`/assets/imgs/courses/${langID}-course${courseID}.png`}
             alt=""
-            className="h-28 mx-auto shadow-sm rounded-lg border-black border border-opacity-10"
+            className="h-36 mx-auto"
           />
           <hr className="opacity-40 bg-[#BCBCBC] drop-shadow-sm rounded-full h-28 w-[1px] mx-8 " />
           <div className="flex flex-col mt-4 justify-center items-center w-2/5 text-center ">

@@ -49,18 +49,22 @@ const CourseCard = ({
           } card defaultBG flex flex-col justify-center items-center font-medium text-center py-4 px-6 h-64 w-52`}
         >
           <div className="w-full">
-            <img src="/logo512.png" alt="" className="h-28 mx-auto" />
-            <h1 className="font-medium mt-2 mb-1">{courseName}</h1>
+            <img
+              src={`/assets/imgs/courses/${langID}-course${courseID}.png`}
+              alt=""
+              className="h-28 mx-auto"
+            />
+            <h1 className="font-medium mt-2 mb-1 text-xl">{courseName}</h1>
             <hr className="opacity-40 bg-[#BCBCBC] drop-shadow-sm rounded-full w-full" />
           </div>
           <div className="flex mt-4 justify-around w-full ">
             <div>
-              <div className="font-medium text-2xl">{wordsRange}</div>
+              <div className="font-medium text-xl">{wordsRange}</div>
               <div className="font-light text-sm">Words</div>
             </div>
             <hr className="w-[1px] h-4/5 my-auto opacity-40 bg-[#BCBCBC] drop-shadow-sm" />
             <div>
-              <div className="font-medium text-2xl text-general-base">
+              <div className="font-medium text-xl text-general-base">
                 {inPrecentProgress}%
               </div>
               <div className="font-light text-sm">Completed</div>
