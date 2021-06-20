@@ -80,20 +80,26 @@ svg {
 }
 
 .rus {
-  background-color: #824087;
-}
-.rus:hover {
   background-color: #ac5cb2;
 }
-.ita {
-  background-color: #40875f;
+.rus:hover {
+  background-color: #824087;
 }
-.ita:hover {
+.ita {
   background-color: #5cb281;
 }
+.ita:hover {
+  background-color: #40875f;
+}
 .spa {
-  background-color: #dc9d1e;
+  background-color: #e4453a;
 }
 .spa:hover {
-  background-color: #e4453a;
+  background-color: #dc291e;
+}
+.fra {
+  background-color: #5c7fb2;
+}
+.fra:hover {
+  background-color: #405c87;
 }

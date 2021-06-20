@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Redirect, Route } from "react-router";
 import { useAuth } from "../contexts/AuthContext";
 
@@ -20,3 +20,18 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
 };
 
 export default PrivateRoute;
+
+export const PrivateCourseRoute = ({ component: Component, ...rest }) => {
+  return (
+    <Route
+      {...rest}
+      render={(props) => {
+        return rest.location.state !== undefined ? (
+          <Component {...props} />
+        ) : (
+          <Redirect to="/main" />
+        );
+      }}
+    ></Route>
+  );
+};

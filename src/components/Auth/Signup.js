@@ -5,7 +5,7 @@ import { useForm } from "../../customHooks/useForm";
 import Button from "../Button";
 import Input from "../Input";
 
-export const Signup = () => {
+const Signup = () => {
   // Hooks & States
   const history = useHistory();
   const { signup } = useAuth();
@@ -77,3 +77,5 @@ export const Signup = () => {
     </div>
   );
 };
+
+export default Signup;

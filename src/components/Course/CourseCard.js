@@ -25,6 +25,7 @@ const CourseCard = ({
   const { currentUserDoc } = useAuth();
   const [inPrecentProgress, setInPrecentProgress] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
+  const [toRedirect, setToRedirect] = useState(false);
 
   // Init progress calculation on load.
   useEffect(() => {
@@ -89,7 +90,12 @@ const CourseCard = ({
                 Quiz
               </Button>
             </Link>
-            <Link to={`${langID}/${courseID}/session/flashcards`}>
+            <Link
+              to={{
+                pathname: `${langID}/${courseID}/session/flashcards`,
+                state: { courseID, langID, wordsData },
+              }}
+            >
               <Button variant={langID} textColor="text-white">
                 FlashCards
               </Button>

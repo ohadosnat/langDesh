@@ -1,17 +1,22 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, useHistory, useLocation, Prompt } from "react-router-dom";
-import { useAuth } from "../contexts/AuthContext";
-import { useForm } from "../customHooks/useForm";
-import QuizInput from "./QuizInput";
-import Button from "./Button";
-import WordCard from "./WordCard";
-import { useLangs } from "../contexts/LangsContext";
-import filterWords from "../utils/sessionFuncs";
-import "./Dashboard/animations.css";
 import lottie from "lottie-web";
-import loadingCube from "../assets/lottie/loadingCube.json";
+import "../../Dashboard/animations.css";
+import { useAuth } from "../../../contexts/AuthContext";
+import { useForm } from "../../../customHooks/useForm";
+import { useLangs } from "../../../contexts/LangsContext";
+import QuizInput from "./QuizInput";
+import Button from "../../Button";
+import WordCard from "../../WordCard";
+import getRandomLoader from "../../../utils/randomLoader";
+import filterWords from "../../../utils/sessionFuncs";
 
-// Start of Component
+// Sounds & Animations Refs
+const correctSound = new Audio("/audio/correct.mp3");
+const wrongSound = new Audio("/audio/wrong.mp3");
+const startLoadingAnimation = { animation: "startLoading 500ms ease-in-out" };
+const endLoadingAnimation = { animation: " endLoading 500ms ease-in-out" };
+
 const Quiz = () => {
   // custom hooks
   const { updateWords } = useLangs();
@@ -21,11 +26,12 @@ const Quiz = () => {
   const { courseID, langID, wordsData } = state;
   // Input
   const [values, handleChange] = useForm({ answer: "" });
-  // init quiz states
+  // Loading States
   const [isLoading, setIsLoading] = useState(true);
   const [toAnimate, setToAnimate] = useState(true);
   const loadingRef = useRef(null);
-
+  const [loader, setLoader] = useState({});
+  // Session's Challenges
   const [challenges, setChallenges] = useState([]);
   const [displayChallenges, setDisplayChallenges] = useState(false);
 
@@ -55,6 +61,7 @@ const Quiz = () => {
     isInputDisabled: false,
     isButtonDisabled: true,
     btnVaritant: "disabled",
+    showScore: false,
   });
 
   useEffect(() => {
@@ -63,14 +70,18 @@ const Quiz = () => {
     setDisplayChallenges(true);
   }, [currentUserDoc]);
 
+  useState(() => {
+    setLoader(getRandomLoader());
+  }, []);
+
   useEffect(() => {
     lottie.loadAnimation({
-      name: "loadingCube",
+      name: "loader",
       container: loadingRef.current,
       renderer: "svg",
       loop: true,
       autoplay: true,
-      animationData: loadingCube,
+      animationData: loader,
       rendererSettings: {
         className: "pointer-events-none", // to prevent click event on the svg/path.
       },
@@ -80,12 +91,9 @@ const Quiz = () => {
     }, 2500);
     setTimeout(() => {
       setIsLoading(false);
-      lottie.destroy("loadingCube");
+      lottie.destroy("loader");
     }, 3000);
-  }, []);
-
-  const startLoadingAnimation = { animation: "startLoading 500ms ease-in-out" };
-  const endLoadingAnimation = { animation: " endLoading 500ms ease-in-out" };
+  }, [loader]);
 
   // Handles Button Change.
   useEffect(() => {
@@ -115,6 +123,7 @@ const Quiz = () => {
 
     // correct
     if (userAnswer === correctAnswer && !isInputDisabled) {
+      currentUserDoc.soundEffects && correctSound.play();
       setSession((data) => ({
         ...data,
         feedbackMsg: "Nice Work!",
@@ -127,7 +136,10 @@ const Quiz = () => {
         correct: [...score.correct, challenges[currentChallenge].id],
         streak: score.streak + 1,
       }));
-    } else if (userAnswer !== correctAnswer && !isInputDisabled) {
+    }
+    // wrong
+    if (userAnswer !== correctAnswer && !isInputDisabled) {
+      currentUserDoc.soundEffects && wrongSound.play();
       setSession((data) => ({
         ...data,
         feedbackMsg: "There’s always next time!",
@@ -152,12 +164,14 @@ const Quiz = () => {
         isCardFlipped: false,
         isInputDisabled: false,
         isButtonDisabled: true,
+        btnVaritant: "disabled",
       }));
     }
   };
 
   // Skip Challenge
   const skipHandle = () => {
+    currentUserDoc.soundEffects && wrongSound.play();
     setSession((data) => ({
       ...data,
       feedbackMsg: "There’s always next time!",

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { database } from "./firebaseConfig";
 import swadeshList from "./swadeshList.json";
 
+/*
 // Creates a course.
 const initCourses = async (courseName, id, wordsRange) => {
   database.courses
@@ -20,7 +21,6 @@ const initCourses = async (courseName, id, wordsRange) => {
 };
 
 const updateCourses = async (courseID, wordsData) => {
-  // console.log(courseID, wordsData);
   database.courses
     .doc(courseID)
     .update({
@@ -52,37 +52,6 @@ function FirestoreFileTransfer() {
 
 export default FirestoreFileTransfer;
 
-/*
---
-slicing for each course should be (by order):
-0,50
-51,101
-102,152
-153
---
 
-const addWords = async () => {
-  return database.courses.doc("KjKL6vXzE9dbsRJI0HYY").update({
-    words: [
-      {
-        id: "a4fd7810",
-        en: "I",
-        translations: [
-          { lang: "rus", en_pron: "ja", translation: "я" },
-          { lang: "ita", en_pron: "yo", translation: "yo" },
-        ],
-      },
-      {
-        id: "bf5460f8",
-        en: "You",
-        translations: [
-          { lang: "rus", en_pron: "ty", translation: "ты" },
-          { lang: "ita", en_pron: "tu", translation: "tu" },
-        ],
-      },
-    ],
-  });
-};
-addWords();
 
 */

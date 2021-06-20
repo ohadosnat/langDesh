@@ -25,6 +25,7 @@ export function AuthProvider({ children }) {
         database.users.doc(userCredential.user.uid).set({
           name,
           uid: userCredential.user.uid,
+          soundEffects: true,
           progress: {
             course150: [
               { id: 1, ita_strength: 0, rus_strength: 0 },
@@ -56,6 +57,15 @@ export function AuthProvider({ children }) {
     return unsubscribe;
   }, []);
 
+  const updateSettings = async (type, value, uid) => {
+    if (type === "sound") {
+      await database.users.doc(uid).update({
+        soundEffects: value,
+      });
+      getUserDoc(uid);
+    }
+  };
+
   const value = {
     currentUser,
     currentUserDoc,
@@ -63,6 +73,7 @@ export function AuthProvider({ children }) {
     signup,
     signin,
     getUserDoc,
+    updateSettings,
   };
 
   return (

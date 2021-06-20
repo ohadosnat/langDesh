@@ -65,22 +65,29 @@ export const LangsProvider = ({ children }) => {
 
   // Update Words Wrapper
   const updateWords = (score, currentUserDoc, courseID, langID) => {
-    if (score.correct.length > 0) {
+    if (score.correct && score.correct.length > 0) {
       score.correct.forEach((wordID) => {
-        console.log("wordID", wordID);
         updateWordSrength(currentUserDoc, wordID, "correct", courseID, langID);
       });
     }
-    if (score.wrong.length > 0) {
+    if (score.wrong && score.wrong.length > 0) {
       score.wrong.forEach((wordID) => {
-        console.log("wordID", wordID);
         updateWordSrength(currentUserDoc, wordID, "wrong", courseID, langID);
       });
     }
-    if (score.skipped.length > 0) {
+    if (score.skipped && score.skipped.length > 0) {
       score.skipped.forEach((wordID) => {
-        console.log("wordID", wordID);
         updateWordSrength(currentUserDoc, wordID, "skipped", courseID, langID);
+      });
+    }
+    if (score.easy && score.easy.length > 0) {
+      score.easy.forEach((wordID) => {
+        updateWordSrength(currentUserDoc, wordID, "correct", courseID, langID);
+      });
+    }
+    if (score.hard && score.hard.length > 0) {
+      score.hard.forEach((wordID) => {
+        updateWordSrength(currentUserDoc, wordID, "wrong", courseID, langID);
       });
     }
   };

@@ -1,6 +1,5 @@
 // General Imports: from React, CSS & Other Libraries.
 import { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
 import lottie from "lottie-web";
 import "./animations.css";
 // Custom Hooks & Utils
@@ -12,32 +11,39 @@ import CoursesWrapper from "../Course/CoursesWrapper";
 import Input from "../Input";
 import DashboardEmptyState from "./DashboardEmptyState";
 // Animations
-import loadingCube from "../../assets/lottie/loadingCube.json";
+
 import cryingBlob from "../../assets/lottie/cryingBlob.json";
 import Menu from "../Menu";
+import getRandomLoader from "../../utils/randomLoader";
 
 const Dashboard = () => {
   // Custom Hooks
   const { getCoursesData, getActiveLangs, userActiveLangs } = useLangs();
-  const { currentUser, currentUserDoc } = useAuth();
-  // Loading
-  const [toAnimate, setToAnimate] = useState(true);
-  const [isLoading, setIsLoading] = useState(true);
-  const loadingRef = useRef(null);
+  const { currentUserDoc } = useAuth();
+
   // Search
   const [values, handleChange] = useForm({ search: "" });
   const noResultsRef = useRef(null);
 
-  // UseEffect for loading.
+  // Loading
+  const [toAnimate, setToAnimate] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
+  const loadingRef = useRef(null);
+  const [loader, setLoader] = useState({});
+
+  useState(() => {
+    setLoader(getRandomLoader());
+  }, []);
+
   useEffect(() => {
     if (!isLoading) return;
     lottie.loadAnimation({
-      name: "loadingCube",
+      name: "loader",
       container: loadingRef.current,
       renderer: "svg",
       loop: true,
       autoplay: true,
-      animationData: loadingCube,
+      animationData: loader,
       rendererSettings: {
         className: "pointer-events-none", // to prevent click event on the svg/path.
       },
@@ -51,7 +57,7 @@ const Dashboard = () => {
     setTimeout(() => {
       setIsLoading(false);
     }, 3000);
-  }, [isLoading]);
+  }, [loader]);
 
   // Animation Styling
   const startLoadingAnimation = { animation: "startLoading 500ms ease-in-out" };

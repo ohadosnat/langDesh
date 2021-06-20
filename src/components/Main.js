@@ -9,7 +9,9 @@ const Main = () => {
   return (
     <div>
       <LangsProvider>
-        {Object.entries(currentUserDoc).length === 0 || <Dashboard />}
+        {currentUserDoc
+          ? Object.entries(currentUserDoc).length === 0 || <Dashboard />
+          : undefined}
       </LangsProvider>
     </div>
   );
