@@ -211,7 +211,7 @@ const Quiz = () => {
           </div>
         </div>
       ) : (
-        <div className="relative h-screen font-medium flex flex-col items-center">
+        <div className="relative h-screen font-medium flex flex-col items-center lg:mx-auto lg:w-3/5 2xl:w-2/5">
           {showScore ? (
             <div
               className="w-4/5 flex mb-8 flex-col justify-between items-center h-full"
@@ -279,7 +279,7 @@ const Quiz = () => {
                   </div>
                 </div>
               </div>
-              <div className="fixed bottom-8 w-4/5">
+              <div className="fixed bottom-8 w-4/5 lg:w-2/5 2xl:w-1/5">
                 <Button
                   type="submit"
                   variant="general"
@@ -292,7 +292,7 @@ const Quiz = () => {
             </div>
           ) : (
             <>
-              <div className="mt-5 flex w-11/12 items-center">
+              <div className="mt-5 flex w-11/12 items-center lg:mt-10">
                 <Prompt
                   when={currentChallenge < 10}
                   message="You haven't finished the quiz, are you sure you want to leave?"
@@ -423,7 +423,9 @@ const Quiz = () => {
                       variant={btnVaritant}
                       isDisabled={isButtonDisabled}
                     >
-                      Check
+                      {btnVaritant === "default" || btnVaritant === "disabled"
+                        ? "Check"
+                        : "Continue"}
                     </Button>
                   </div>
                 </form>

@@ -101,7 +101,7 @@ const Words = () => {
           {langTitle} - {courseName}
         </h4>
       </Link>
-      <div className=" w-10/12 mx-auto mt-10">
+      <div className=" w-10/12 mx-auto mt-10 lg:mx-auto lg:w-3/5 2xl:w-2/5">
         {/* Top Section */}
         <section className="max-w-max mx-auto flex items-center mb-8">
           <img

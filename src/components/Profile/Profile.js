@@ -16,8 +16,12 @@ const Profile = () => {
 
   const [msgOpacity, setMsgOpacity] = useState(0);
   useEffect(() => {
-    if (Object.entries(currentUserDoc).length === 0) return; // making sure currentUserDoc loads.
-    setIsSound(currentUserDoc.soundEffects);
+    if (
+      currentUserDoc !== undefined &&
+      Object.entries(currentUserDoc).length === 0
+    )
+      return; // making sure currentUserDoc loads.
+    if (currentUserDoc) setIsSound(currentUserDoc.soundEffects);
   }, [currentUserDoc]);
 
   async function handleLogout() {
@@ -55,7 +59,7 @@ const Profile = () => {
   };
 
   return (
-    <div className="my-10 fixed inset-0 flex flex-col items-center justify-center">
+    <div className="p-6 fixed inset-0 flex flex-col items-center justify-center">
       {confirmMsg && (
         <div
           className="fixed top-5 shadow-sm bg-default-base border border-opacity-25 py-2 px-6 rounded-md global-transition"
@@ -69,12 +73,12 @@ const Profile = () => {
         Hello, {currentUserDoc && currentUserDoc.name}
       </h1>
       {error && <p className="text-wrong-base">{error}</p>}
-      <div className="w-3/5">
+      <div className="w-3/5 lg:mx-auto lg:w-2/5 2xl:w-1/5">
         <Button variant="generalOrange" onClickHandle={handleLogout}>
           Logout
         </Button>
       </div>
-      <hr className="my-5 bg-[#BCBCBC] opacity-40 w-3/5" />
+      <hr className="my-5 bg-[#BCBCBC] opacity-40 w-3/5 lg:w-2/5 xl:w-1/5" />
       <div className="flex items-center">
         <span className="text-xl mr-5">Sound Effects</span>
         <input

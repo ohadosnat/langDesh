@@ -149,7 +149,7 @@ const Flashcards = () => {
           </div>
         </div>
       ) : (
-        <div className="relative h-screen font-medium flex flex-col items-center">
+        <div className="relative h-screen font-medium flex flex-col items-center lg:mx-auto lg:w-3/5 2xl:w-2/5">
           {showScore ? (
             // Showing Score (end of session)
             <div
@@ -214,7 +214,7 @@ const Flashcards = () => {
                   </div>
                 </div>
               </div>
-              <div className="fixed bottom-8 w-4/5">
+              <div className="fixed bottom-8 w-4/5 lg:w-2/5 2xl:w-1/5">
                 <Button
                   type="submit"
                   variant="general"
@@ -280,7 +280,7 @@ const Flashcards = () => {
                     />
                   ))}
               </div>
-              <div className="fixed bottom-9 w-4/5">
+              <div className="fixed bottom-9 w-4/5 lg:w-2/5 2xl:w-1/5">
                 {isCardFlipped ? (
                   <div className="flex items-center  space-x-5">
                     <Button

@@ -26,11 +26,11 @@ const NotFound = ({ match, location, history }) => {
   }, []);
 
   return (
-    <div className="text-center w-full h-screen flex flex-col justify-center items-center">
+    <div className="text-center w-full h-screen flex flex-col justify-center items-center lg:w-3/5 2xl:w-2/5 lg:mx-auto">
       <div>
         <div className="h-80 -mb-14" ref={containerRef} />
         <h1 className="font-medium text-xl">
-          Oh hey {currentUserDoc && currentUserDoc.name}, <br />
+          Oh hey {currentUserDoc && currentUserDoc.name} <br />
         </h1>
         <p className="text-lg">
           we can't find{" "}

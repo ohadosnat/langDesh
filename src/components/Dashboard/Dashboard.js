@@ -99,13 +99,14 @@ const Dashboard = () => {
         <DashboardEmptyState Username={currentUserDoc.name} />
       ) : (
         <>
-          <Input
-            type="search"
-            placeholder="Search Language"
-            className="w-11/12 mt-5 mx-auto text-center"
-            value={values.search}
-            onChangeValue={handleChange}
-          />
+          <div className="lg:w-3/5 lg:mx-auto 2xl:w-2/5">
+            <Input
+              type="search"
+              placeholder="Search Language"
+              value={values.search}
+              onChangeValue={handleChange}
+            />
+          </div>
 
           {!noResults ? (
             <>

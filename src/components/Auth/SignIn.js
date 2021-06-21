@@ -26,7 +26,7 @@ const SignIn = () => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
+    <div className="flex flex-col justify-center items-center h-screen lg:w-3/5 2xl:w-2/5 lg:mx-auto">
       <img
         src="/assets/imgs/utils/signin.png"
         alt="doodle of a woman reading a book"

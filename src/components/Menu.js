@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Menu = ({ currentPage }) => {
   return (
-    <div className="bg-white border-t shadow-sm fixed bottom-0 inset-x-0 py-6 flex items-center justify-evenly">
+    <div className="bg-white border-t shadow-sm fixed bottom-0 inset-x-0 py-6 flex items-center justify-evenly lg:absolute lg:w-1/6 lg:right-4 lg:top-11 lg:bottom-auto lg:left-auto lg:border-none lg:shadow-none lg:py-0">
       <Link to="/main">
         <svg
           className={`stroke-current w-8 h-8 ${

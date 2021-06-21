@@ -134,7 +134,7 @@ const Input = ({
     (placeholder || type).slice(1);
 
   return (
-    <div className="defaultBG w-full my-3">
+    <div className="defaultBG w-full my-3 lg:mx-auto">
       {inputIcon}
       <input
         value={value}

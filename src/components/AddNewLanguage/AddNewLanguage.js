@@ -86,7 +86,7 @@ const AddNewLanguage = () => {
               />
             ))}
           </div>
-          <div className="absolute inset-x-0 bottom-9">
+          <div className="absolute inset-x-0 bottom-9 lg:w-3/5 lg:mx-auto 2xl:w-2/5">
             <Button variant="general" textColor="text-white">
               Add Langauge
             </Button>
