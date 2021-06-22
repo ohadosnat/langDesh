@@ -200,6 +200,7 @@ const Quiz = () => {
 
   return (
     <>
+      <Prompt message="You haven't finished the session, are you sure you want to leave?" />
       {isLoading ? (
         <div
           style={toAnimate ? startLoadingAnimation : endLoadingAnimation}
@@ -293,10 +294,6 @@ const Quiz = () => {
           ) : (
             <>
               <div className="mt-5 flex w-11/12 items-center lg:mt-10">
-                <Prompt
-                  when={currentChallenge < 10}
-                  message="You haven't finished the quiz, are you sure you want to leave?"
-                />
                 <Link to="/main">
                   <svg
                     className="stroke-current w-8 h-8 pointer-events-none mr-2"

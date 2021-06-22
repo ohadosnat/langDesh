@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { Link, useLocation, Redirect } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useForm } from "../../../customHooks/useForm";
 import Input from "../../Input";
 import { useAuth } from "../../../contexts/AuthContext";

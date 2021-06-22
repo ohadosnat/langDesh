@@ -28,7 +28,7 @@ const WordRow = ({
   const [wordStrength, setWordStrength] = useState(0);
   const playBtnRef = useRef(null);
   const wordAudio = new Audio(
-    `/audio/${langID}Audio/${langID}-${wordTranslation.audioID}.flac`
+    `/audio/${langID}Audio/${wordTranslation.audioID}.mp3`
   );
 
   useEffect(() => {

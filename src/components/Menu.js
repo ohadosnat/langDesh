@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useAuth } from "../contexts/AuthContext";
 
 const Menu = ({ currentPage }) => {
+  const { currentUserDoc } = useAuth();
+
   return (
     <div className="bg-white border-t shadow-sm fixed bottom-0 inset-x-0 py-6 flex items-center justify-evenly lg:absolute lg:w-1/6 lg:right-4 lg:top-11 lg:bottom-auto lg:left-auto lg:border-none lg:shadow-none lg:py-0">
       <Link to="/main">
@@ -36,33 +39,37 @@ const Menu = ({ currentPage }) => {
         </svg>
       </Link>
       <hr className="h-6 w-[1px] opacity-40 bg-black" />
-      <Link to="/addlanguage">
-        <svg
-          className="stroke-current w-8 h-8 global-transition hover:text-general-dark"
-          viewBox="0 0 32 32"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z"
-            strokeWidth="2"
-            strokeMiterlimit="10"
-          />
-          <path
-            d="M11 16H21"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M16 11V21"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </Link>
-      <hr className="h-6 w-[1px] opacity-40 bg-black" />
+      {currentUserDoc && currentUserDoc.activeLangs < 4 && (
+        <>
+          <Link to="/addlanguage">
+            <svg
+              className="stroke-current w-8 h-8 global-transition hover:text-general-dark"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z"
+                strokeWidth="2"
+                strokeMiterlimit="10"
+              />
+              <path
+                d="M11 16H21"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+              <path
+                d="M16 11V21"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </Link>
+          <hr className="h-6 w-[1px] opacity-40 bg-black" />
+        </>
+      )}
       <Link to="/profile">
         <svg
           className={`stroke-current w-8 h-8 ${

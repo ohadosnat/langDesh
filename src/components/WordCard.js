@@ -12,7 +12,7 @@ const WordCard = ({ wordData, langID, isQuiz, isCardFlipped }) => {
 
   useEffect(() => {
     setFlag(`/assets/imgs/flags/${langID}-flag.png`);
-    setWordAudio(new Audio(`/audio/${langID}Audio/${langID}-${audioID}.flac`));
+    setWordAudio(new Audio(`/audio/${langID}Audio/${audioID}.mp3`));
 
     // font animation
     lottie.loadAnimation({

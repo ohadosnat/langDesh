@@ -8,6 +8,24 @@
         "en_pron": "ja",
         "translation": "я",
         "audioID": "a4fd7810"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "io",
+        "translation": "io",
+        "audioID": "28ebbed8"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "je",
+        "translation": "je",
+        "audioID": "e3130405"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "yo",
+        "translation": "yo",
+        "audioID": "ffdfb001"
       }
     ]
   },
@@ -20,6 +38,24 @@
         "en_pron": "ty",
         "translation": "ты",
         "audioID": "bf5460f8"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tu",
+        "translation": "tu",
+        "audioID": "2ae52bbe"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tu",
+        "translation": "tu",
+        "audioID": "2ae52bbe"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "tú",
+        "translation": "tú",
+        "audioID": "ffdfb002"
       }
     ]
   },
@@ -32,6 +68,24 @@
         "en_pron": "on",
         "translation": "он",
         "audioID": "fc38bfb1"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "egli",
+        "translation": "egli",
+        "audioID": "9d02f8df"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "il",
+        "translation": "il",
+        "audioID": "b1e2ef62"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "él",
+        "translation": "él",
+        "audioID": "5769dbd8"
       }
     ]
   },
@@ -44,6 +98,24 @@
         "en_pron": "my",
         "translation": "мы",
         "audioID": "291dcf07"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "noi",
+        "translation": "noi",
+        "audioID": "6b0391ac"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nous",
+        "translation": "nous",
+        "audioID": "22727e04"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nosotros",
+        "translation": "nosotros",
+        "audioID": "ffdfb004"
       }
     ]
   },
@@ -56,6 +128,24 @@
         "en_pron": "vy",
         "translation": "вы",
         "audioID": "2383e20d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "voi",
+        "translation": "voi",
+        "audioID": "79366364"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "vous",
+        "translation": "vous",
+        "audioID": "b7df0174"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ustedes",
+        "translation": "ustedes",
+        "audioID": "ffdfb005"
       }
     ]
   },
@@ -68,6 +158,24 @@
         "en_pron": "oní",
         "translation": "они",
         "audioID": "a35b2182"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "essi",
+        "translation": "essi",
+        "audioID": "4b77fded"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ils",
+        "translation": "ils",
+        "audioID": "b8032d90"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ellos",
+        "translation": "ellos",
+        "audioID": "8ca42231"
       }
     ]
   },
@@ -80,6 +188,24 @@
         "en_pron": "éto",
         "translation": "это",
         "audioID": "f06e508c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "questo",
+        "translation": "questo",
+        "audioID": "ff26c006"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ceci",
+        "translation": "ceci",
+        "audioID": "3c756fa2"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "este",
+        "translation": "este",
+        "audioID": "ffdfb007"
       }
     ]
   },
@@ -92,6 +218,24 @@
         "en_pron": "to",
         "translation": "то",
         "audioID": "f0fc959a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "quello",
+        "translation": "quello",
+        "audioID": "ff26c007"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cela",
+        "translation": "cela",
+        "audioID": "b536fb5f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ese",
+        "translation": "ese",
+        "audioID": "ffdfb008"
       }
     ]
   },
@@ -104,6 +248,24 @@
         "en_pron": "zdesʹ",
         "translation": "здесь",
         "audioID": "8a925891"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "qui",
+        "translation": "qui",
+        "audioID": "cc548f3a"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ici",
+        "translation": "ici",
+        "audioID": "c2f9c825"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "aquí",
+        "translation": "aquí",
+        "audioID": "ab799f7a"
       }
     ]
   },
@@ -116,6 +278,24 @@
         "en_pron": "tam",
         "translation": "там",
         "audioID": "0363f0ea"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lì",
+        "translation": "lì",
+        "audioID": "ba55a0d0"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "là",
+        "translation": "là",
+        "audioID": "888dcc33"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ahí",
+        "translation": "ahí",
+        "audioID": "acaa8e3a"
       }
     ]
   },
@@ -128,6 +308,24 @@
         "en_pron": "kto",
         "translation": "кто",
         "audioID": "2833e7bf"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "chi",
+        "translation": "chi",
+        "audioID": "82c6dc5c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "qui",
+        "translation": "qui",
+        "audioID": "cc548f3a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "quién",
+        "translation": "quién",
+        "audioID": "ffdfb011"
       }
     ]
   },
@@ -140,6 +338,24 @@
         "en_pron": "što",
         "translation": "что",
         "audioID": "bade482d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cosa",
+        "translation": "cosa",
+        "audioID": "ff26c011"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "quoi",
+        "translation": "quoi",
+        "audioID": "76f61cca"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "qué",
+        "translation": "qué",
+        "audioID": "ffdfb012"
       }
     ]
   },
@@ -152,6 +368,24 @@
         "en_pron": "gde",
         "translation": "где",
         "audioID": "2aaba201"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dove",
+        "translation": "dove",
+        "audioID": "1a6ff367"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "où",
+        "translation": "où",
+        "audioID": "eea0daaa"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "dónde",
+        "translation": "dónde",
+        "audioID": "ffdfb013"
       }
     ]
   },
@@ -164,6 +398,24 @@
         "en_pron": "kogdá",
         "translation": "когда",
         "audioID": "fc8518f0"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "quando",
+        "translation": "quando",
+        "audioID": "8a0f41ee"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "quand",
+        "translation": "quand",
+        "audioID": "a6c52cb3"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cuándo",
+        "translation": "cuándo",
+        "audioID": "b96acd5f"
       }
     ]
   },
@@ -176,6 +428,24 @@
         "en_pron": "kak",
         "translation": "как",
         "audioID": "b00d753d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "come",
+        "translation": "come",
+        "audioID": "80721341"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "comment",
+        "translation": "comment",
+        "audioID": "9474526c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "como",
+        "translation": "como",
+        "audioID": "460262cf"
       }
     ]
   },
@@ -188,6 +458,24 @@
         "en_pron": "ne",
         "translation": "не",
         "audioID": "f0a589da"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "non",
+        "translation": "non",
+        "audioID": "ff26c015"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ne",
+        "translation": "ne",
+        "audioID": "877fc101"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "no",
+        "translation": "no",
+        "audioID": "ffdfb016"
       }
     ]
   },
@@ -200,6 +488,24 @@
         "en_pron": "vsjo",
         "translation": "всё",
         "audioID": "a8cf1e3f"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tutto",
+        "translation": "tutto",
+        "audioID": "ff26c016"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tout",
+        "translation": "tout",
+        "audioID": "83b25c5c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "todo",
+        "translation": "todo",
+        "audioID": "ffdfb017"
       }
     ]
   },
@@ -212,6 +518,24 @@
         "en_pron": "mnógije",
         "translation": "многие",
         "audioID": "70e60f63"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tanto",
+        "translation": "tanto",
+        "audioID": "9dfd0765"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "beaucoup",
+        "translation": "beaucoup",
+        "audioID": "b4ad80d2"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "muchos",
+        "translation": "muchos",
+        "audioID": "ffdfb018"
       }
     ]
   },
@@ -224,6 +548,24 @@
         "en_pron": "néskolʹko",
         "translation": "несколько",
         "audioID": "595ed41a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "alcuni",
+        "translation": "alcuni",
+        "audioID": "ff26c018"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "quelques",
+        "translation": "quelques",
+        "audioID": "ffc02018"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "algunos",
+        "translation": "algunos",
+        "audioID": "ffdfb019"
       }
     ]
   },
@@ -236,6 +578,24 @@
         "en_pron": "nemnógije",
         "translation": "немногие",
         "audioID": "fffb1020"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "poco",
+        "translation": "poco",
+        "audioID": "9a2db730"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "peu",
+        "translation": "peu",
+        "audioID": "9355ab13"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "poco",
+        "translation": "poco",
+        "audioID": "ffdfb020"
       }
     ]
   },
@@ -248,6 +608,24 @@
         "en_pron": "drugój",
         "translation": "другой",
         "audioID": "f2bc5608"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "altro",
+        "translation": "altro",
+        "audioID": "807c466a"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "autre",
+        "translation": "autre",
+        "audioID": "4db8b761"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "otro",
+        "translation": "otro",
+        "audioID": "ffdfb021"
       }
     ]
   },
@@ -260,6 +638,24 @@
         "en_pron": "odín",
         "translation": "один",
         "audioID": "3dfd336c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "uno",
+        "translation": "uno",
+        "audioID": "ff26c021"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "un",
+        "translation": "un",
+        "audioID": "b99bd313"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "uno",
+        "translation": "uno",
+        "audioID": "ffdfb022"
       }
     ]
   },
@@ -272,6 +668,24 @@
         "en_pron": "dva",
         "translation": "два",
         "audioID": "ec6cf62c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "due",
+        "translation": "due",
+        "audioID": "ff26c022"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "deux",
+        "translation": "deux",
+        "audioID": "d78ac23e"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "dos",
+        "translation": "dos",
+        "audioID": "9bf6ed00"
       }
     ]
   },
@@ -284,6 +698,24 @@
         "en_pron": "tri",
         "translation": "три",
         "audioID": "98d9b606"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tre",
+        "translation": "tre",
+        "audioID": "ff26c023"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "trois",
+        "translation": "trois",
+        "audioID": "35fea570"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "tres",
+        "translation": "tres",
+        "audioID": "ffdfb024"
       }
     ]
   },
@@ -296,6 +728,24 @@
         "en_pron": "četýre",
         "translation": "четыре",
         "audioID": "3070115b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "quattro",
+        "translation": "quattro",
+        "audioID": "ff26c024"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "quatre",
+        "translation": "quatre",
+        "audioID": "b03dce31"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cuatro",
+        "translation": "cuatro",
+        "audioID": "1ef684bf"
       }
     ]
   },
@@ -308,6 +758,24 @@
         "en_pron": "pjatʹ",
         "translation": "пять",
         "audioID": "5fa254b2"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cinque",
+        "translation": "cinque",
+        "audioID": "ff26c025"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cinq",
+        "translation": "cinq",
+        "audioID": "93ad70dd"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cinco",
+        "translation": "cinco",
+        "audioID": "8f0ae08e"
       }
     ]
   },
@@ -320,6 +788,24 @@
         "en_pron": "bolʹšój",
         "translation": "большой",
         "audioID": "ccc39b0c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "grande",
+        "translation": "grande",
+        "audioID": "dabb60d6"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "grand",
+        "translation": "grand",
+        "audioID": "d4b27628"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "grande",
+        "translation": "grande",
+        "audioID": "dabb60d6"
       }
     ]
   },
@@ -332,6 +818,24 @@
         "en_pron": "dlínnyj",
         "translation": "длинный",
         "audioID": "6309b2ad"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lungo",
+        "translation": "lungo",
+        "audioID": "73f95a7c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "long",
+        "translation": "long",
+        "audioID": "3b97a968"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "largo",
+        "translation": "largo",
+        "audioID": "ffdfb028"
       }
     ]
   },
@@ -344,6 +848,24 @@
         "en_pron": "širókij",
         "translation": "широкий",
         "audioID": "9d5592db"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "largo",
+        "translation": "largo",
+        "audioID": "b9bec0a0"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "large",
+        "translation": "large",
+        "audioID": "596b29be"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ancho",
+        "translation": "ancho",
+        "audioID": "8331c1cf"
       }
     ]
   },
@@ -356,6 +878,24 @@
         "en_pron": "tólstyj",
         "translation": "толстый",
         "audioID": "5a04c2e4"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "spesso",
+        "translation": "spesso",
+        "audioID": "ff26c029"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "épais",
+        "translation": "épais",
+        "audioID": "0490c1bd"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "grueso",
+        "translation": "grueso",
+        "audioID": "ecc32277"
       }
     ]
   },
@@ -368,6 +908,24 @@
         "en_pron": "tjažólyj",
         "translation": "тяжёлый",
         "audioID": "d9b9689c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pesante",
+        "translation": "pesante",
+        "audioID": "ff26c030"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "lourd",
+        "translation": "lourd",
+        "audioID": "fc499e8a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pesado",
+        "translation": "pesado",
+        "audioID": "ffdfb031"
       }
     ]
   },
@@ -380,6 +938,24 @@
         "en_pron": "málenʹkij",
         "translation": "маленький",
         "audioID": "3e9047a2"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "piccolo",
+        "translation": "piccolo",
+        "audioID": "fe30d0c8"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "petit",
+        "translation": "petit",
+        "audioID": "83a7b5a4"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pequeño",
+        "translation": "pequeño",
+        "audioID": "ffdfb032"
       }
     ]
   },
@@ -392,6 +968,24 @@
         "en_pron": "korótkij",
         "translation": "короткий",
         "audioID": "481923d1"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "corto",
+        "translation": "corto",
+        "audioID": "ff26c032"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "court",
+        "translation": "court",
+        "audioID": "63ae193f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "corto",
+        "translation": "corto",
+        "audioID": "bade61d0"
       }
     ]
   },
@@ -404,6 +998,24 @@
         "en_pron": "úzkij",
         "translation": "узкий",
         "audioID": "799b6325"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "stretto",
+        "translation": "stretto",
+        "audioID": "ff26c033"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "étroit",
+        "translation": "étroit",
+        "audioID": "3332dd80"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "estrecho",
+        "translation": "estrecho",
+        "audioID": "0548a856"
       }
     ]
   },
@@ -416,6 +1028,24 @@
         "en_pron": "tónkij",
         "translation": "тонкий",
         "audioID": "9d9c2b14"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sottile",
+        "translation": "sottile",
+        "audioID": "ff26c034"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mince",
+        "translation": "mince",
+        "audioID": "d0efb7f1"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "delgado",
+        "translation": "delgado",
+        "audioID": "d5160fea"
       }
     ]
   },
@@ -428,6 +1058,24 @@
         "en_pron": "žénščina",
         "translation": "женщина",
         "audioID": "a25421e3"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "donna",
+        "translation": "donna",
+        "audioID": "3f44a5cf"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "femme",
+        "translation": "femme",
+        "audioID": "712caa8f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "mujer",
+        "translation": "mujer",
+        "audioID": "ffdfb036"
       }
     ]
   },
@@ -440,6 +1088,24 @@
         "en_pron": "mužčína",
         "translation": "мужчина",
         "audioID": "111b6f75"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "uomo",
+        "translation": "uomo",
+        "audioID": "c237d44c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "homme",
+        "translation": "homme",
+        "audioID": "a1a1f48a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hombre",
+        "translation": "hombre",
+        "audioID": "ecc9723b"
       }
     ]
   },
@@ -452,6 +1118,24 @@
         "en_pron": "čelovék",
         "translation": "человек",
         "audioID": "93b6b6f0"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "persona",
+        "translation": "persona",
+        "audioID": "553be5ca"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "homme",
+        "translation": "homme",
+        "audioID": "a1a1f48a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hombre",
+        "translation": "hombre",
+        "audioID": "ecc9723b"
       }
     ]
   },
@@ -464,6 +1148,24 @@
         "en_pron": "rebjónok",
         "translation": "ребёнок",
         "audioID": "00b10bed"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bambino",
+        "translation": "bambino",
+        "audioID": "d044d9c2"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "enfant",
+        "translation": "enfant",
+        "audioID": "34b70ca2"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "niño",
+        "translation": "niño",
+        "audioID": "ffdfb039"
       }
     ]
   },
@@ -476,6 +1178,24 @@
         "en_pron": "žená",
         "translation": "жена",
         "audioID": "4b08eaed"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "moglie",
+        "translation": "moglie",
+        "audioID": "4e71bb78"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "épouse",
+        "translation": "épouse",
+        "audioID": "afed088d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "esposa",
+        "translation": "esposa",
+        "audioID": "419af22f"
       }
     ]
   },
@@ -488,6 +1208,24 @@
         "en_pron": "muž",
         "translation": "муж",
         "audioID": "a86af01a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "marito",
+        "translation": "marito",
+        "audioID": "5e66b5c3"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mari",
+        "translation": "mari",
+        "audioID": "887a935d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "esposo",
+        "translation": "esposo",
+        "audioID": "a622df28"
       }
     ]
   },
@@ -500,6 +1238,24 @@
         "en_pron": "matʹ",
         "translation": "мать",
         "audioID": "8667b2dd"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "madre",
+        "translation": "madre",
+        "audioID": "453ce63f"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mère",
+        "translation": "mère",
+        "audioID": "34c28772"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "madre",
+        "translation": "madre",
+        "audioID": "ffdfb042"
       }
     ]
   },
@@ -512,6 +1268,24 @@
         "en_pron": "otéc",
         "translation": "отец",
         "audioID": "7808e6d9"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "padre",
+        "translation": "padre",
+        "audioID": "f47bdaa8"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "père",
+        "translation": "père",
+        "audioID": "acb2d441"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "padre",
+        "translation": "padre",
+        "audioID": "ffdfb043"
       }
     ]
   },
@@ -524,6 +1298,24 @@
         "en_pron": "zverʹ",
         "translation": "зверь",
         "audioID": "e880079c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "animale",
+        "translation": "animale",
+        "audioID": "61e91d38"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "animal",
+        "translation": "animal",
+        "audioID": "6aab231f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "animal",
+        "translation": "animal",
+        "audioID": "6aab231f"
       }
     ]
   },
@@ -536,6 +1328,24 @@
         "en_pron": "rýba",
         "translation": "рыба",
         "audioID": "9046563d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pesce",
+        "translation": "pesce",
+        "audioID": "31a9db1a"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "poisson",
+        "translation": "poisson",
+        "audioID": "7bd645aa"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pescado",
+        "translation": "pescado",
+        "audioID": "ffdfb045"
       }
     ]
   },
@@ -548,6 +1358,24 @@
         "en_pron": "ptíca",
         "translation": "птица",
         "audioID": "fdf8f58d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "uccello",
+        "translation": "uccello",
+        "audioID": "29effc38"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "oiseau",
+        "translation": "oiseau",
+        "audioID": "b75dd0fc"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pájaro",
+        "translation": "pájaro",
+        "audioID": "ffdfb046"
       }
     ]
   },
@@ -560,6 +1388,24 @@
         "en_pron": "sobáka",
         "translation": "собака",
         "audioID": "f336530a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cane",
+        "translation": "cane",
+        "audioID": "76234bd8"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "chien",
+        "translation": "chien",
+        "audioID": "13a4067e"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "perro",
+        "translation": "perro",
+        "audioID": "ffdfb047"
       }
     ]
   },
@@ -572,6 +1418,24 @@
         "en_pron": "vošʹ",
         "translation": "вошь",
         "audioID": "64fff237"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pidocchio",
+        "translation": "pidocchio",
+        "audioID": "ff26c047"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "pou",
+        "translation": "pou",
+        "audioID": "69ba4399"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "piojo",
+        "translation": "piojo",
+        "audioID": "ffdfb048"
       }
     ]
   },
@@ -584,6 +1448,24 @@
         "en_pron": "zmejá",
         "translation": "змея",
         "audioID": "4101ceec"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "serpente",
+        "translation": "serpente",
+        "audioID": "ff26c048"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "serpent",
+        "translation": "serpent",
+        "audioID": "12f262d5"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "serpiente",
+        "translation": "serpiente",
+        "audioID": "ffdfb049"
       }
     ]
   },
@@ -596,6 +1478,24 @@
         "en_pron": "červʹ",
         "translation": "червь",
         "audioID": "d11a2036"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "verme",
+        "translation": "verme",
+        "audioID": "ff26c049"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ver",
+        "translation": "ver",
+        "audioID": "09bc4202"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "gusano",
+        "translation": "gusano",
+        "audioID": "83ed657b"
       }
     ]
   },
@@ -608,6 +1508,24 @@
         "en_pron": "dérevo",
         "translation": "дерево",
         "audioID": "500e3b51"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "albero",
+        "translation": "albero",
+        "audioID": "d6bc0e6c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "arbre",
+        "translation": "arbre",
+        "audioID": "c8c4501a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "árbol",
+        "translation": "árbol",
+        "audioID": "47fd56dd"
       }
     ]
   },
@@ -620,6 +1538,24 @@
         "en_pron": "les",
         "translation": "лес",
         "audioID": "23b64603"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "foresta",
+        "translation": "foresta",
+        "audioID": "234030c2"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "forêt",
+        "translation": "forêt",
+        "audioID": "25520c30"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "bosque",
+        "translation": "bosque",
+        "audioID": "ffdfb052"
       }
     ]
   },
@@ -632,6 +1568,24 @@
         "en_pron": "pálka",
         "translation": "палка",
         "audioID": "fffb1053"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bastone",
+        "translation": "bastone",
+        "audioID": "ff26c052"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "bâton",
+        "translation": "bâton",
+        "audioID": "a6beb7cc"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "palo",
+        "translation": "palo",
+        "audioID": "ffdfb053"
       }
     ]
   },
@@ -644,6 +1598,24 @@
         "en_pron": "plod",
         "translation": "плод",
         "audioID": "648b6b1f"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "frutta",
+        "translation": "frutta",
+        "audioID": "ff26c053"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "fruit",
+        "translation": "fruit",
+        "audioID": "a00bd297"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "fruta",
+        "translation": "fruta",
+        "audioID": "ffdfb054"
       }
     ]
   },
@@ -656,6 +1628,24 @@
         "en_pron": "sémja",
         "translation": "семя",
         "audioID": "44d907e4"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "seme",
+        "translation": "seme",
+        "audioID": "ff26c054"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "graine",
+        "translation": "graine",
+        "audioID": "251b9ed9"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "semilla",
+        "translation": "semilla",
+        "audioID": "ffdfb055"
       }
     ]
   },
@@ -668,6 +1658,24 @@
         "en_pron": "list",
         "translation": "лист",
         "audioID": "964e54cc"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "foglia",
+        "translation": "foglia",
+        "audioID": "ff26c055"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "feuille",
+        "translation": "feuille",
+        "audioID": "ef726c46"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hoja",
+        "translation": "hoja",
+        "audioID": "39fa5e0e"
       }
     ]
   },
@@ -680,6 +1688,24 @@
         "en_pron": "kórenʹ",
         "translation": "корень",
         "audioID": "5abda976"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "radice",
+        "translation": "radice",
+        "audioID": "ff26c056"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "racine",
+        "translation": "racine",
+        "audioID": "fb492828"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "raíz",
+        "translation": "raíz",
+        "audioID": "ffdfb057"
       }
     ]
   },
@@ -692,6 +1718,24 @@
         "en_pron": "korá",
         "translation": "кора",
         "audioID": "6f77a02e"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "corteccia",
+        "translation": "corteccia",
+        "audioID": "ff26c057"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "écorce",
+        "translation": "écorce",
+        "audioID": "c720e10b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "corteza",
+        "translation": "corteza",
+        "audioID": "ffdfb058"
       }
     ]
   },
@@ -704,6 +1748,24 @@
         "en_pron": "cvetók",
         "translation": "цветок",
         "audioID": "3f17e80f"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "fiore",
+        "translation": "fiore",
+        "audioID": "6eb14ac9"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "fleur",
+        "translation": "fleur",
+        "audioID": "03ffa923"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "flor",
+        "translation": "flor",
+        "audioID": "22aa22ff"
       }
     ]
   },
@@ -716,6 +1778,24 @@
         "en_pron": "travá",
         "translation": "трава",
         "audioID": "f175c9f7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "erba",
+        "translation": "erba",
+        "audioID": "ff26c059"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "herbe",
+        "translation": "herbe",
+        "audioID": "5efeec6c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hierba",
+        "translation": "hierba",
+        "audioID": "f7b4da4c"
       }
     ]
   },
@@ -728,6 +1808,24 @@
         "en_pron": "verjóvka",
         "translation": "верёвка",
         "audioID": "499fdb43"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "corda",
+        "translation": "corda",
+        "audioID": "ff26c060"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "corde",
+        "translation": "corde",
+        "audioID": "10c99a9f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cuerda",
+        "translation": "cuerda",
+        "audioID": "6e39f78a"
       }
     ]
   },
@@ -740,6 +1838,24 @@
         "en_pron": "kóža",
         "translation": "кожа",
         "audioID": "f72d5e69"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pelle",
+        "translation": "pelle",
+        "audioID": "887c4c3c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "peau",
+        "translation": "peau",
+        "audioID": "58eea91e"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "piel",
+        "translation": "piel",
+        "audioID": "ffdfb062"
       }
     ]
   },
@@ -752,6 +1868,24 @@
         "en_pron": "mjáso",
         "translation": "мясо",
         "audioID": "bdc090b7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "carne",
+        "translation": "carne",
+        "audioID": "04d0dac1"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "viande",
+        "translation": "viande",
+        "audioID": "0501177b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "carne",
+        "translation": "carne",
+        "audioID": "0af90526"
       }
     ]
   },
@@ -764,6 +1898,24 @@
         "en_pron": "krovʹ",
         "translation": "кровь",
         "audioID": "021a33a4"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sangue",
+        "translation": "sangue",
+        "audioID": "8e25cb5a"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sang",
+        "translation": "sang",
+        "audioID": "3973c3ab"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "sangre",
+        "translation": "sangre",
+        "audioID": "ffdfb064"
       }
     ]
   },
@@ -776,6 +1928,24 @@
         "en_pron": "kostʹ",
         "translation": "кость",
         "audioID": "42169332"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "osso",
+        "translation": "osso",
+        "audioID": "ff26c064"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "os",
+        "translation": "os",
+        "audioID": "6ab04511"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hueso",
+        "translation": "hueso",
+        "audioID": "a482c408"
       }
     ]
   },
@@ -788,6 +1958,24 @@
         "en_pron": "žir",
         "translation": "жир",
         "audioID": "fffb1063"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "grasso",
+        "translation": "grasso",
+        "audioID": "ff26c065"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "graisse",
+        "translation": "graisse",
+        "audioID": "18968e40"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "grasa",
+        "translation": "grasa",
+        "audioID": "5bb4eebb"
       }
     ]
   },
@@ -800,6 +1988,24 @@
         "en_pron": "jajcó",
         "translation": "яйцо",
         "audioID": "0893a7e0"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "uovo",
+        "translation": "uovo",
+        "audioID": "6b011fd6"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "œuf",
+        "translation": "œuf",
+        "audioID": "691b8e5f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "huevo",
+        "translation": "huevo",
+        "audioID": "d9f5304d"
       }
     ]
   },
@@ -812,6 +2018,24 @@
         "en_pron": "rog",
         "translation": "рог",
         "audioID": "e3829311"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "corno",
+        "translation": "corno",
+        "audioID": "ff26c067"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "corne",
+        "translation": "corne",
+        "audioID": "ea267215"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cuerno",
+        "translation": "cuerno",
+        "audioID": "ffdfb068"
       }
     ]
   },
@@ -824,6 +2048,24 @@
         "en_pron": "xvost",
         "translation": "хвост",
         "audioID": "962ff2d7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "coda",
+        "translation": "coda",
+        "audioID": "ff26c068"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "queue",
+        "translation": "queue",
+        "audioID": "7ffd7f63"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cola",
+        "translation": "cola",
+        "audioID": "c197254b"
       }
     ]
   },
@@ -836,6 +2078,24 @@
         "en_pron": "peró",
         "translation": "перо",
         "audioID": "ad27939f"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "penna",
+        "translation": "penna",
+        "audioID": "ff26c069"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "plume",
+        "translation": "plume",
+        "audioID": "f1b175ef"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pluma",
+        "translation": "pluma",
+        "audioID": "ffdfb070"
       }
     ]
   },
@@ -848,6 +2108,24 @@
         "en_pron": "vólos",
         "translation": "волос",
         "audioID": "327f4584"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "capello",
+        "translation": "capello",
+        "audioID": "47691995"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cheveux",
+        "translation": "cheveux",
+        "audioID": "9e997e3a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cabello",
+        "translation": "cabello",
+        "audioID": "5e181cc3"
       }
     ]
   },
@@ -860,6 +2138,24 @@
         "en_pron": "golová",
         "translation": "голова",
         "audioID": "0dc65d2f"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "testa",
+        "translation": "testa",
+        "audioID": "eff052f1"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tête",
+        "translation": "tête",
+        "audioID": "0cec0169"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cabeza",
+        "translation": "cabeza",
+        "audioID": "aba6745b"
       }
     ]
   },
@@ -872,6 +2168,24 @@
         "en_pron": "úxo",
         "translation": "ухо",
         "audioID": "4a11f868"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "orecchio",
+        "translation": "orecchio",
+        "audioID": "ff26c072"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "oreille",
+        "translation": "oreille",
+        "audioID": "04d98c34"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "oreja",
+        "translation": "oreja",
+        "audioID": "ffdfb073"
       }
     ]
   },
@@ -884,6 +2198,24 @@
         "en_pron": "glaz",
         "translation": "глаз",
         "audioID": "30bc7ddb"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "occhio",
+        "translation": "occhio",
+        "audioID": "ff26c073"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "œil",
+        "translation": "œil",
+        "audioID": "6fb93a1c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ojo",
+        "translation": "ojo",
+        "audioID": "ffdfb074"
       }
     ]
   },
@@ -896,6 +2228,24 @@
         "en_pron": "nos",
         "translation": "нос",
         "audioID": "a0a35c42"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "naso",
+        "translation": "naso",
+        "audioID": "764641b6"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nez",
+        "translation": "nez",
+        "audioID": "155238f8"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nariz",
+        "translation": "nariz",
+        "audioID": "ffdfb075"
       }
     ]
   },
@@ -908,6 +2258,24 @@
         "en_pron": "rot",
         "translation": "рот",
         "audioID": "ab47a26a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bocca",
+        "translation": "bocca",
+        "audioID": "7648f751"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "bouche",
+        "translation": "bouche",
+        "audioID": "6910bec1"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "boca",
+        "translation": "boca",
+        "audioID": "87850523"
       }
     ]
   },
@@ -920,6 +2288,24 @@
         "en_pron": "zub",
         "translation": "зуб",
         "audioID": "41de54a8"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dente",
+        "translation": "dente",
+        "audioID": "093f6ba0"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "dent",
+        "translation": "dent",
+        "audioID": "770a458f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "diente",
+        "translation": "diente",
+        "audioID": "8ebf31ed"
       }
     ]
   },
@@ -932,6 +2318,24 @@
         "en_pron": "jazýk",
         "translation": "язык",
         "audioID": "b8164ecb"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lingua",
+        "translation": "lingua",
+        "audioID": "9a2aa452"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "langue",
+        "translation": "langue",
+        "audioID": "9357758e"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "lengua",
+        "translation": "lengua",
+        "audioID": "ffdfb077"
       }
     ]
   },
@@ -944,6 +2348,24 @@
         "en_pron": "nógotʹ",
         "translation": "ноготь",
         "audioID": "fffb1079"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "unghia",
+        "translation": "unghia",
+        "audioID": "ff26c078"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ongle",
+        "translation": "ongle",
+        "audioID": "bfb1fb68"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "uña",
+        "translation": "uña",
+        "audioID": "ffdfb079"
       }
     ]
   },
@@ -956,6 +2378,24 @@
         "en_pron": "stopá",
         "translation": "стопа",
         "audioID": "e88fc929"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "piede",
+        "translation": "piede",
+        "audioID": "901e18ea"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "pied",
+        "translation": "pied",
+        "audioID": "5f28b58c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pie",
+        "translation": "pie",
+        "audioID": "ffdfb080"
       }
     ]
   },
@@ -968,6 +2408,24 @@
         "en_pron": "nogá",
         "translation": "нога",
         "audioID": "3441a20c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "gamba",
+        "translation": "gamba",
+        "audioID": "36c85979"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "jambe",
+        "translation": "jambe",
+        "audioID": "bc26cc16"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pierna",
+        "translation": "pierna",
+        "audioID": "ffdfb081"
       }
     ]
   },
@@ -980,6 +2438,24 @@
         "en_pron": "koléno",
         "translation": "колено",
         "audioID": "edbf3881"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "ginocchio",
+        "translation": "ginocchio",
+        "audioID": "ff26c081"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "genou",
+        "translation": "genou",
+        "audioID": "618b4f80"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "rodilla",
+        "translation": "rodilla",
+        "audioID": "ffdfb082"
       }
     ]
   },
@@ -992,6 +2468,24 @@
         "en_pron": "ruká",
         "translation": "рука",
         "audioID": "ac63f21d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "mano",
+        "translation": "mano",
+        "audioID": "fe5830f7"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "main",
+        "translation": "main",
+        "audioID": "bf28cd64"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "mano",
+        "translation": "mano",
+        "audioID": "ffdfb083"
       }
     ]
   },
@@ -1004,6 +2498,24 @@
         "en_pron": "kryló",
         "translation": "крыло",
         "audioID": "7e9a8cb9"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "ala",
+        "translation": "ala",
+        "audioID": "ff26c083"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "aile",
+        "translation": "aile",
+        "audioID": "11480ea9"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ala",
+        "translation": "ala",
+        "audioID": "45a90d60"
       }
     ]
   },
@@ -1016,6 +2528,24 @@
         "en_pron": "živót",
         "translation": "живот",
         "audioID": "985a1279"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pancia",
+        "translation": "pancia",
+        "audioID": "ff26c084"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ventre",
+        "translation": "ventre",
+        "audioID": "95bb795d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "vientre",
+        "translation": "vientre",
+        "audioID": "ffdfb085"
       }
     ]
   },
@@ -1028,6 +2558,24 @@
         "en_pron": "kiškí",
         "translation": "кишки",
         "audioID": "fffb1086"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "intestino",
+        "translation": "intestino",
+        "audioID": "ff26c085"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "entrailles",
+        "translation": "entrailles",
+        "audioID": "ffc02085"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "tripas",
+        "translation": "tripas",
+        "audioID": "ffdfb086"
       }
     ]
   },
@@ -1040,6 +2588,24 @@
         "en_pron": "šéja",
         "translation": "шея",
         "audioID": "e9d37af7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "collo",
+        "translation": "collo",
+        "audioID": "ff26c086"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cou",
+        "translation": "cou",
+        "audioID": "77da5eb0"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cuello",
+        "translation": "cuello",
+        "audioID": "57e0deff"
       }
     ]
   },
@@ -1052,6 +2618,24 @@
         "en_pron": "spiná",
         "translation": "спина",
         "audioID": "61552ceb"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "schiena",
+        "translation": "schiena",
+        "audioID": "ff26c087"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "dos",
+        "translation": "dos",
+        "audioID": "9bf6ed00"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "espalda",
+        "translation": "espalda",
+        "audioID": "c9f57ed3"
       }
     ]
   },
@@ -1064,6 +2648,24 @@
         "en_pron": "grudʹ",
         "translation": "грудь",
         "audioID": "38d956df"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "petto",
+        "translation": "petto",
+        "audioID": "ff26c088"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sein",
+        "translation": "sein",
+        "audioID": "08e74514"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pecho",
+        "translation": "pecho",
+        "audioID": "ffdfb089"
       }
     ]
   },
@@ -1076,6 +2678,24 @@
         "en_pron": "sérdce",
         "translation": "сердце",
         "audioID": "a3fa4a71"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cuore",
+        "translation": "cuore",
+        "audioID": "001518d3"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cœur",
+        "translation": "cœur",
+        "audioID": "4a357fbe"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "corazón",
+        "translation": "corazón",
+        "audioID": "56896fcf"
       }
     ]
   },
@@ -1088,6 +2708,24 @@
         "en_pron": "péčenʹ",
         "translation": "печень",
         "audioID": "6c18a567"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "fegato",
+        "translation": "fegato",
+        "audioID": "ff26c090"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "foie",
+        "translation": "foie",
+        "audioID": "f565bee7"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hígado",
+        "translation": "hígado",
+        "audioID": "ffdfb091"
       }
     ]
   },
@@ -1100,6 +2738,24 @@
         "en_pron": "pitʹ",
         "translation": "пить",
         "audioID": "87ffe381"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bere",
+        "translation": "bere",
+        "audioID": "dea667fc"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "boire",
+        "translation": "boire",
+        "audioID": "21424a69"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "beber",
+        "translation": "beber",
+        "audioID": "c4fa44bd"
       }
     ]
   },
@@ -1112,6 +2768,24 @@
         "en_pron": "jestʹ",
         "translation": "есть",
         "audioID": "44e2b59d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "mangiare",
+        "translation": "mangiare",
+        "audioID": "350b7f18"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "manger",
+        "translation": "manger",
+        "audioID": "911a31bd"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "comer",
+        "translation": "comer",
+        "audioID": "9d7bca54"
       }
     ]
   },
@@ -1124,6 +2798,24 @@
         "en_pron": "kusátʹ",
         "translation": "кусать",
         "audioID": "fffb1094"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "mordere",
+        "translation": "mordere",
+        "audioID": "ff26c093"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mordre",
+        "translation": "mordre",
+        "audioID": "b0f3d8f3"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "morder",
+        "translation": "morder",
+        "audioID": "ffdfb094"
       }
     ]
   },
@@ -1136,6 +2828,24 @@
         "en_pron": "sosátʹ",
         "translation": "сосать",
         "audioID": "fffb1095"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "succhiare",
+        "translation": "succhiare",
+        "audioID": "ff26c094"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sucer",
+        "translation": "sucer",
+        "audioID": "c8a1c727"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "chupar",
+        "translation": "chupar",
+        "audioID": "ffdfb095"
       }
     ]
   },
@@ -1148,6 +2858,24 @@
         "en_pron": "plevátʹ",
         "translation": "плевать",
         "audioID": "3b2e90ec"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sputare",
+        "translation": "sputare",
+        "audioID": "ff26c095"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cracher",
+        "translation": "cracher",
+        "audioID": "0c5c36b6"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "escupir",
+        "translation": "escupir",
+        "audioID": "ffdfb096"
       }
     ]
   },
@@ -1160,6 +2888,24 @@
         "en_pron": "rvatʹ",
         "translation": "рвать",
         "audioID": "86769aa7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "vomitare",
+        "translation": "vomitare",
+        "audioID": "ff26c096"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "vomir",
+        "translation": "vomir",
+        "audioID": "99ce9daa"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "vomitar",
+        "translation": "vomitar",
+        "audioID": "ffdfb097"
       }
     ]
   },
@@ -1172,6 +2918,24 @@
         "en_pron": "dutʹ",
         "translation": "дуть",
         "audioID": "9855ed49"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "soffiare",
+        "translation": "soffiare",
+        "audioID": "ff26c097"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "souffler",
+        "translation": "souffler",
+        "audioID": "8e9f7ee0"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "soplar",
+        "translation": "soplar",
+        "audioID": "ffdfb098"
       }
     ]
   },
@@ -1184,6 +2948,24 @@
         "en_pron": "dyšátʹ",
         "translation": "дышать",
         "audioID": "ef2b680c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "respirare",
+        "translation": "respirare",
+        "audioID": "ff26c098"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "respirer",
+        "translation": "respirer",
+        "audioID": "91673e23"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "respirar",
+        "translation": "respirar",
+        "audioID": "ffdfb099"
       }
     ]
   },
@@ -1196,6 +2978,24 @@
         "en_pron": "smejátʹsja",
         "translation": "смеяться",
         "audioID": "20f4979b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "ridere",
+        "translation": "ridere",
+        "audioID": "ff26c099"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "rire",
+        "translation": "rire",
+        "audioID": "87a5c907"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "reír",
+        "translation": "reír",
+        "audioID": "ffdfb100"
       }
     ]
   },
@@ -1208,6 +3008,24 @@
         "en_pron": "vídetʹ",
         "translation": "видеть",
         "audioID": "946975ae"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "vedere",
+        "translation": "vedere",
+        "audioID": "e7e2507e"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "voir",
+        "translation": "voir",
+        "audioID": "26af6cbf"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "ver",
+        "translation": "ver",
+        "audioID": "ffdfb101"
       }
     ]
   },
@@ -1220,6 +3038,24 @@
         "en_pron": "slýšatʹ",
         "translation": "слышать",
         "audioID": "92361af9"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sentire",
+        "translation": "sentire",
+        "audioID": "bd5d0bca"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "entendre",
+        "translation": "entendre",
+        "audioID": "53379c8b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "oír",
+        "translation": "oír",
+        "audioID": "ffdfb102"
       }
     ]
   },
@@ -1232,6 +3068,24 @@
         "en_pron": "znatʹ",
         "translation": "знать",
         "audioID": "d5ac2c6b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sapere",
+        "translation": "sapere",
+        "audioID": "9dd4a7c5"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "savoir",
+        "translation": "savoir",
+        "audioID": "9fcd3392"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "saber",
+        "translation": "saber",
+        "audioID": "ffdfb103"
       }
     ]
   },
@@ -1244,6 +3098,24 @@
         "en_pron": "dúmatʹ",
         "translation": "думать",
         "audioID": "c4754bcb"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pensare",
+        "translation": "pensare",
+        "audioID": "ff26c103"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "penser",
+        "translation": "penser",
+        "audioID": "c0fd8d94"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pensar",
+        "translation": "pensar",
+        "audioID": "ffdfb104"
       }
     ]
   },
@@ -1256,6 +3128,24 @@
         "en_pron": "njúxatʹ",
         "translation": "нюхать",
         "audioID": "fffb1105"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "odorare",
+        "translation": "odorare",
+        "audioID": "ff26c104"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sentir",
+        "translation": "sentir",
+        "audioID": "ef93a6b3"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "oler",
+        "translation": "oler",
+        "audioID": "ffdfb105"
       }
     ]
   },
@@ -1268,6 +3158,24 @@
         "en_pron": "bojátʹsja",
         "translation": "бояться",
         "audioID": "b449dd61"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "temere",
+        "translation": "temere",
+        "audioID": "ff26c105"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "craindre",
+        "translation": "craindre",
+        "audioID": "a3cd1d9f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "temer",
+        "translation": "temer",
+        "audioID": "ffdfb106"
       }
     ]
   },
@@ -1280,6 +3188,24 @@
         "en_pron": "spatʹ",
         "translation": "спать",
         "audioID": "f0daef24"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dormire",
+        "translation": "dormire",
+        "audioID": "36bee87a"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "dormir",
+        "translation": "dormir",
+        "audioID": "b2c8fce9"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "dormir",
+        "translation": "dormir",
+        "audioID": "ffdfb107"
       }
     ]
   },
@@ -1292,6 +3218,24 @@
         "en_pron": "žitʹ",
         "translation": "жить",
         "audioID": "1267a652"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "vivere",
+        "translation": "vivere",
+        "audioID": "d802226b"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "vivre",
+        "translation": "vivre",
+        "audioID": "8633c0ba"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "vivir",
+        "translation": "vivir",
+        "audioID": "ffdfb108"
       }
     ]
   },
@@ -1304,6 +3248,24 @@
         "en_pron": "umirátʹ",
         "translation": "умирать",
         "audioID": "10c0637f"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "morire",
+        "translation": "morire",
+        "audioID": "ff26c108"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mourir",
+        "translation": "mourir",
+        "audioID": "1f6a71d5"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "morir",
+        "translation": "morir",
+        "audioID": "ffdfb109"
       }
     ]
   },
@@ -1316,6 +3278,24 @@
         "en_pron": "ubivátʹ",
         "translation": "убивать",
         "audioID": "28029a9d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "uccidere",
+        "translation": "uccidere",
+        "audioID": "ff26c109"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tuer",
+        "translation": "tuer",
+        "audioID": "31a2cd9e"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "matar",
+        "translation": "matar",
+        "audioID": "ffdfb110"
       }
     ]
   },
@@ -1328,6 +3308,24 @@
         "en_pron": "borótʹsja",
         "translation": "бороться",
         "audioID": "3677060e"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "combattere",
+        "translation": "combattere",
+        "audioID": "ff26c110"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "se",
+        "translation": "se",
+        "audioID": "7813ad1d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pelear",
+        "translation": "pelear",
+        "audioID": "ffdfb111"
       }
     ]
   },
@@ -1340,6 +3338,24 @@
         "en_pron": "oxótitʹsja",
         "translation": "охотиться",
         "audioID": "fffb1112"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cacciare",
+        "translation": "cacciare",
+        "audioID": "ff26c111"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "chasser",
+        "translation": "chasser",
+        "audioID": "ee7b0c45"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cazar",
+        "translation": "cazar",
+        "audioID": "00a1cd96"
       }
     ]
   },
@@ -1352,6 +3368,24 @@
         "en_pron": "udarjátʹ",
         "translation": "ударять",
         "audioID": "f9f6dcd0"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "colpire",
+        "translation": "colpire",
+        "audioID": "ff26c112"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "frapper",
+        "translation": "frapper",
+        "audioID": "0efd13a8"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "golpear",
+        "translation": "golpear",
+        "audioID": "ffdfb113"
       }
     ]
   },
@@ -1364,6 +3398,24 @@
         "en_pron": "rézatʹ",
         "translation": "резать",
         "audioID": "778db9a6"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tagliare",
+        "translation": "tagliare",
+        "audioID": "ff26c113"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "couper",
+        "translation": "couper",
+        "audioID": "8a518bc7"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cortar",
+        "translation": "cortar",
+        "audioID": "74e3dea6"
       }
     ]
   },
@@ -1376,6 +3428,24 @@
         "en_pron": "razdeljátʹ",
         "translation": "разделять",
         "audioID": "40df7be6"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dividere",
+        "translation": "dividere",
+        "audioID": "ff26c114"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "fendre",
+        "translation": "fendre",
+        "audioID": "8a4bd8b6"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "partir",
+        "translation": "partir",
+        "audioID": "ffdfb115"
       }
     ]
   },
@@ -1388,6 +3458,24 @@
         "en_pron": "kolótʹ",
         "translation": "колоть",
         "audioID": "fffb1116"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pugnalare",
+        "translation": "pugnalare",
+        "audioID": "ff26c115"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "poignarder",
+        "translation": "poignarder",
+        "audioID": "ffc02115"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "apuñalar",
+        "translation": "apuñalar",
+        "audioID": "ffdfb116"
       }
     ]
   },
@@ -1400,6 +3488,24 @@
         "en_pron": "carápatʹ",
         "translation": "царапать",
         "audioID": "fffb1117"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "graffiare",
+        "translation": "graffiare",
+        "audioID": "ff26c116"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "gratter",
+        "translation": "gratter",
+        "audioID": "20e12797"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "rascar",
+        "translation": "rascar",
+        "audioID": "ffdfb117"
       }
     ]
   },
@@ -1412,6 +3518,24 @@
         "en_pron": "kopátʹ",
         "translation": "копать",
         "audioID": "fffb1118"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "scavare",
+        "translation": "scavare",
+        "audioID": "ff26c117"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "creuser",
+        "translation": "creuser",
+        "audioID": "9cddd4a4"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cavar",
+        "translation": "cavar",
+        "audioID": "ffdfb118"
       }
     ]
   },
@@ -1424,6 +3548,24 @@
         "en_pron": "plávatʹ",
         "translation": "плавать",
         "audioID": "71b9d5a3"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "nuotare",
+        "translation": "nuotare",
+        "audioID": "ff26c118"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nager",
+        "translation": "nager",
+        "audioID": "88a3fc00"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nadar",
+        "translation": "nadar",
+        "audioID": "ffdfb119"
       }
     ]
   },
@@ -1436,6 +3578,24 @@
         "en_pron": "letátʹ",
         "translation": "летать",
         "audioID": "d192b3fa"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "volare",
+        "translation": "volare",
+        "audioID": "ff26c119"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "voler",
+        "translation": "voler",
+        "audioID": "34b9b891"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "volar",
+        "translation": "volar",
+        "audioID": "ffdfb120"
       }
     ]
   },
@@ -1448,6 +3608,24 @@
         "en_pron": "xodítʹ",
         "translation": "ходить",
         "audioID": "8517da65"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "camminare",
+        "translation": "camminare",
+        "audioID": "ff26c120"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "marcher",
+        "translation": "marcher",
+        "audioID": "fe61d08c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "caminar",
+        "translation": "caminar",
+        "audioID": "43b2f250"
       }
     ]
   },
@@ -1460,6 +3638,24 @@
         "en_pron": "prixodítʹ",
         "translation": "приходить",
         "audioID": "cb433194"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "venire",
+        "translation": "venire",
+        "audioID": "8145497e"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "venir",
+        "translation": "venir",
+        "audioID": "f435c397"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "venir",
+        "translation": "venir",
+        "audioID": "ffdfb122"
       }
     ]
   },
@@ -1472,6 +3668,24 @@
         "en_pron": "ležátʹ",
         "translation": "лежать",
         "audioID": "41143225"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "giacere",
+        "translation": "giacere",
+        "audioID": "ff26c122"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "se",
+        "translation": "se",
+        "audioID": "7813ad1d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "acostar",
+        "translation": "acostar",
+        "audioID": "ffdfb123"
       }
     ]
   },
@@ -1484,6 +3698,24 @@
         "en_pron": "sidétʹ",
         "translation": "сидеть",
         "audioID": "be4414dc"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sedersi",
+        "translation": "sedersi",
+        "audioID": "ff26c123"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "s'asseoir",
+        "translation": "s'asseoir",
+        "audioID": "ffc02123"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "sentar",
+        "translation": "sentar",
+        "audioID": "ffdfb124"
       }
     ]
   },
@@ -1496,6 +3728,24 @@
         "en_pron": "stojátʹ",
         "translation": "стоять",
         "audioID": "6e241962"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "stare",
+        "translation": "stare",
+        "audioID": "f5c9757d"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "se",
+        "translation": "se",
+        "audioID": "7813ad1d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "pararse",
+        "translation": "pararse",
+        "audioID": "ffdfb125"
       }
     ]
   },
@@ -1508,6 +3758,24 @@
         "en_pron": "vraščátʹ",
         "translation": "вращать",
         "audioID": "fffb1126"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "girare",
+        "translation": "girare",
+        "audioID": "ff26c124"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tourner",
+        "translation": "tourner",
+        "audioID": "6825f8b9"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "girar",
+        "translation": "girar",
+        "audioID": "3e861201"
       }
     ]
   },
@@ -1520,6 +3788,24 @@
         "en_pron": "pádatʹ",
         "translation": "падать",
         "audioID": "2cc515c1"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cadere",
+        "translation": "cadere",
+        "audioID": "ff26c126"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tomber",
+        "translation": "tomber",
+        "audioID": "1e8db18a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "caer",
+        "translation": "caer",
+        "audioID": "e743a914"
       }
     ]
   },
@@ -1532,6 +3818,24 @@
         "en_pron": "davátʹ",
         "translation": "давать",
         "audioID": "6c34a7bf"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dare",
+        "translation": "dare",
+        "audioID": "fcc490fc"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "donner",
+        "translation": "donner",
+        "audioID": "06f4e59b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "dar",
+        "translation": "dar",
+        "audioID": "7272f018"
       }
     ]
   },
@@ -1544,6 +3848,24 @@
         "en_pron": "deržátʹ",
         "translation": "держать",
         "audioID": "f1bacef9"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tenere",
+        "translation": "tenere",
+        "audioID": "ff26c128"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tenir",
+        "translation": "tenir",
+        "audioID": "8ef590f7"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "tener",
+        "translation": "tener",
+        "audioID": "ffdfb129"
       }
     ]
   },
@@ -1556,6 +3878,24 @@
         "en_pron": "sžimátʹ",
         "translation": "сжимать",
         "audioID": "fffb1130"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "spremere",
+        "translation": "spremere",
+        "audioID": "ff26c129"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "serrer",
+        "translation": "serrer",
+        "audioID": "5d647d2a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "apretar",
+        "translation": "apretar",
+        "audioID": "a570ab0a"
       }
     ]
   },
@@ -1568,6 +3908,24 @@
         "en_pron": "terétʹ",
         "translation": "тереть",
         "audioID": "fffb1131"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "strofinare",
+        "translation": "strofinare",
+        "audioID": "ff26c130"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "frotter",
+        "translation": "frotter",
+        "audioID": "39a69242"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "frotar",
+        "translation": "frotar",
+        "audioID": "ffdfb131"
       }
     ]
   },
@@ -1580,6 +3938,24 @@
         "en_pron": "mytʹ",
         "translation": "мыть",
         "audioID": "9bcae8ef"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lavare",
+        "translation": "lavare",
+        "audioID": "ff26c131"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "laver",
+        "translation": "laver",
+        "audioID": "ef876627"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "lavar",
+        "translation": "lavar",
+        "audioID": "ffdfb132"
       }
     ]
   },
@@ -1592,6 +3968,24 @@
         "en_pron": "vytirátʹ",
         "translation": "вытирать",
         "audioID": "fffb1133"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "asciugare",
+        "translation": "asciugare",
+        "audioID": "ff26c132"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "essuyer",
+        "translation": "essuyer",
+        "audioID": "d666d5cf"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "limpiar",
+        "translation": "limpiar",
+        "audioID": "ffdfb133"
       }
     ]
   },
@@ -1604,6 +3998,24 @@
         "en_pron": "tjanútʹ",
         "translation": "тянуть",
         "audioID": "f2916fa8"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "tirare",
+        "translation": "tirare",
+        "audioID": "ff26c133"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tirer",
+        "translation": "tirer",
+        "audioID": "7daa3a57"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "halar",
+        "translation": "halar",
+        "audioID": "ffdfb134"
       }
     ]
   },
@@ -1616,6 +4028,24 @@
         "en_pron": "tolkátʹ",
         "translation": "толкать",
         "audioID": "6c0ec57c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "spingere",
+        "translation": "spingere",
+        "audioID": "ff26c134"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "pousser",
+        "translation": "pousser",
+        "audioID": "30288bec"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "empujar",
+        "translation": "empujar",
+        "audioID": "d21614d9"
       }
     ]
   },
@@ -1628,6 +4058,24 @@
         "en_pron": "brosátʹ",
         "translation": "бросать",
         "audioID": "86523de7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lanciare",
+        "translation": "lanciare",
+        "audioID": "ff26c135"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "jeter",
+        "translation": "jeter",
+        "audioID": "ec21d0be"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "tirar",
+        "translation": "tirar",
+        "audioID": "ffdfb136"
       }
     ]
   },
@@ -1640,6 +4088,24 @@
         "en_pron": "vjazátʹ",
         "translation": "вязать",
         "audioID": "fffb1137"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "legare",
+        "translation": "legare",
+        "audioID": "ff26c136"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "lier",
+        "translation": "lier",
+        "audioID": "b133e8fa"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "atar",
+        "translation": "atar",
+        "audioID": "ffdfb137"
       }
     ]
   },
@@ -1652,6 +4118,24 @@
         "en_pron": "šitʹ",
         "translation": "шить",
         "audioID": "269178c3"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cucire",
+        "translation": "cucire",
+        "audioID": "ff26c136"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "coudre",
+        "translation": "coudre",
+        "audioID": "172e813a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "coser",
+        "translation": "coser",
+        "audioID": "8bc3442e"
       }
     ]
   },
@@ -1664,6 +4148,24 @@
         "en_pron": "sčitátʹ",
         "translation": "считать",
         "audioID": "77ed472a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "contare",
+        "translation": "contare",
+        "audioID": "750be5da"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "compter",
+        "translation": "compter",
+        "audioID": "21746897"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "contar",
+        "translation": "contar",
+        "audioID": "6e2c3681"
       }
     ]
   },
@@ -1676,6 +4178,24 @@
         "en_pron": "govorítʹ",
         "translation": "говорить",
         "audioID": "e67f3a04"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dire",
+        "translation": "dire",
+        "audioID": "ff26c139"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "dire",
+        "translation": "dire",
+        "audioID": "f2d7c144"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "decir",
+        "translation": "decir",
+        "audioID": "e6cd9426"
       }
     ]
   },
@@ -1688,6 +4208,24 @@
         "en_pron": "petʹ",
         "translation": "петь",
         "audioID": "7f6f2730"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cantare",
+        "translation": "cantare",
+        "audioID": "4f0184aa"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "chanter",
+        "translation": "chanter",
+        "audioID": "49479582"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cantar",
+        "translation": "cantar",
+        "audioID": "ffdfb141"
       }
     ]
   },
@@ -1700,6 +4238,24 @@
         "en_pron": "igrátʹ",
         "translation": "играть",
         "audioID": "acf5bd58"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "giocare",
+        "translation": "giocare",
+        "audioID": "ff26c141"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "jouer",
+        "translation": "jouer",
+        "audioID": "825e5aed"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "jugar",
+        "translation": "jugar",
+        "audioID": "ffdfb142"
       }
     ]
   },
@@ -1712,6 +4268,24 @@
         "en_pron": "plávatʹ",
         "translation": "плавать",
         "audioID": "71b9d5a3"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "galleggiare",
+        "translation": "galleggiare",
+        "audioID": "ff26c142"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "flotter",
+        "translation": "flotter",
+        "audioID": "007af1a9"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "flotar",
+        "translation": "flotar",
+        "audioID": "ffdfb143"
       }
     ]
   },
@@ -1724,6 +4298,24 @@
         "en_pron": "tečʹ",
         "translation": "течь",
         "audioID": "7cba21d7"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "scorrere",
+        "translation": "scorrere",
+        "audioID": "ff26c143"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "couler",
+        "translation": "couler",
+        "audioID": "9f6dd1d3"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "fluir",
+        "translation": "fluir",
+        "audioID": "ffdfb144"
       }
     ]
   },
@@ -1736,6 +4328,24 @@
         "en_pron": "zamerzátʹ",
         "translation": "замерзать",
         "audioID": "fffb1145"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "gelare",
+        "translation": "gelare",
+        "audioID": "ff26c144"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "geler",
+        "translation": "geler",
+        "audioID": "0684e6c7"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "congelar",
+        "translation": "congelar",
+        "audioID": "ffdfb145"
       }
     ]
   },
@@ -1748,6 +4358,24 @@
         "en_pron": "púxnutʹ",
         "translation": "пухнуть",
         "audioID": "fffb1146"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "gonfiare",
+        "translation": "gonfiare",
+        "audioID": "ff26c145"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "gonfler",
+        "translation": "gonfler",
+        "audioID": "f5dcccdf"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hincharse",
+        "translation": "hincharse",
+        "audioID": "ffdfb146"
       }
     ]
   },
@@ -1760,6 +4388,24 @@
         "en_pron": "sólnce",
         "translation": "солнце",
         "audioID": "4a7147eb"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sole",
+        "translation": "sole",
+        "audioID": "f324047e"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "soleil",
+        "translation": "soleil",
+        "audioID": "e8c182bd"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "sol",
+        "translation": "sol",
+        "audioID": "ffdfb147"
       }
     ]
   },
@@ -1772,6 +4418,24 @@
         "en_pron": "luná",
         "translation": "луна",
         "audioID": "cfe215ae"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "luna",
+        "translation": "luna",
+        "audioID": "3112fff3"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "lune",
+        "translation": "lune",
+        "audioID": "c428eee2"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "luna",
+        "translation": "luna",
+        "audioID": "ffdfb148"
       }
     ]
   },
@@ -1784,6 +4448,24 @@
         "en_pron": "zvezdá",
         "translation": "звезда",
         "audioID": "0289b827"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "stella",
+        "translation": "stella",
+        "audioID": "8b9b9c55"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "étoile",
+        "translation": "étoile",
+        "audioID": "820bfac7"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "estrella",
+        "translation": "estrella",
+        "audioID": "8dc00768"
       }
     ]
   },
@@ -1796,6 +4478,24 @@
         "en_pron": "vodá",
         "translation": "вода",
         "audioID": "c746c460"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "acqua",
+        "translation": "acqua",
+        "audioID": "7bdc146b"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "eau",
+        "translation": "eau",
+        "audioID": "edd40f8c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "agua",
+        "translation": "agua",
+        "audioID": "87bb4ea2"
       }
     ]
   },
@@ -1808,6 +4508,24 @@
         "en_pron": "doždʹ",
         "translation": "дождь",
         "audioID": "cad301d4"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pioggia",
+        "translation": "pioggia",
+        "audioID": "272d8623"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "pluie",
+        "translation": "pluie",
+        "audioID": "95ddb0eb"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "lluvia",
+        "translation": "lluvia",
+        "audioID": "ffdfb151"
       }
     ]
   },
@@ -1820,6 +4538,24 @@
         "en_pron": "reká",
         "translation": "река",
         "audioID": "495e6c9e"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "fiume",
+        "translation": "fiume",
+        "audioID": "b25a62f1"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "rivière",
+        "translation": "rivière",
+        "audioID": "4f6278c1"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "río",
+        "translation": "río",
+        "audioID": "ffdfb152"
       }
     ]
   },
@@ -1832,6 +4568,24 @@
         "en_pron": "ózero",
         "translation": "озеро",
         "audioID": "c7d7fea1"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lago",
+        "translation": "lago",
+        "audioID": "1f5709d9"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "lac",
+        "translation": "lac",
+        "audioID": "16d18152"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "lago",
+        "translation": "lago",
+        "audioID": "ffdfb153"
       }
     ]
   },
@@ -1844,6 +4598,24 @@
         "en_pron": "móre",
         "translation": "море",
         "audioID": "7ccd619b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "mare",
+        "translation": "mare",
+        "audioID": "9d3d3607"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mer",
+        "translation": "mer",
+        "audioID": "19cf0e93"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "mar",
+        "translation": "mar",
+        "audioID": "ffdfb154"
       }
     ]
   },
@@ -1856,6 +4628,24 @@
         "en_pron": "solʹ",
         "translation": "соль",
         "audioID": "af4f71ca"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sale",
+        "translation": "sale",
+        "audioID": "f9ba2974"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sel",
+        "translation": "sel",
+        "audioID": "f578bd8a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "sal",
+        "translation": "sal",
+        "audioID": "ffdfb155"
       }
     ]
   },
@@ -1868,6 +4658,24 @@
         "en_pron": "kámenʹ",
         "translation": "камень",
         "audioID": "3116bd5c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pietra",
+        "translation": "pietra",
+        "audioID": "ff26c155"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "pierre",
+        "translation": "pierre",
+        "audioID": "559e8cf2"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "piedra",
+        "translation": "piedra",
+        "audioID": "ffdfb156"
       }
     ]
   },
@@ -1880,6 +4688,24 @@
         "en_pron": "pesók",
         "translation": "песок",
         "audioID": "fffb1157"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sabbia",
+        "translation": "sabbia",
+        "audioID": "ff26c156"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sable",
+        "translation": "sable",
+        "audioID": "44095356"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "arena",
+        "translation": "arena",
+        "audioID": "2c91dfdb"
       }
     ]
   },
@@ -1892,6 +4718,24 @@
         "en_pron": "pylʹ",
         "translation": "пыль",
         "audioID": "39244b08"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "polvere",
+        "translation": "polvere",
+        "audioID": "ff26c157"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "poussière",
+        "translation": "poussière",
+        "audioID": "25ff5f19"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "polvo",
+        "translation": "polvo",
+        "audioID": "ffdfb158"
       }
     ]
   },
@@ -1904,6 +4748,24 @@
         "en_pron": "zemljá",
         "translation": "земля",
         "audioID": "29bc67cd"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "terra",
+        "translation": "terra",
+        "audioID": "b8689f40"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "terre",
+        "translation": "terre",
+        "audioID": "b12c84be"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "tierra",
+        "translation": "tierra",
+        "audioID": "ffdfb159"
       }
     ]
   },
@@ -1916,6 +4778,24 @@
         "en_pron": "óblako",
         "translation": "облако",
         "audioID": "4f701d27"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "nuvola",
+        "translation": "nuvola",
+        "audioID": "4959e288"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nuage",
+        "translation": "nuage",
+        "audioID": "e2b0a73f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nube",
+        "translation": "nube",
+        "audioID": "ffdfb160"
       }
     ]
   },
@@ -1928,6 +4808,24 @@
         "en_pron": "tumán",
         "translation": "туман",
         "audioID": "785896b8"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "nebbia",
+        "translation": "nebbia",
+        "audioID": "ff26c160"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "brouillard",
+        "translation": "brouillard",
+        "audioID": "435c89b4"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "niebla",
+        "translation": "niebla",
+        "audioID": "ffdfb161"
       }
     ]
   },
@@ -1940,6 +4838,24 @@
         "en_pron": "nébo",
         "translation": "небо",
         "audioID": "a7ad6a74"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cielo",
+        "translation": "cielo",
+        "audioID": "23d9a3e3"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "ciel",
+        "translation": "ciel",
+        "audioID": "135fc5cf"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cielo",
+        "translation": "cielo",
+        "audioID": "04c713a0"
       }
     ]
   },
@@ -1952,6 +4868,24 @@
         "en_pron": "véter",
         "translation": "ветер",
         "audioID": "2c47c75b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "vento",
+        "translation": "vento",
+        "audioID": "4f417311"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "vent",
+        "translation": "vent",
+        "audioID": "8d1ada9b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "viento",
+        "translation": "viento",
+        "audioID": "ffdfb163"
       }
     ]
   },
@@ -1964,6 +4898,24 @@
         "en_pron": "sneg",
         "translation": "снег",
         "audioID": "4d0c3a6c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "neve",
+        "translation": "neve",
+        "audioID": "024bc848"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "neige",
+        "translation": "neige",
+        "audioID": "bcbaa118"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nieve",
+        "translation": "nieve",
+        "audioID": "ffdfb164"
       }
     ]
   },
@@ -1976,6 +4928,24 @@
         "en_pron": "ljod",
         "translation": "лёд",
         "audioID": "ebe63a38"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "ghiaccio",
+        "translation": "ghiaccio",
+        "audioID": "ff26c164"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "glace",
+        "translation": "glace",
+        "audioID": "a6dd185f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "hielo",
+        "translation": "hielo",
+        "audioID": "731722b1"
       }
     ]
   },
@@ -1988,6 +4958,24 @@
         "en_pron": "dym",
         "translation": "дым",
         "audioID": "76dc037d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "fumo",
+        "translation": "fumo",
+        "audioID": "ff26c165"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "fumée",
+        "translation": "fumée",
+        "audioID": "46e5b7eb"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "humo",
+        "translation": "humo",
+        "audioID": "80b2c368"
       }
     ]
   },
@@ -2000,6 +4988,24 @@
         "en_pron": "ogónʹ",
         "translation": "огонь",
         "audioID": "018b9ac4"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "fuoco",
+        "translation": "fuoco",
+        "audioID": "7bf95dad"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "feu",
+        "translation": "feu",
+        "audioID": "8bfe74d1"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "fuego",
+        "translation": "fuego",
+        "audioID": "351cad3c"
       }
     ]
   },
@@ -2012,6 +5018,24 @@
         "en_pron": "zolá",
         "translation": "зола",
         "audioID": "fffb1168"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cenere",
+        "translation": "cenere",
+        "audioID": "ff26c167"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "cendre",
+        "translation": "cendre",
+        "audioID": "da864905"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cenizas",
+        "translation": "cenizas",
+        "audioID": "ffdfb168"
       }
     ]
   },
@@ -2024,6 +5048,24 @@
         "en_pron": "žečʹ",
         "translation": "жечь",
         "audioID": "ec3ca008"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bruciare",
+        "translation": "bruciare",
+        "audioID": "ff26c168"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "brûler",
+        "translation": "brûler",
+        "audioID": "ffc02168"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "quemar",
+        "translation": "quemar",
+        "audioID": "ffdfb169"
       }
     ]
   },
@@ -2036,6 +5078,24 @@
         "en_pron": "doróga",
         "translation": "дорога",
         "audioID": "43f1d3ad"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "strada",
+        "translation": "strada",
+        "audioID": "8654ea28"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "route",
+        "translation": "route",
+        "audioID": "02c42079"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "camino",
+        "translation": "camino",
+        "audioID": "33c9673b"
       }
     ]
   },
@@ -2048,6 +5108,24 @@
         "en_pron": "gorá",
         "translation": "гора",
         "audioID": "faefe5fd"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "montagna",
+        "translation": "montagna",
+        "audioID": "8ae8a399"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "montagne",
+        "translation": "montagne",
+        "audioID": "653ae017"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "montaña",
+        "translation": "montaña",
+        "audioID": "ffdfb171"
       }
     ]
   },
@@ -2060,6 +5138,24 @@
         "en_pron": "krásnyj",
         "translation": "красный",
         "audioID": "11b0538a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "rosso",
+        "translation": "rosso",
+        "audioID": "a9dd2312"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "rouge",
+        "translation": "rouge",
+        "audioID": "632b61eb"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "rojo",
+        "translation": "rojo",
+        "audioID": "ffdfb172"
       }
     ]
   },
@@ -2072,6 +5168,24 @@
         "en_pron": "zeljónyj",
         "translation": "зелёный",
         "audioID": "718f9ad6"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "verde",
+        "translation": "verde",
+        "audioID": "d7746209"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "vert",
+        "translation": "vert",
+        "audioID": "6b6d87c6"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "verde",
+        "translation": "verde",
+        "audioID": "ffdfb173"
       }
     ]
   },
@@ -2084,6 +5198,24 @@
         "en_pron": "žóltyj",
         "translation": "жёлтый",
         "audioID": "8b4c50dd"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "giallo",
+        "translation": "giallo",
+        "audioID": "e603713d"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "jaune",
+        "translation": "jaune",
+        "audioID": "02a671d2"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "amarillo",
+        "translation": "amarillo",
+        "audioID": "c01eef96"
       }
     ]
   },
@@ -2096,6 +5228,24 @@
         "en_pron": "bélyj",
         "translation": "белый",
         "audioID": "a2f0e47a"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bianco",
+        "translation": "bianco",
+        "audioID": "32d2282f"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "blanc",
+        "translation": "blanc",
+        "audioID": "32f04c57"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "blanco",
+        "translation": "blanco",
+        "audioID": "fa32a75f"
       }
     ]
   },
@@ -2108,6 +5258,24 @@
         "en_pron": "čórnyj",
         "translation": "чёрный",
         "audioID": "77ee85aa"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "nero",
+        "translation": "nero",
+        "audioID": "74a5315a"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "noir",
+        "translation": "noir",
+        "audioID": "b30213cf"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "negro",
+        "translation": "negro",
+        "audioID": "ffdfb176"
       }
     ]
   },
@@ -2120,6 +5288,24 @@
         "en_pron": "nočʹ",
         "translation": "ночь",
         "audioID": "99ebc5e3"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "notte",
+        "translation": "notte",
+        "audioID": "ff26c176"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nuit",
+        "translation": "nuit",
+        "audioID": "4bd0905c"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "noche",
+        "translation": "noche",
+        "audioID": "ffdfb177"
       }
     ]
   },
@@ -2132,6 +5318,24 @@
         "en_pron": "denʹ",
         "translation": "день",
         "audioID": "eae3b602"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "giorno",
+        "translation": "giorno",
+        "audioID": "c5715274"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "jour",
+        "translation": "jour",
+        "audioID": "da17d9c5"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "día",
+        "translation": "día",
+        "audioID": "27f5043b"
       }
     ]
   },
@@ -2144,6 +5348,24 @@
         "en_pron": "god",
         "translation": "год",
         "audioID": "503b1741"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "anno",
+        "translation": "anno",
+        "audioID": "37a32d70"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "an",
+        "translation": "an",
+        "audioID": "97350446"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "año",
+        "translation": "año",
+        "audioID": "11e48453"
       }
     ]
   },
@@ -2156,6 +5378,24 @@
         "en_pron": "tjóplyj",
         "translation": "тёплый",
         "audioID": "1b78096d"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "caldo",
+        "translation": "caldo",
+        "audioID": "067b8ac8"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "chaud",
+        "translation": "chaud",
+        "audioID": "b7a0ac89"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "caliente",
+        "translation": "caliente",
+        "audioID": "ffdfb180"
       }
     ]
   },
@@ -2168,6 +5408,24 @@
         "en_pron": "xolódnyj",
         "translation": "холодный",
         "audioID": "c5182071"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "freddo",
+        "translation": "freddo",
+        "audioID": "73c748ec"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "froid",
+        "translation": "froid",
+        "audioID": "ac0de455"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "frío",
+        "translation": "frío",
+        "audioID": "442b8b93"
       }
     ]
   },
@@ -2180,6 +5438,24 @@
         "en_pron": "pólnyj",
         "translation": "полный",
         "audioID": "aaa6b4e6"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "pieno",
+        "translation": "pieno",
+        "audioID": "11b19c70"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "plein",
+        "translation": "plein",
+        "audioID": "1e29ca13"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "lleno",
+        "translation": "lleno",
+        "audioID": "ffdfb182"
       }
     ]
   },
@@ -2192,6 +5468,24 @@
         "en_pron": "nóvyj",
         "translation": "новый",
         "audioID": "4bd321e5"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "nuovo",
+        "translation": "nuovo",
+        "audioID": "5b22403b"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nouveau",
+        "translation": "nouveau",
+        "audioID": "d2b41328"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nuevo",
+        "translation": "nuevo",
+        "audioID": "ffdfb183"
       }
     ]
   },
@@ -2204,6 +5498,24 @@
         "en_pron": "stáryj",
         "translation": "старый",
         "audioID": "fc323b03"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "vecchio",
+        "translation": "vecchio",
+        "audioID": "921ac749"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "vieux",
+        "translation": "vieux",
+        "audioID": "b414278d"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "viejo",
+        "translation": "viejo",
+        "audioID": "ffdfb184"
       }
     ]
   },
@@ -2216,6 +5528,24 @@
         "en_pron": "xoróšij",
         "translation": "хороший",
         "audioID": "227100a5"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "buono",
+        "translation": "buono",
+        "audioID": "1cc93563"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "bon",
+        "translation": "bon",
+        "audioID": "fc7dfd6b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "bueno",
+        "translation": "bueno",
+        "audioID": "115eb0b5"
       }
     ]
   },
@@ -2228,6 +5558,24 @@
         "en_pron": "ploxój",
         "translation": "плохой",
         "audioID": "7218bef2"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "cattivo",
+        "translation": "cattivo",
+        "audioID": "effb762b"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mauvais",
+        "translation": "mauvais",
+        "audioID": "ffe5ef24"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "malo",
+        "translation": "malo",
+        "audioID": "ffdfb186"
       }
     ]
   },
@@ -2240,6 +5588,24 @@
         "en_pron": "gnilój",
         "translation": "гнилой",
         "audioID": "fffb1187"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "marcio",
+        "translation": "marcio",
+        "audioID": "ff26c186"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "pourri",
+        "translation": "pourri",
+        "audioID": "ffc02186"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "podrido",
+        "translation": "podrido",
+        "audioID": "ffdfb187"
       }
     ]
   },
@@ -2252,6 +5618,24 @@
         "en_pron": "grjáznyj",
         "translation": "грязный",
         "audioID": "8f76ada9"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sporco",
+        "translation": "sporco",
+        "audioID": "624b21c5"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sale",
+        "translation": "sale",
+        "audioID": "e54bc005"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "sucio",
+        "translation": "sucio",
+        "audioID": "ffdfb188"
       }
     ]
   },
@@ -2264,6 +5648,24 @@
         "en_pron": "prjamój",
         "translation": "прямой",
         "audioID": "946d2ce9"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "dritto",
+        "translation": "dritto",
+        "audioID": "223de77e"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "droit",
+        "translation": "droit",
+        "audioID": "cb7aa751"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "recto",
+        "translation": "recto",
+        "audioID": "ffdfb189"
       }
     ]
   },
@@ -2276,6 +5678,24 @@
         "en_pron": "krúglyj",
         "translation": "круглый",
         "audioID": "95d885e6"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "rotondo",
+        "translation": "rotondo",
+        "audioID": "ff26c189"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "rond",
+        "translation": "rond",
+        "audioID": "1258d87e"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "redondo",
+        "translation": "redondo",
+        "audioID": "ffdfb190"
       }
     ]
   },
@@ -2288,6 +5708,24 @@
         "en_pron": "óstryj",
         "translation": "острый",
         "audioID": "16de4096"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "affilato",
+        "translation": "affilato",
+        "audioID": "ff26c190"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "tranchant",
+        "translation": "tranchant",
+        "audioID": "7f0fb98b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "afilado",
+        "translation": "afilado",
+        "audioID": "ffdfb191"
       }
     ]
   },
@@ -2300,6 +5738,24 @@
         "en_pron": "tupój",
         "translation": "тупой",
         "audioID": "320b057b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "smussato",
+        "translation": "smussato",
+        "audioID": "ff26c191"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "émoussé",
+        "translation": "émoussé",
+        "audioID": "ffc02191"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "desafilado",
+        "translation": "desafilado",
+        "audioID": "ffdfb192"
       }
     ]
   },
@@ -2312,6 +5768,24 @@
         "en_pron": "gládkij",
         "translation": "гладкий",
         "audioID": "fffb1193"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "liscio",
+        "translation": "liscio",
+        "audioID": "ff26c192"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "lisse",
+        "translation": "lisse",
+        "audioID": "b3b3bc33"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "liso",
+        "translation": "liso",
+        "audioID": "ffdfb193"
       }
     ]
   },
@@ -2324,6 +5798,24 @@
         "en_pron": "mókryj",
         "translation": "мокрый",
         "audioID": "fffb1194"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "bagnato",
+        "translation": "bagnato",
+        "audioID": "ff26c193"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "mouillé",
+        "translation": "mouillé",
+        "audioID": "e31f3a7f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "mojado",
+        "translation": "mojado",
+        "audioID": "ffdfb194"
       }
     ]
   },
@@ -2336,6 +5828,24 @@
         "en_pron": "suxój",
         "translation": "сухой",
         "audioID": "2b4b4a3c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "secco",
+        "translation": "secco",
+        "audioID": "ff26c194"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "sec",
+        "translation": "sec",
+        "audioID": "65c7a01b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "seco",
+        "translation": "seco",
+        "audioID": "ffdfb195"
       }
     ]
   },
@@ -2348,6 +5858,24 @@
         "en_pron": "právilʹnyj",
         "translation": "правильный",
         "audioID": "54cbf013"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "corretto",
+        "translation": "corretto",
+        "audioID": "ff26c195"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "juste",
+        "translation": "juste",
+        "audioID": "697d3773"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "correcto",
+        "translation": "correcto",
+        "audioID": "5377e92b"
       }
     ]
   },
@@ -2360,6 +5888,24 @@
         "en_pron": "blízkij",
         "translation": "близкий",
         "audioID": "f6e7be4c"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "vicino",
+        "translation": "vicino",
+        "audioID": "b07dc8e1"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "près",
+        "translation": "près",
+        "audioID": "c2fd41bb"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "cerca",
+        "translation": "cerca",
+        "audioID": "ffdfb197"
       }
     ]
   },
@@ -2372,6 +5918,24 @@
         "en_pron": "daljókij",
         "translation": "далёкий",
         "audioID": "91a3bae6"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "lontano",
+        "translation": "lontano",
+        "audioID": "85e12170"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "loin",
+        "translation": "loin",
+        "audioID": "0d0a870b"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "lejos",
+        "translation": "lejos",
+        "audioID": "ffdfb198"
       }
     ]
   },
@@ -2384,6 +5948,24 @@
         "en_pron": "právyj",
         "translation": "правый",
         "audioID": "23c007b3"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "destra",
+        "translation": "destra",
+        "audioID": "79a776e5"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "droite",
+        "translation": "droite",
+        "audioID": "f37d619f"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "derecha",
+        "translation": "derecha",
+        "audioID": "ffdfb199"
       }
     ]
   },
@@ -2396,6 +5978,24 @@
         "en_pron": "lévyj",
         "translation": "левый",
         "audioID": "3ace0c95"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "sinistra",
+        "translation": "sinistra",
+        "audioID": "c8bde48c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "gauche",
+        "translation": "gauche",
+        "audioID": "86ed9113"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "izquierda",
+        "translation": "izquierda",
+        "audioID": "ffdfb200"
       }
     ]
   },
@@ -2408,6 +6008,24 @@
         "en_pron": "pri",
         "translation": "при",
         "audioID": "0a341994"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "a",
+        "translation": "a",
+        "audioID": "ff26c200"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "à",
+        "translation": "à",
+        "audioID": "77d8359a"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "en",
+        "translation": "en",
+        "audioID": "ffdfb201"
       }
     ]
   },
@@ -2420,6 +6038,24 @@
         "en_pron": "v",
         "translation": "в",
         "audioID": "e58e0540"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "in",
+        "translation": "in",
+        "audioID": "ff26c201"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "dans",
+        "translation": "dans",
+        "audioID": "ee6778f0"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "en",
+        "translation": "en",
+        "audioID": "ffdfb201"
       }
     ]
   },
@@ -2432,6 +6068,24 @@
         "en_pron": "s",
         "translation": "с",
         "audioID": "43455517"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "con",
+        "translation": "con",
+        "audioID": "ff26c202"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "avec",
+        "translation": "avec",
+        "audioID": "3e93f498"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "con",
+        "translation": "con",
+        "audioID": "fdbf975c"
       }
     ]
   },
@@ -2444,6 +6098,24 @@
         "en_pron": "i",
         "translation": "и",
         "audioID": "055bec5e"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "e",
+        "translation": "e",
+        "audioID": "ff26c203"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "et",
+        "translation": "et",
+        "audioID": "0e3b3838"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "y",
+        "translation": "y",
+        "audioID": "ffdfb204"
       }
     ]
   },
@@ -2456,6 +6128,24 @@
         "en_pron": "jésli",
         "translation": "если",
         "audioID": "ef4bc913"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "se",
+        "translation": "se",
+        "audioID": "ff26c204"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "si",
+        "translation": "si",
+        "audioID": "71a5e136"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "si",
+        "translation": "si",
+        "audioID": "ffdfb205"
       }
     ]
   },
@@ -2468,6 +6158,24 @@
         "en_pron": "potomú što",
         "translation": "потому",
         "audioID": "5ad852aa"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "perché",
+        "translation": "perché",
+        "audioID": "43c7d746"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "parce",
+        "translation": "parce",
+        "audioID": "ffc02205"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "porque",
+        "translation": "porque",
+        "audioID": "ffdfb206"
       }
     ]
   },
@@ -2480,6 +6188,24 @@
         "en_pron": "ímja",
         "translation": "имя",
         "audioID": "8c7f2a5b"
+      },
+      {
+        "lang": "ita",
+        "en_pron": "nome",
+        "translation": "nome",
+        "audioID": "54bd530c"
+      },
+      {
+        "lang": "fra",
+        "en_pron": "nom",
+        "translation": "nom",
+        "audioID": "6c6e55b5"
+      },
+      {
+        "lang": "spa",
+        "en_pron": "nombre",
+        "translation": "nombre",
+        "audioID": "ffdfb207"
       }
     ]
   }

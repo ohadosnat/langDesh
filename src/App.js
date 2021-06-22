@@ -8,11 +8,12 @@ import Main from "./components/Main";
 import AddNewLanguage from "./components/AddNewLanguage/AddNewLanguage";
 import Profile from "./components/Profile/Profile";
 import Quiz from "./components/Course/Quiz/Quiz";
-import Flashcards from "./components/Flashcards";
+import Flashcards from "./components/Course/Flashcards";
 import Words from "./components/Course/CourseWords/Words";
 import SignIn from "./components/Auth/SignIn";
 import Signup from "./components/Auth/Signup";
 import NotFound from "./components/NotFound";
+import FirestoreFileTransfer from "./utils/FirestoreFileTransfer";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <PrivateRoute path="/addlanguage" component={AddNewLanguage} />
             <Route path="/signup" component={Signup} />
             <Route path="/signin" component={SignIn} />
+            <Route path="/firestore" component={FirestoreFileTransfer} />
             <Route path="/" component={NotFound} />
           </Switch>
         </LangsProvider>
