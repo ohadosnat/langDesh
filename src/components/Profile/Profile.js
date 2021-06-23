@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import Menu from "../Menu";
 import Button from "../Button";
@@ -12,7 +12,6 @@ const Profile = () => {
 
   const [isSound, setIsSound] = useState(false);
   const [confirmMsg, setConfirmMsg] = useState(false);
-  const [loader, setLoader] = useState("");
 
   const [msgOpacity, setMsgOpacity] = useState(0);
   useEffect(() => {
@@ -24,6 +23,7 @@ const Profile = () => {
     if (currentUserDoc) setIsSound(currentUserDoc.soundEffects);
   }, [currentUserDoc]);
 
+  // user logout
   async function handleLogout() {
     setError("");
 
@@ -35,6 +35,7 @@ const Profile = () => {
     }
   }
 
+  // turn on/off sound effect
   const handleSoundEffect = async (isChecked) => {
     setIsSound(isChecked);
     try {
@@ -45,6 +46,7 @@ const Profile = () => {
     }
   };
 
+  // update message
   const displayUpdateMsg = () => {
     setConfirmMsg(true);
     setTimeout(() => {
@@ -72,13 +74,7 @@ const Profile = () => {
       <h1 className="capitalize font-medium text-2xl mb-4">
         Hello, {currentUserDoc && currentUserDoc.name}
       </h1>
-      {error && <p className="text-wrong-base">{error}</p>}
-      <div className="w-3/5 lg:mx-auto lg:w-2/5 2xl:w-1/5">
-        <Button variant="generalOrange" onClickHandle={handleLogout}>
-          Logout
-        </Button>
-      </div>
-      <hr className="my-5 bg-[#BCBCBC] opacity-40 w-3/5 lg:w-2/5 xl:w-1/5" />
+
       <div className="flex items-center">
         <span className="text-xl mr-5">Sound Effects</span>
         <input
@@ -90,6 +86,44 @@ const Profile = () => {
         />
         <label htmlFor="toggle"></label>
       </div>
+      <hr className="my-5 bg-[#BCBCBC] opacity-40 w-3/5 lg:w-2/5 xl:w-1/5" />
+      <div className="w-3/5 lg:mx-auto lg:w-2/5 2xl:w-1/5">
+        <Button variant="generalOrange" onClickHandle={handleLogout}>
+          Logout
+        </Button>
+      </div>
+      {error && <p className="text-wrong-base">{error}</p>}
+      <Link
+        to="/about"
+        className="global-transition flex flex-col justify-center items-center fixed top-10 right-10 hover:text-generalOrange-base lg:bottom-10 lg:top-auto lg:right-auto"
+      >
+        <svg
+          className="stroke-current w-8 h-8 pointer-events-none"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M26 5H6C5.44772 5 5 5.44772 5 6V26C5 26.5523 5.44772 27 6 27H26C26.5523 27 27 26.5523 27 26V6C27 5.44772 26.5523 5 26 5Z"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M7.22314 27C7.67684 25.0115 8.7923 23.236 10.3869 21.9643C11.9814 20.6926 13.9605 20 16.0001 20C18.0397 20 20.0188 20.6926 21.6134 21.9643C23.2079 23.236 24.3234 25.0115 24.7771 27"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        About
+      </Link>
       <Menu currentPage="profile" />
     </div>
   );

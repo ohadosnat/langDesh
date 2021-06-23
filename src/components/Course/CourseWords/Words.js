@@ -4,7 +4,9 @@ import { useForm } from "../../../customHooks/useForm";
 import Input from "../../Input";
 import { useAuth } from "../../../contexts/AuthContext";
 import WordRow from "./WordRow";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import getRandomLoader from "../../../utils/randomLoader";
+import lottie from "lottie-web";
 
 // Finds the correct translation for a word based on the current lang.
 const findCorrectTranslation = (word, langID) => {
@@ -28,7 +30,11 @@ const Words = () => {
     courseID,
   } = state;
 
-  // runs only when search value changes - currently sets the sort to default when search value is empty to prevent bugs.
+  useEffect(() => {
+    console.log(wordsData);
+  }, []);
+
+  // sets the sort to default when search value is empty to prevent bugs.
   useEffect(() => {
     if (values.search === "") setIsDesc(false);
     setFilteredValues(filterWords());
@@ -69,7 +75,7 @@ const Words = () => {
   return (
     <div>
       {/* Back Button */}
-      <Link to="/main" className="mt-5 ml-5 flex items-center">
+      <Link to="/" className="mt-5 ml-5 flex items-center">
         <svg
           className="stroke-current w-8 h-8 pointer-events-none"
           viewBox="0 0 32 32"
@@ -182,7 +188,7 @@ const Words = () => {
             />
           ))
         ) : (
-          <p>Can't find {values.search}</p>
+          <p>Can't find ${values.search}</p>
         )}
       </div>
     </div>

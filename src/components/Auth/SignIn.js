@@ -19,7 +19,7 @@ const SignIn = () => {
     try {
       setError("");
       await signin(values.email, values.password);
-      history.push("/main");
+      history.push("/");
     } catch {
       setError("Failed to Sign In");
     }

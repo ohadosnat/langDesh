@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from "react";
 import Button from "./Button";
-import eatingPanda from "../../src/assets/lottie/eatingPanda.json";
 import sleepingPanda from "../../src/assets/lottie/sleepingPanda.json";
 import lottie from "lottie-web";
 import { useAuth } from "../contexts/AuthContext";
@@ -11,7 +10,7 @@ const NotFound = ({ match, location, history }) => {
 
   useEffect(() => {
     lottie.loadAnimation({
-      name: "eatingPanda",
+      name: "sleepingPanda",
       container: containerRef.current,
       renderer: "svg",
       loop: true,
@@ -22,7 +21,7 @@ const NotFound = ({ match, location, history }) => {
       },
     });
 
-    lottie.setSpeed(1.5, eatingPanda);
+    lottie.setSpeed(1.5, sleepingPanda);
   }, []);
 
   return (

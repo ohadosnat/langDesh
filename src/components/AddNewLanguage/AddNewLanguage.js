@@ -28,7 +28,7 @@ const AddNewLanguage = () => {
     e.preventDefault();
     const checkedValue = await isChecked(e);
     await addNewActiveLang(currentUser.uid, checkedValue);
-    history.push("/main"); // will be "/" or "/dashboard"
+    history.push("/");
   };
 
   useEffect(() => {

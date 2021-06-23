@@ -130,7 +130,7 @@ const Flashcards = () => {
   const endSessionHandle = async () => {
     try {
       await updateWords(score, currentUserDoc, courseID, langID);
-      history.push("/main");
+      history.push("/");
     } catch (error) {
       console.error(error);
     }
@@ -138,7 +138,10 @@ const Flashcards = () => {
 
   return (
     <div>
-      <Prompt message="You haven't finished the session, are you sure you want to leave?" />
+      <Prompt
+        when={currentChallenge < 9}
+        message="You haven't finished the session, are you sure you want to leave?"
+      />
       {isLoading ? (
         <div
           style={toAnimate ? startLoadingAnimation : endLoadingAnimation}
@@ -229,7 +232,7 @@ const Flashcards = () => {
           ) : (
             <>
               <div className="z-10 mt-5 flex w-11/12 items-center">
-                <Link to="/main">
+                <Link to="/">
                   <svg
                     className="stroke-current w-8 h-8 pointer-events-none mr-2"
                     viewBox="0 0 32 32"
