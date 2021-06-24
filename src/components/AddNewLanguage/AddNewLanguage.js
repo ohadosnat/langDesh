@@ -98,14 +98,3 @@ const AddNewLanguage = () => {
 };
 
 export default AddNewLanguage;
-
-/* 
-TODO - Adding new language.
-[x] design
-[x] fetch and render the langs that can be added
-  [x] if a user already added a lang, disable it
-[x] the langs should be inside a form and act as a radio buttons.
-  [x] figuring out how to style custom radio buttons.
-[x] add the langs to the user's current "activeLangs" inside firestore.
-  [x] update the currentUserDoc to the most recent.
-*/

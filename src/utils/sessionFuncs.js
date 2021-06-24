@@ -1,14 +1,14 @@
+import _ from "lodash";
+
 // Filter -> Extract -> Flatten = session's words.
 const filterWords = (wordsData, userDoc, langID, courseID) => {
   const userStorngestWords = userDoc.progress[`course${courseID}`].filter(
     (word) => word[`${langID}_strength`] === 5
   );
-  const filtered = wordsData.filter((word, i) => {
-    return userStorngestWords[i] !== undefined
-      ? word.id !== userStorngestWords[i].id
-      : " ";
-  });
-
+  const filtered =
+    userStorngestWords.length <= Math.floor(wordsData.length * 0.8)
+      ? _.differenceBy(wordsData, userStorngestWords, "id")
+      : wordsData;
   return extractSessionWords(filtered, langID);
 };
 

@@ -321,16 +321,3 @@ const Flashcards = () => {
 };
 
 export default Flashcards;
-
-// check todo in notion.
-/* 
-features:
-flip card on press / on button click
-no streak
-options for answers: hard, okay, easy.
-send at the end the data into firestore
-
-workflow:
-design -> features
-
-*/

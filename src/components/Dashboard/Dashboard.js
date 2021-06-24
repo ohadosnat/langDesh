@@ -11,7 +11,6 @@ import CoursesWrapper from "../Course/CoursesWrapper";
 import Input from "../Input";
 import DashboardEmptyState from "./DashboardEmptyState";
 // Animations
-
 import cryingBlob from "../../assets/lottie/cryingBlob.json";
 import Menu from "../Menu";
 import getRandomLoader from "../../utils/randomLoader";
