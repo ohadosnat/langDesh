@@ -375,15 +375,18 @@ _I got more notes & lists on my **Notion**._
 
 ### **Swadesh List, Audio Files & Firestore**
 
-**Swadesh List**
+<details>
+<summary>Swadesh List</summary>
 
 - The Swadesh List can be used to rapidly achieve basic knowledge of a new language just by learning it.
 - The list have 207 words, I splitted them into 4 courses **_(1-50, 51-100, 101-153, 154-207)_**
 
-**Audio Files**
+</details>
+
+<details>
+<summary>Audio Files</summary>
 
 - Since I wanted to add audio feature to the app, I had a few options:
-
   - **The first** was to use a Text-To-Speech API (or something similar), but I didn't want to rely on other APIs and make lots of requests every time. \
     Yes, this would give me a more consistant voice across all of my languages & will be easier to implement (with no audio files to store)
   - **The second** was to get all the audio files of the words in that list for each language. \
@@ -391,13 +394,18 @@ _I got more notes & lists on my **Notion**._
     Luckliy, I found a nice project called **Shtooka** which got free to use recordings of most words.
   - I went with the second option (because of the reasons I mentioned).
 
-**Structing Data & Files**
+</details>
+<details>
+<summary>Structing Data & Files</summary>
 
 To take all the audio files (can be between 500 to 14,000 files per language) and filter them to make sure I only take the ones I need. I made a series of functions (that aren't in this project)
 
 - Each time I want to add a new langauge, I run these functions and it adds to an JSON file eveything and checks for duplicates.
 
-**The Plan**
+</details>
+
+<details>
+<summary>The Plan</summary>
 
 The plan is to have a list in this format (took me some time to get here)
 
@@ -435,9 +443,14 @@ The plan is to have a list in this format (took me some time to get here)
   {word2, word3, and so on...}
 ```
 
-**How does it work?**
+</details>
+
+<details>
+<summary>How does it work?</summary>
 
 - The first step is to **fetch & format the txt file** that comes with evey Shtooka pack which contains all of the information I need (file name, audio text).
+  <details>
+  <summary>Code</summary>
 
   ```js
   const langValue = "spa";
@@ -457,7 +470,14 @@ The plan is to have a list in this format (took me some time to get here)
       [lang-filenameid.flac]
       SWAC_TEXT=yes
 
+  </details>
+
+  ***
+
 - To format it and remove any unnecessary fields, I made a small Regex expression that handles this problem.
+
+  <details>
+  <summary>Code</summary>
 
   ```js
   const formatTags = text
@@ -465,7 +485,13 @@ The plan is to have a list in this format (took me some time to get here)
     .match(/^.*\S.*$/gm);
   ```
 
+  </details>
+
+  ***
+
 - Then I run a for loop (backwards) - `NUM` changes based on the amount of files, It can be `14000`, or even `500`.
+  <details>
+  <summary>Code</summary>
 
   ```js
   const formatedText2 = [];
@@ -486,7 +512,13 @@ The plan is to have a list in this format (took me some time to get here)
   }
   ```
 
+  </details>
+
+  ***
+
 - Now step 2: (setup below)
+  <details>
+  <summary>Code</summary>
 
   ```js
   fetchAudioJSON(langValue)
@@ -498,9 +530,16 @@ The plan is to have a list in this format (took me some time to get here)
     .catch((err) => console.error(err));
   ```
 
+  </details>
+
+  ***
+
 - I'll skip all the fetch functions since they're pretty much the same. \
   `translationFormat` takes the data from our JSON file (for example `itaSwades.json`). \
   _The file is a CSV that have been formatted into JSON._
+
+  <details>
+  <summary>Code</summary>
 
   ```js
   const translationFormat = (data, lang) => {
@@ -533,7 +572,13 @@ The plan is to have a list in this format (took me some time to get here)
   };
   ```
 
+  </details>
+
+  ***
+
 - `addTranslationArray` add an array to each word in the original Swadesh list
+  <details>
+  <summary>Code</summary>
 
   ```js
   const addTranslationArray = (list) => {
@@ -557,9 +602,12 @@ The plan is to have a list in this format (took me some time to get here)
   };
   ```
 
-  <br/>
+      </details>
 
-**Firestore**
+    </details>
+  <details>
+  <summary>Firestore</summary>
+
 Now that I got a formatted JSON file, I need to handle the Firestore part.
 
 - What I need to do?
@@ -603,8 +651,32 @@ Now that I got a formatted JSON file, I need to handle the Firestore part.
   }
   ```
 
-    <!--
-    <details>
-    <summary></summary>
-    </details>
-    -->
+</details>
+
+<!-- <details>
+<summary></summary>
+</details> -->
+<br/>
+
+---
+
+## **Future Ideas**
+
+- Dark mode
+- Let the user set each word level (to skip some words)
+- Have multiple correct answers to a word.
+
+<br/>
+
+---
+
+## **Conclusion**
+
+This was my first ever React project, It started as a simple idea to practice what I've learned (as always), and ended up as more. \
+During this project I've learned a lot of new concepts and how React works (I'm sure I can improve the code). \
+I learned even more about HTML, CSS and JS and how to combine them with React to achieve beautiful results. \
+Currently, there are some bugs in the app, but I'm working on that. So, if you see anything, let me know! 😁 \
+<br/>
+
+**_As always, If you got any suggestions/feedback/tips about my code. Feel free to reach out and help me learn!_** 😄\
+That's all for today! See you next time!

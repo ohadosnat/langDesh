@@ -183,7 +183,7 @@ const Words = () => {
             />
           ))
         ) : (
-          <p>Can't find ${values.search}</p>
+          <p>Can't find {values.search}</p>
         )}
       </div>
     </div>
