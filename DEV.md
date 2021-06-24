@@ -665,6 +665,7 @@ Now that I got a formatted JSON file, I need to handle the Firestore part.
 - Dark mode
 - Let the user set each word level (to skip some words)
 - Have multiple correct answers to a word.
+- Allow users to delete languages (should handle delete of every word strength in that language)
 
 <br/>
 
