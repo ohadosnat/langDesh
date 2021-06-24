@@ -39,7 +39,7 @@ const Menu = ({ currentPage }) => {
         </svg>
       </Link>
       <hr className="h-6 w-[1px] opacity-40 bg-black" />
-      {currentUserDoc && currentUserDoc.activeLangs < 4 && (
+      {currentUserDoc && currentUserDoc.activeLangs.length < 4 && (
         <>
           <Link to="/addlanguage">
             <svg
