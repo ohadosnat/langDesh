@@ -67,39 +67,39 @@ export const LangsProvider = ({ children }) => {
   const updateWords = (score, currentUserDoc, courseID, langID) => {
     if (score.correct && score.correct.length > 0) {
       score.correct.forEach((wordID) => {
-        updateWordSrength(currentUserDoc, wordID, "correct", courseID, langID);
+        updateWordStrength(currentUserDoc, wordID, "correct", courseID, langID);
       });
     }
     if (score.wrong && score.wrong.length > 0) {
       score.wrong.forEach((wordID) => {
-        updateWordSrength(currentUserDoc, wordID, "wrong", courseID, langID);
+        updateWordStrength(currentUserDoc, wordID, "wrong", courseID, langID);
       });
     }
     if (score.skipped && score.skipped.length > 0) {
       score.skipped.forEach((wordID) => {
-        updateWordSrength(currentUserDoc, wordID, "skipped", courseID, langID);
+        updateWordStrength(currentUserDoc, wordID, "skipped", courseID, langID);
       });
     }
     if (score.easy && score.easy.length > 0) {
       score.easy.forEach((wordID) => {
-        updateWordSrength(currentUserDoc, wordID, "correct", courseID, langID);
+        updateWordStrength(currentUserDoc, wordID, "correct", courseID, langID);
       });
     }
     if (score.hard && score.hard.length > 0) {
       score.hard.forEach((wordID) => {
-        updateWordSrength(currentUserDoc, wordID, "wrong", courseID, langID);
+        updateWordStrength(currentUserDoc, wordID, "wrong", courseID, langID);
       });
     }
   };
 
   // Update word strength
-  const updateWordSrength = (userDoc, id, type, courseID, langID) => {
+  const updateWordStrength = (userDoc, id, type, courseID, langID) => {
     const coursePath = userDoc.progress[`course${courseID}`];
     const word = coursePath.find((word) => word.id === id);
 
     if (type === "correct") {
       if (word) {
-        word[`${langID}_strength`]
+        word[`${langID}_strength`] && word[`${langID}_strength`] < 5
           ? (word[`${langID}_strength`] += 0.5)
           : (word[`${langID}_strength`] = 0.5);
       } else {

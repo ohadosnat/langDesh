@@ -40,7 +40,11 @@ function App() {
               component={Words}
               exact
             />
-            <PrivateRoute path="/addlanguage" component={AddNewLanguage} />
+            <PrivateRoute
+              path="/addlanguage"
+              exact
+              component={AddNewLanguage}
+            />
             <Route path="/signup" exact component={Signup} />
             <Route path="/signin" exact component={SignIn} />
             <Route path="/" component={NotFound} />

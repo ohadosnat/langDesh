@@ -29,11 +29,6 @@ const Words = () => {
     langID,
     courseID,
   } = state;
-
-  useEffect(() => {
-    console.log(wordsData);
-  }, []);
-
   // sets the sort to default when search value is empty to prevent bugs.
   useEffect(() => {
     if (values.search === "") setIsDesc(false);

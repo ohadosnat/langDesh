@@ -27,10 +27,7 @@ export function AuthProvider({ children }) {
           uid: userCredential.user.uid,
           soundEffects: true,
           progress: {
-            course150: [
-              { id: 1, ita_strength: 0, rus_strength: 0 },
-              { id: 2, ita_strength: 0, rus_strength: 0 },
-            ],
+            course150: [],
             course51100: [],
             course101153: [],
             course154207: [],
