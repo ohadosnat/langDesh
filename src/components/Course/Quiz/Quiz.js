@@ -119,7 +119,7 @@ const Quiz = () => {
     const correctAnswer = challenges[currentChallenge].en
       .split(" (")[0]
       .toLowerCase();
-    const userAnswer = values.answer.toLowerCase();
+    const userAnswer = values.answer.toLowerCase().trim();
 
     // correct
     if (userAnswer === correctAnswer && !isInputDisabled) {
