@@ -43,10 +43,10 @@ function FirestoreFileTransfer() {
   });
 
   useEffect(() => {
-    // updateCourses("KjKL6vXzE9dbsRJI0HYY", coursesWords[150]);
-    // updateCourses("kaU98X0ILbDlh0IlWIPt", coursesWords[51100]);
-    // updateCourses("12Zoj5lo41YTf46OTxEl", coursesWords[101150]);
-    // updateCourses("AKA6JSB8yJC4UU00Ig9j", coursesWords[151207]);
+    // updateCourses("COURSEID", coursesWords[150]);
+    // updateCourses("COURSEID", coursesWords[51100]);
+    // updateCourses("COURSEID", coursesWords[101150]);
+    // updateCourses("COURSEID", coursesWords[151207]);
   }, []);
   return (
     <div className="font-medium h-screen w-screen flex justify-center items-center">
