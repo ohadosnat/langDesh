@@ -8,6 +8,7 @@ import lottie from "lottie-web";
 import Button from "../Button";
 import WordCard from "../WordCard";
 import getRandomLoader from "../../utils/randomLoader";
+import confetti from "../../../assets/lottie/confetti.json";
 
 const Flashcards = () => {
   // custom hooks
@@ -22,6 +23,9 @@ const Flashcards = () => {
   const [toAnimate, setToAnimate] = useState(true);
   const loadingRef = useRef(null);
   const [loader, setLoader] = useState({});
+
+  // end of session animation ref
+  const conffetiRef = useRef(null);
 
   const [challenges, setChallenges] = useState([]);
   const [displayChallenges, setDisplayChallenges] = useState(false);
@@ -49,6 +53,7 @@ const Flashcards = () => {
   useState(() => {
     setLoader(getRandomLoader());
   }, []);
+
   // Loading Animation
   useEffect(() => {
     lottie.loadAnimation({
@@ -73,6 +78,26 @@ const Flashcards = () => {
 
   const startLoadingAnimation = { animation: "startLoading 500ms ease-in-out" };
   const endLoadingAnimation = { animation: " endLoading 500ms ease-in-out" };
+
+  useEffect(() => {
+    if (showScore) {
+      console.log("hello");
+      lottie.loadAnimation({
+        name: "confetti",
+        container: conffetiRef.current,
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        animationData: confetti,
+        rendererSettings: {
+          className: "pointer-events-none", // to prevent click event on the svg/path.
+        },
+      });
+      lottie.play("confetti");
+    } else {
+      return;
+    }
+  }, [showScore]);
 
   const cardFlipHandle = () => {
     setSession((data) => ({

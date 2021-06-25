@@ -10,6 +10,7 @@ import Button from "../../Button";
 import WordCard from "../../WordCard";
 import getRandomLoader from "../../../utils/randomLoader";
 import filterWords from "../../../utils/sessionFuncs";
+import confetti from "../../../assets/lottie/confetti.json";
 
 // Sounds & Animations Refs
 const correctSound = new Audio("/audio/correct.mp3");
@@ -31,6 +32,10 @@ const Quiz = () => {
   const [toAnimate, setToAnimate] = useState(true);
   const loadingRef = useRef(null);
   const [loader, setLoader] = useState({});
+
+  // end of session animation ref
+  const conffetiRef = useRef(null);
+
   // Session's Challenges
   const [challenges, setChallenges] = useState([]);
   const [displayChallenges, setDisplayChallenges] = useState(false);
@@ -111,6 +116,26 @@ const Quiz = () => {
       }));
     }
   }, [values.answer]);
+
+  useEffect(() => {
+    if (showScore) {
+      console.log("hello");
+      lottie.loadAnimation({
+        name: "confetti",
+        container: conffetiRef.current,
+        renderer: "svg",
+        loop: false,
+        autoplay: false,
+        animationData: confetti,
+        rendererSettings: {
+          className: "pointer-events-none", // to prevent click event on the svg/path.
+        },
+      });
+      lottie.play("confetti");
+    } else {
+      return;
+    }
+  }, [showScore]);
 
   // Checks Answer
   const handleCheck = (e) => {
@@ -217,12 +242,14 @@ const Quiz = () => {
       ) : (
         <div className="relative h-screen font-medium flex flex-col items-center lg:mx-auto lg:w-3/5 2xl:w-2/5">
           {showScore ? (
+            // confetti animation
             <div
               className="w-4/5 flex mb-8 flex-col justify-between items-center h-full"
               style={{
                 animation: `${showScore && "startLoading 500ms ease-in"}`,
               }}
             >
+              <div ref={conffetiRef} className="fixed inset-0" />
               <div className="fixed inset-0 flex flex-col flex-grow items-center justify-center content-center">
                 <h2 className="font-medium text-3xl w-full mb-6 text-center">
                   {score.correct.length > score.wrong.length ||
