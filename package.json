@@ -11,6 +11,7 @@
     "firebase": "^8.6.5",
     "lodash": "^4.17.21",
     "lottie-web": "^5.7.8",
+    "netlify-cli": "^3.38.10",
     "postcss": "^7.0.35",
     "react": "^17.0.2",
     "react-card-flip": "^1.1.1",
