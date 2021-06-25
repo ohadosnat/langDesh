@@ -103,6 +103,22 @@ const About = () => {
             Ision Industries
           </a>
         </p>
+        <p className="font-light">
+          Audio by{" "}
+          <a
+            href="http://shtooka.net/"
+            className="font-normal text-general-base hover:text-generalOrange-base global-transition"
+          >
+            Shtooka Project
+          </a>
+          {", "}
+          <a
+            href="https://lingualibre.org/wiki/LinguaLibre:Main_Page"
+            className="font-normal text-general-base hover:text-generalOrange-base global-transition"
+          >
+            Lingua Libre
+          </a>
+        </p>
         <p className="font-light mt-4">
           <span className="font-medium">Powered By:</span>
           <br />

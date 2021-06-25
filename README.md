@@ -12,15 +12,13 @@
 
 ---
 
-This was my project for practicing **React**.
-
 </center>
 
 ## About
 
 While learning **React**, I looked for a project idea to practice my skills. \
 A friend of mine suggested that I'll make a small flashcard application that teaches the most popular words from a few different languages, and I loved this idea. \
-A few days later I started to work on the design, and quickly this project turned into something bigger.
+After a few days, I started to work on the design, and quickly this project turned into something bigger.
 
 ## My Ideas
 
@@ -28,12 +26,12 @@ A few days later I started to work on the design, and quickly this project turne
 - **Quiz:**
   - The user needs to write the correct translation.
   - Can Skip (counts as wrong)
-  - Streak feature, as the user answer correctly, the streak starts to build until the use gets a wrong answer.
+  - Streak feature (as the user answers correctly, the streak starts to build until the user gets a wrong answer).
 - **Flashcards**:
-  - The user needs to guess the word before flipping the card, and press on the difficulty of the word `(Hard, Okay, Easy)`.
-- **Sessions (common features between Quiz and Flashcards):**
-  - Each session got 10 words (randomly)
-  - Word familarity will rank by level, from 1 to 5
+  - The user needs to guess the meaning of the word before flipping the card.
+- **Sessions (features that are both in Quiz and Flashcards):**
+  - Each session got ten words (randomly)
+  - Word familiarity will rank by level, from 1 to 5
   - User can listen to the word's audio
   - At the end of each session, show score as: How many correct/wrong/skipped (or hard/okay/easy)
   - Progress Bar
@@ -43,6 +41,7 @@ A few days later I started to work on the design, and quickly this project turne
 
 ## Process
 
-This time, I've saperated the process from the main README, you can read it here:\
+This time, I've separated the process from the main README. \
+You can read it here:\
 [Read about the Design Process](./DESIGN.md) \
 [Read about the Development Process](./DEV.md)
