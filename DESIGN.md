@@ -49,7 +49,7 @@ After that, I worked on the Home & Course pages.
 
 - The home page is an overview for the user (overall progress in each language/course).
 - From here, the user can choose what to do (go to profile, start a quiz/flashcard session, or view the course's words).
-- I wanted to make a single page that the user can see everything right away and start learning.
+- I wanted to make a single page where the user can see everything right away and start learning.
 
 <div align="center">
   <img width="360" alt="home screen design" src="https://user-images.githubusercontent.com/79900761/123551031-b48b2f80-d778-11eb-9dce-fc33412b0475.png">  
@@ -59,8 +59,8 @@ After that, I worked on the Home & Course pages.
 <details>
 <summary>Course</summary>
 
-- Users can go into each course and: see its words, search words, and view the familiarity level of each word.
-- This design helps users to see their progress and search for specific a word.
+- Users can go into each course and: see & search words, and view the familiarity level of each word.
+- This design helps users to see their progress and search for a specific word.
 
 <div align="center">
   
@@ -72,11 +72,11 @@ After that, I worked on the Home & Course pages.
 <details>
 <summary>Add New Language</summary>
 
-- I had a two ideas for this feature
-  - The first was to create a button below the last user language (on the home page) that says "Add New Language."
-  - The second was to add a button on the menu.
-- I went with the second one since it was cleaner.
-- The page design was simple since there are only four languages (currently), I designed it like this. But in terms of scaling, It can work.
+- I had two ideas for this feature
+  - The first was to create a button below the user's last language (on the home page) that says "Add New Language."
+  - The second was to add a button to the menu.
+- I went with the second one since it's cleaner.
+- The page design was simple since there are only four languages (currently). But in terms of scaling, It can work.
 
 <div align="center">
   <img width="760" alt="add languages screen designs" src="https://user-images.githubusercontent.com/79900761/123551036-be149780-d778-11eb-8b50-330224b2a506.png">
