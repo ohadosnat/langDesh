@@ -1,4 +1,16 @@
-# Development Process
+<div align="center">
+  <h1>Development Process</h1>
+</div>
+
+**Table of Contents:**
+- [Structure](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#structure)
+- [User Authentication](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#user-authentication)
+- [Sessions](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#sessions)
+- [Routing](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#routing)
+- [Workflow, Misc, and Components](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#workflow-misc--components)
+- [Future Ideas](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#future-ideas)
+- [Conclusion](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#conclusion)
+- Read the [Design Process](./DESIGN.md)
 
 ## **Structure**
 
