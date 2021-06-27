@@ -669,6 +669,104 @@ for /f %%f in (AudioIDs.txt) do robocopy D:\audioFileLocation D:\output  %%f /lo
 ```
 
   </details>
+  
+  <details>
+  <summary>Animations (using Lottie)</summary>
+
+- All the animations in this project were powered by `lottie-web`, I wanted to use `lottie-react` but it didn't work well.
+- The implementation was simple, this is how I did it.
+
+Implementation:
+
+<details>
+<summary>Loading Animation</summary>
+
+- Lottie uses json files that stores all of the information about the animation & svg.
+- To load an animation I used `.loadAnimation()` that lottie provides.
+- The settings I used are simple but I'll explain some of them:
+  - `name` to reference the animation if needed (`.play(name)`, `.stop(name)`, `.destory(name)` and more)
+  - container to know where to render the animation, I used `useRef` to create a quick reference to the element I need.
+  - `animationData` - what data to use, in our case `loader`
+      - In this case we reference a state but in other cases I do import the json file to the document and reference it directly.
+  - I added a class of `pointer-event-none` to most of my animation to prevent any click events on them.
+
+  ```js
+  // creating a ref
+  const loadingRef = useRef(null);
+
+  lottie.loadAnimation({
+    name: "loader",
+    container: loadingRef.current,
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    animationData: loader,
+    rendererSettings: {
+      className: "pointer-events-none", // to prevent click event on the svg/path.
+    },
+  });
+
+  // reference div
+  <div ref={loadingRef} className="mx-auto w-60 -mb-10" />;
+  ```
+
+</details>
+
+<details>
+<summary>Loaders</summary>
+
+- I added a random loader feature that choose a random loader on every load since having the same loader can be a bit boring.
+- The function for this is a simple random number generator that returns a random loader.
+
+```js
+// import statements, removed to save space...
+
+const loaders = [
+  loadingCube,
+  isometricCubesLoader,
+  isometricCubesLoaderSpaced,
+  quadCubeShifter,
+  shiftingCubes,
+  squishyIsometricCubeLoader,
+];
+
+const getRandomLoader = () => {
+  const randomNum = Math.floor(Math.random() * loaders.length);
+  return loaders[randomNum];
+};
+
+export default getRandomLoader;
+```
+
+- On page load, I run this function (`getRandomLoader()`) to generate a new loader, and sets the `loader` to it.
+- Loads the animation after the loader has been set (using `useEffect` with a dependecy array of `loader`).
+
+```js
+const [loader, setLoader] = useState({});
+
+useState(() => {
+  setLoader(getRandomLoader());
+}, []);
+
+useEffect(() => {
+  if (!isLoading) return;
+  lottie.loadAnimation({
+    name: "loader",
+    container: loadingRef.current,
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    animationData: loader,
+    rendererSettings: {
+      className: "pointer-events-none", // to prevent click event on the svg/path.
+    },
+  });
+}, [loader]);
+```
+</details>
+
+</details>
+  
 
 <br/>
 
