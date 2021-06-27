@@ -10,7 +10,7 @@
 # testing
 /coverage
 /src/utils/FirestoreFileTransfer.js
-/src/utils/swadeshList.json
+/src/utils/UpdatedswadeshList.json
 
 # production
 /build

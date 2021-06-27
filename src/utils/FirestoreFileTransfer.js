@@ -42,12 +42,7 @@ function FirestoreFileTransfer() {
     151207: swadeshList.slice(153),
   });
 
-  useEffect(() => {
-    // updateCourses("COURSEID", coursesWords[150]);
-    // updateCourses("COURSEID", coursesWords[51100]);
-    // updateCourses("COURSEID", coursesWords[101150]);
-    // updateCourses("COURSEID", coursesWords[151207]);
-  }, []);
+  useEffect(() => {}, []);
   return (
     <div className="font-medium h-screen w-screen flex justify-center items-center">
       (👉ﾟヮﾟ)👉👈(ﾟヮﾟ👈)

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Button from "./Button";
+import Button from "../components/Button";
 import sleepingPanda from "../../src/assets/lottie/sleepingPanda.json";
 import lottie from "lottie-web";
 import { useAuth } from "../contexts/AuthContext";

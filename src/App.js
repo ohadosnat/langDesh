@@ -5,16 +5,16 @@ import { LangsProvider } from "./contexts/LangsContext";
 import PrivateRoute, { PrivateCourseRoute } from "./components/PrivateRoute";
 
 // Pages
-import Main from "./components/Main";
-import AddNewLanguage from "./components/AddNewLanguage/AddNewLanguage";
-import Profile from "./components/Profile/Profile";
-import About from "./components/About";
-import Quiz from "./components/Course/Quiz/Quiz";
-import Flashcards from "./components/Course/Flashcards";
-import Words from "./components/Course/CourseWords/Words";
-import SignIn from "./components/Auth/SignIn";
-import Signup from "./components/Auth/Signup";
-import NotFound from "./components/NotFound";
+import Main from "./pages/Main";
+import AddNewLanguage from "./pages/AddNewLanguage/AddNewLanguage";
+import Profile from "./pages/Profile/Profile";
+import About from "./pages/About";
+import Quiz from "./pages/Course/Quiz/Quiz";
+import Flashcards from "./pages/Course/Flashcards";
+import Words from "./pages/Course/CourseWords/Words";
+import SignIn from "./pages/Auth/SignIn";
+import Signup from "./pages/Auth/Signup";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (

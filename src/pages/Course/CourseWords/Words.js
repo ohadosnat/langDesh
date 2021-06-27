@@ -1,12 +1,10 @@
 import _ from "lodash";
 import { Link, useLocation } from "react-router-dom";
 import { useForm } from "../../../customHooks/useForm";
-import Input from "../../Input";
+import Input from "../../../components/Input";
 import { useAuth } from "../../../contexts/AuthContext";
 import WordRow from "./WordRow";
-import { useEffect, useRef, useState } from "react";
-import getRandomLoader from "../../../utils/randomLoader";
-import lottie from "lottie-web";
+import { useEffect, useState } from "react";
 
 // Finds the correct translation for a word based on the current lang.
 const findCorrectTranslation = (word, langID) => {
