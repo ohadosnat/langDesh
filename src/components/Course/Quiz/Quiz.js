@@ -20,7 +20,7 @@ const endLoadingAnimation = { animation: " endLoading 500ms ease-in-out" };
 
 const Quiz = () => {
   // custom hooks
-  const { updateWords } = useLangs();
+  const { updateWords, updateLangOrder } = useLangs();
   const history = useHistory();
   const { currentUserDoc } = useAuth();
   const { state } = useLocation();
@@ -119,7 +119,6 @@ const Quiz = () => {
 
   useEffect(() => {
     if (showScore) {
-      console.log("hello");
       lottie.loadAnimation({
         name: "confetti",
         container: conffetiRef.current,
@@ -217,6 +216,11 @@ const Quiz = () => {
   const endSessionHandle = async () => {
     try {
       await updateWords(score, currentUserDoc, courseID, langID);
+      await updateLangOrder(
+        langID,
+        currentUserDoc.activeLangs,
+        currentUserDoc.uid
+      );
       history.push("/");
     } catch (error) {
       console.error(error);
