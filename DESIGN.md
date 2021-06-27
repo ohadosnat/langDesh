@@ -120,4 +120,4 @@ After that, I worked on the Home & Course pages.
 
 ---
 
-[Read about the Development Process](./DEV.MD)
+[Read about the Development Process](./DEV.md)
