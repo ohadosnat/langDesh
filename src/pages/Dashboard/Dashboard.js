@@ -8,11 +8,11 @@ import { useLangs } from "../../contexts/LangsContext";
 import { useForm } from "../../customHooks/useForm";
 // Components
 import CoursesWrapper from "../Course/CoursesWrapper";
-import Input from "../Input";
+import Input from "../../components/Input";
 import DashboardEmptyState from "./DashboardEmptyState";
 // Animations
 import cryingBlob from "../../assets/lottie/cryingBlob.json";
-import Menu from "../Menu";
+import Menu from "../../components/Menu";
 import getRandomLoader from "../../utils/randomLoader";
 
 const Dashboard = () => {

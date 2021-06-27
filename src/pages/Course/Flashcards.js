@@ -5,8 +5,8 @@ import { useLangs } from "../../contexts/LangsContext";
 import filterWords from "../../utils/sessionFuncs";
 import "../Dashboard/animations.css";
 import lottie from "lottie-web";
-import Button from "../Button";
-import WordCard from "../WordCard";
+import Button from "../../components/Button";
+import WordCard from "../../components/WordCard";
 import getRandomLoader from "../../utils/randomLoader";
 import confetti from "../../assets/lottie/confetti.json";
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
-import Button from "./Button";
+import Button from "../components/Button";
 
 const Home = () => {
   const { currentUser, currentUserDoc, logout } = useAuth();

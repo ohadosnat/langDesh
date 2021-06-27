@@ -1,7 +1,7 @@
 import React from "react";
 import { useAuth } from "../contexts/AuthContext";
 import { LangsProvider } from "../contexts/LangsContext";
-import Dashboard from "./Dashboard/Dashboard";
+import Dashboard from "../pages/Dashboard/Dashboard";
 
 const Main = () => {
   const { currentUserDoc } = useAuth();

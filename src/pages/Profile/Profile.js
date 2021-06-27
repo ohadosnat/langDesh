@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useHistory, Link } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
-import Menu from "../Menu";
-import Button from "../Button";
+import Menu from "../../components/Menu";
+import Button from "../../components/Button";
 import "./Profile.css";
 
 const Profile = () => {

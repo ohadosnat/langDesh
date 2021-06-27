@@ -4,7 +4,7 @@ import { useHistory } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import { useLangs } from "../../contexts/LangsContext";
 import LanguageSelectCard from "./LanguageSelectCard";
-import Button from "../Button";
+import Button from "../../components/Button";
 
 const isChecked = (e) => {
   for (let i = 0; i < e.target.length; i++) {

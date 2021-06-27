@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
 import calcProgress from "../../utils/calcProgress";
-import Button from "../Button";
+import Button from "../../components/Button";
 
 const CourseCard = ({
   langID,
