@@ -63,6 +63,16 @@ export const LangsProvider = ({ children }) => {
     });
   };
 
+  // updates activeLangs order to display the most recent one.
+  const updateLangOrder = (langID, activeLangs, uid) => {
+    const valueIndex = activeLangs.indexOf(langID);
+    activeLangs.splice(valueIndex, 1);
+    activeLangs.splice(0, 0, langID);
+    database.users.doc(uid).update({
+      activeLangs: activeLangs,
+    });
+  };
+
   // Update Words Wrapper
   const updateWords = (score, currentUserDoc, courseID, langID) => {
     if (score.correct && score.correct.length > 0) {
@@ -154,6 +164,7 @@ export const LangsProvider = ({ children }) => {
     getLangDoc,
     getActiveLangs,
     updateWords,
+    updateLangOrder,
   };
   return (
     <LangsContext.Provider value={values}>{children}</LangsContext.Provider>

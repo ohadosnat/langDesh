@@ -8,11 +8,11 @@ import lottie from "lottie-web";
 import Button from "../Button";
 import WordCard from "../WordCard";
 import getRandomLoader from "../../utils/randomLoader";
-import confetti from "../../../assets/lottie/confetti.json";
+import confetti from "../../assets/lottie/confetti.json";
 
 const Flashcards = () => {
   // custom hooks
-  const { updateWords } = useLangs();
+  const { updateWords, updateLangOrder } = useLangs();
   const history = useHistory();
   const { currentUserDoc } = useAuth();
   const { state } = useLocation();
@@ -81,7 +81,6 @@ const Flashcards = () => {
 
   useEffect(() => {
     if (showScore) {
-      console.log("hello");
       lottie.loadAnimation({
         name: "confetti",
         container: conffetiRef.current,
@@ -155,6 +154,11 @@ const Flashcards = () => {
   const endSessionHandle = async () => {
     try {
       await updateWords(score, currentUserDoc, courseID, langID);
+      await updateLangOrder(
+        langID,
+        currentUserDoc.activeLangs,
+        currentUserDoc.uid
+      );
       history.push("/");
     } catch (error) {
       console.error(error);
@@ -187,6 +191,7 @@ const Flashcards = () => {
                 animation: `${showScore && "startLoading 500ms ease-in"}`,
               }}
             >
+              <div ref={conffetiRef} className="fixed inset-0" />
               <div className="fixed inset-0 flex flex-col flex-grow items-center justify-center content-center">
                 <h2 className="font-medium text-3xl w-full mb-6 text-center">
                   {score.easy.length > score.hard.length ||
