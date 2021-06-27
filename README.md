@@ -9,6 +9,11 @@
 
 </div>
 
+**Table of Contents:**
+- [About](https://github.com/ohadosnat/langDesh#about)
+- [My Ideas](https://github.com/ohadosnat/langDesh#my-ideas)
+- [Process](https://github.com/ohadosnat/langDesh#process) (Design & Development)
+
 ## About
 
 While learning **React**, I looked for a project idea to practice my skills. \
@@ -31,8 +36,6 @@ After a few days, I started to work on the design, and quickly this project turn
   - At the end of each session, the score shows as: How many correct/wrong/skipped (or hard/okay/easy)
   - Progress Bar
 - User Authentication
-
----
 
 ## Process
 
