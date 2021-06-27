@@ -1,6 +1,14 @@
-# Design Process
+<div align="center">
+ <h1>Design Process</h1>
+</div>
 
-I used **Figma** to design this project (as always).
+**Table of Contents:**
+- [Sessions](https://github.com/ohadosnat/langDesh/blob/main/DESIGN.md#sessions)
+- [Home & Course](https://github.com/ohadosnat/langDesh/blob/main/DESIGN.md#home--course)
+- [Components & Design System](https://github.com/ohadosnat/langDesh/blob/main/DESIGN.md#components--design-system)
+- Read the [Development Process](./DEV.md)
+
+*I used **Figma** to design this project (as always).*
 
 ## **Sessions**
 
@@ -117,7 +125,3 @@ After that, I worked on the Home & Course pages.
   <img width="775" alt="Components Info" src="https://user-images.githubusercontent.com/79900761/123550817-f1a2f200-d777-11eb-93c4-5de8f42fe3e9.png">
 </div>
 </details>
-
----
-
-[Read about the Development Process](./DEV.md)
