@@ -1,9 +1,7 @@
 <div align="center">
-  
-![LangDesh Logo](https://user-images.githubusercontent.com/79900761/123549183-886bb080-d770-11eb-8189-5eb96c38429e.png)
+  <img width="300" alt="LangDesh Logo with Slogan Learn the Swadesh List easily" src="https://user-images.githubusercontent.com/79900761/123558786-c680c880-d7a0-11eb-8321-fd55bcc2d580.png">
 
-
-[Start Learning Today!](https://langdesh.netlify.app/)
+  [Start Learning Today!](https://langdesh.netlify.app/)
   
 `version 0.10.0`
 
