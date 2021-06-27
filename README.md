@@ -1,18 +1,15 @@
-<center>
+<div align="center">
+  
+![LangDesh Logo](https://user-images.githubusercontent.com/79900761/123549183-886bb080-d770-11eb-8189-5eb96c38429e.png)
 
-<img src="./public/logo512.png?width" alt="drawing" width="200"/>
-
-## LangDesh
-
-### Learn the Swadesh List easily!
 
 [Start Learning Today!](https://langdesh.netlify.app/)
-<br />
+  
 `version 0.10.0`
 
 ---
 
-</center>
+</div>
 
 ## About
 
