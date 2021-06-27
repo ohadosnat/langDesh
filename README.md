@@ -1,18 +1,15 @@
-<center>
+<div align="center">
+  
+![LangDesh Logo](https://user-images.githubusercontent.com/79900761/123549183-886bb080-d770-11eb-8189-5eb96c38429e.png)
 
-<img src="./public/logo512.png?width" alt="drawing" width="200"/>
-
-## LangDesh
-
-### Learn the Swadesh List easily!
 
 [Start Learning Today!](https://langdesh.netlify.app/)
-<br />
+  
 `version 0.10.0`
 
 ---
 
-</center>
+</div>
 
 ## About
 
@@ -30,10 +27,10 @@ After a few days, I started to work on the design, and quickly this project turn
 - **Flashcards**:
   - The user needs to guess the meaning of the word before flipping the card.
 - **Sessions (features that are both in Quiz and Flashcards):**
-  - Each session got ten words (randomly)
-  - Word familiarity will rank by level, from 1 to 5
+  - Each session gets ten words (randomly)
+  - Word familiarity ranks by level, from 1 to 5
   - User can listen to the word's audio
-  - At the end of each session, show score as: How many correct/wrong/skipped (or hard/okay/easy)
+  - At the end of each session, the score shows as: How many correct/wrong/skipped (or hard/okay/easy)
   - Progress Bar
 - User Authentication
 

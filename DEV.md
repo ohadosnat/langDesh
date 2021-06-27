@@ -1,4 +1,16 @@
-# Development Process
+<div align="center">
+  <h1>Development Process</h1>
+</div>
+
+**Table of Contents:**
+- [Structure](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#structure)
+- [User Authentication](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#user-authentication)
+- [Sessions](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#sessions)
+- [Routing](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#routing)
+- [Workflow, Misc, and Components](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#workflow-misc--components)
+- [Future Ideas](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#future-ideas)
+- [Conclusion](https://github.com/ohadosnat/langDesh/blob/main/DEV.md#conclusion)
+- Read the [Design Process](./DESIGN.md)
 
 ## **Structure**
 
@@ -20,7 +32,7 @@ One of my main goals was to make sure I don't store any unnecessary data.
   - This structure allows me to quickly update a user's info.
   - Store only necessary progress (only the words the user is familiar with in that lang)
     - You can see that we don't store the strength level for each available language (currently have Russian, Italian, Spanish, and French)
-  - Active languages can be updated and scale as the app grows.
+  - Active languages can be updated and scaled as the app grows.
   - Each user will have a similar template.
   - As the app grows and has more features (such as dark mode), I can quickly add a field `darkMode: true/false`
     <br/><br/>
@@ -115,7 +127,7 @@ One of my main goals was to make sure I don't store any unnecessary data.
 
 ## **User Authentication**
 
-- How the hell I do user authentication? 🥴 \
+- How the hell do I do user authentication? 🥴 \
   **Answer:** You use Firebase Authentication! 😲
 - This was my first time using any authentication service.
 - After setting up Firebase Auth, I needed to create a new user document in Firestore, which was easy, create a document with the user's UID after signup.
@@ -129,27 +141,27 @@ One of my main goals was to make sure I don't store any unnecessary data.
 
 ### **Challenges (some on of them)**
 
-There were a lot of challenges with the sessions here some of them:
+There were a lot of challenges with the sessions are here some of them:
 
-- Shuffle 10 random words each session (without words that have strength 5)
-- Updating word strength at the end of each session (and how much)
+- Shuffle 10 random words in each session (without words that have strength 5)
+- Updating words' strength at the end of each session.
 
 ### **Solutions**
 
 <details>
-<summary>At the start of each session, I run a function called filterWords that do the following (by order):</summary>
+<summary>At the start of each session, I run a function called `filterWords` that do the following (by order):</summary>
 
-- **Filter:** finds the user's strongest words and filter them out of the array (using lodash's `_.differenceby()`)
+- **Filter:** finds the user's strongest words and filters them out of the array (using lodash's `_.differenceby()`)
   - _I had a bit of trouble doing it, and this worked the best._
 - **Extract:** makes a copy of the original list and shuffles it using the `Fisher-Yates Shuffle Modern Algorithm`.
-- **Flatten:** Takes only ten words from the new list and flatten each word to make it easier to work with later on.
+- **Flatten:** Takes only ten words from the new list and flattens each word to make it easier to work with later on.
 
-**_Full function at `src/utils/sessionFuncs.js` if you want to take a look (a bit long for this document)._**
+**_Full function at `src/utils/sessionFuncs.js` if you want to take a look (it's a bit long for this document)._**
 
 </details>
 
 <details>
-<summary>What happens when the user got less than ten words below 4? Great question! 😲</summary>
+<summary>What happens if a user got less than ten words below 4? Great question! 😲</summary>
 
 - If the user finished 80% of the course (meaning 80% of the words are at strength 5), the session will not filter any words.
 - To make sure I don't add strength to level 5 words, There's a simple condition that handles this case.
@@ -292,7 +304,7 @@ const updateWordInFirestore = (path, uid, courseID) => {
 - `PrivateRoute` - if the user is not signed in, it redirects the user to `/signin` to sign in.
 - `PrivateCourseRoute` - similar to the above, but it redirects the user to `/` (main page) if there's no state (from location).
   - When a user goes into a session, I pass down a few states from the `Link` component.
-  - It's not only if the user doesn't have a specific course. It also prevents other bugs.
+  - It's not only for if the user doesn't have a specific course. It also prevents other bugs.
   - Before: user at `/rus/150/quiz` -> changes URL to `/ita/150/quiz` = **Error**
   - Now: user at `/rus/150/quiz` -> changes URL to `ita/150/quiz` = **Redirects to the main page.**
 
@@ -390,7 +402,7 @@ _I got more notes & lists on my **Notion**._
 <details>
 <summary>Audio Files</summary>
 
-- Since I wanted to add audio feature to the app, I had a few options:
+- Since I wanted to add an audio feature to the app, I had a few options:
   - **The first** was to use a Text-To-Speech API (or something similar), but I didn't want to rely on other APIs and make lots of requests every time. \
     Yes, this would give me a more consistent voice across all of my languages & will be easier to implement (with no audio files to store)
   - **The second** was to get all the audio files of each word in the list for each language. \
@@ -399,9 +411,9 @@ _I got more notes & lists on my **Notion**._
 
 </details>
 <details>
-<summary>Structing Data & Files</summary>
+<summary>Structuring Data & Files</summary>
 
-To take all the audio files (can be between 500 to 14,000 files per language) and filter them to make sure I only take the ones I need. I made a series of functions (that aren't in this project).
+To take all the audio files (can be between 500 to 14,000 files per language) and filter them to make sure I only take the ones I need, I made a series of functions (that aren't in this project).
 
 - Each time I want to add a new language, I run these functions, and it adds to a JSON file everything and checks for duplicates.
 
@@ -477,7 +489,7 @@ The plan is to have a list in this format (it took me some time to get here)
 
   ***
 
-- To format and remove any unnecessary fields. I made a small Regex expression that handles this problem.
+- To format and remove any unnecessary fields, I made a small Regex expression that handles this problem.
 
   <details>
   <summary>Code</summary>
@@ -619,7 +631,7 @@ Now that I got a formatted JSON file, I need to handle the Firestore part.
   - Create Course (if needed)
   - Update Course
 - A simple React page that has a `useState` of the course's words split into four parts. \
-  And a `useEffect` the runs at page load (if I needed to create a course, I would run first `initCourse` before updating it).
+  And a `useEffect` thats runs at page load (if I needed to create a course, I would run first `initCourse` before updating it).
 
   ```js
   // Creates a course.
@@ -669,6 +681,104 @@ for /f %%f in (AudioIDs.txt) do robocopy D:\audioFileLocation D:\output  %%f /lo
 ```
 
   </details>
+  
+  <details>
+  <summary>Animations (using Lottie)</summary>
+
+- All the animations in this project were powered by `lottie-web`, I wanted to use `lottie-react` but it didn't work well.
+- The implementation was simple, this is how I did it.
+
+Implementation:
+
+<details>
+<summary>Loading Animation</summary>
+
+- Lottie uses json files that stores all of the information about the animation & svg.
+- To load an animation I used `.loadAnimation()` that lottie provides.
+- The settings I used are simple but I'll explain some of them:
+  - `name` to reference the animation if needed (`.play(name)`, `.stop(name)`, `.destory(name)` and more)
+  - container to know where to render the animation, I used `useRef` to create a quick reference to the element I need.
+  - `animationData` - what data to use, in our case `loader`
+      - In this case we reference a state but in other cases I do import the json file to the document and reference it directly.
+  - I added a class of `pointer-event-none` to most of my animation to prevent any click events on them.
+
+  ```js
+  // creating a ref
+  const loadingRef = useRef(null);
+
+  lottie.loadAnimation({
+    name: "loader",
+    container: loadingRef.current,
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    animationData: loader,
+    rendererSettings: {
+      className: "pointer-events-none", // to prevent click event on the svg/path.
+    },
+  });
+
+  // reference div
+  <div ref={loadingRef} className="mx-auto w-60 -mb-10" />;
+  ```
+
+</details>
+
+<details>
+<summary>Loaders</summary>
+
+- I added a random loader feature that chooses a random animation on every load since having the same animation can be a bit boring.
+- The function for this is a simple random number generator that returns a random JSON file with the animation.
+
+```js
+// import statements, removed to save space...
+
+const loaders = [
+  loadingCube,
+  isometricCubesLoader,
+  isometricCubesLoaderSpaced,
+  quadCubeShifter,
+  shiftingCubes,
+  squishyIsometricCubeLoader,
+];
+
+const getRandomLoader = () => {
+  const randomNum = Math.floor(Math.random() * loaders.length);
+  return loaders[randomNum];
+};
+
+export default getRandomLoader;
+```
+
+- On page load, I run this function (`getRandomLoader()`) to generate a new loader, and set the `loader` to it.
+- Loads the animation after the loader has been set (using `useEffect` with a dependecy array of `loader`).
+
+```js
+const [loader, setLoader] = useState({});
+
+useState(() => {
+  setLoader(getRandomLoader());
+}, []);
+
+useEffect(() => {
+  if (!isLoading) return;
+  lottie.loadAnimation({
+    name: "loader",
+    container: loadingRef.current,
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    animationData: loader,
+    rendererSettings: {
+      className: "pointer-events-none", // to prevent click event on the svg/path.
+    },
+  });
+}, [loader]);
+```
+</details>
+
+</details>
+  
 
 <br/>
 
@@ -677,8 +787,8 @@ for /f %%f in (AudioIDs.txt) do robocopy D:\audioFileLocation D:\output  %%f /lo
 ## **Future Ideas**
 
 - Dark mode
-- Let the user set each word level (to skip some words)
-- Have multiple correct answers to a word.
+- Let the user set a strength for each word (to skip some words)
+- Have multiple correct answers for a word.
 - Allow users to delete languages (should handle delete of every word strength in that language)
 
 <br/>
@@ -690,7 +800,7 @@ for /f %%f in (AudioIDs.txt) do robocopy D:\audioFileLocation D:\output  %%f /lo
 This project was my first ever React project. It started as a simple idea to practice what I've learned (as always) and ended up with more. \
 During this project, I've learned new concepts and how React works. \
 I learned how to combine what I've learned in the past with React to achieve beautiful results. \
-Currently, there are some bugs in the app, but I'm working on that. So, if you see anything, let me know! 😁 \
+Currently, there are some bugs in the app, but I'm working on that. So, if you see any, let me know! 😁 \
 <br/>
 
 **_As always, If you got any suggestions/feedback/tips about my code. Feel free to reach out and help me learn!_** 😄\
