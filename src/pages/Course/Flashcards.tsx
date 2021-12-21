@@ -57,7 +57,6 @@ const Flashcards = () => {
   useEffect(() => {
     if (!loadingRef.current || !loader) return;
 
-    console.count("loading useEffect1");
     lottie.loadAnimation({
       name: "loader",
       container: loadingRef.current,
