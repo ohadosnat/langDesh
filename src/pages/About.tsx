@@ -18,7 +18,7 @@ const About = () => {
         />
         <h1 className="font-medium text-2xl">LangDesh</h1>
         <h3>Learn The Swadesh List</h3>
-        <p className="text-sm font-light mt-1">version 0.1.0</p>
+        <p className="text-sm font-light mt-1">version 0.2.0</p>
         {/* TODO: Change Version */}
         <hr className="my-2 bg-[#BCBCBC] opacity-40 w-1/5 lg:w-2/12 2xl:w-1/12" />
         <p className="font-light">
