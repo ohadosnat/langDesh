@@ -3,7 +3,7 @@
 
   [Start Learning Today!](https://langdesh.netlify.app/)
   
-`version 0.10.0`
+`version 0.30.0`
 
 ---
 
