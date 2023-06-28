@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeftCircleIcon, LangDeshIcon } from "../assets/icons/Icons";
 
