@@ -5,6 +5,7 @@ import Menu from "../../components/Menu";
 import Button from "../../components/Button";
 import "./Profile.css";
 import { AboutIcon } from "../../assets/icons/Icons";
+import Toast from "../../components/Toast";
 
 const Profile = () => {
   // Custom Hooks
@@ -45,14 +46,7 @@ const Profile = () => {
 
   return (
     <div className="p-6 fixed inset-0 flex flex-col items-center justify-center">
-      {confirmMsg && (
-        <div
-          className="fixed top-5 shadow-sm bg-default-base border border-opacity-25 py-2 px-6 rounded-md global-transition"
-          style={{ opacity: `${msgOpacity}%` }}
-        >
-          Updated!
-        </div>
-      )}
+      {confirmMsg && <Toast message="Updated!" opacity={msgOpacity} />}
 
       <h1 className="capitalize font-medium text-2xl mb-4">
         Hello, {currentUserDoc && currentUserDoc.name}
@@ -68,6 +62,13 @@ const Profile = () => {
           onChange={(e) => handleSoundEffect(e.target.checked)}
         />
         <label htmlFor="toggle"></label>
+      </div>
+      <div className="mt-4 w-3/5 lg:mx-auto lg:w-2/5 2xl:w-1/5">
+        <Link to="/manageLanguages">
+          <Button variant="general" textColor="text-white">
+            Manage Languages
+          </Button>
+        </Link>
       </div>
       <hr className="my-5 bg-[#BCBCBC] opacity-40 w-3/5 lg:w-2/5 xl:w-1/5" />
       <div className="w-3/5 lg:mx-auto lg:w-2/5 2xl:w-1/5">

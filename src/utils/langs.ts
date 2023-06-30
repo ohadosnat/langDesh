@@ -4,6 +4,7 @@ import {
   doc,
   getDoc,
   getDocs,
+  deleteField,
 } from "@firebase/firestore";
 import { database } from "./firebaseConfig";
 import { updateDocumentInCollection } from "./firestore";
@@ -190,4 +191,37 @@ export const updateWordInFirestore = async (
 
   const coursePath = `progress.course${courseID}`;
   await updateDocumentInCollection("users", uid, { [coursePath]: data });
+};
+
+/**
+ * Resets all the courses for the current user on Firestore based on given language id
+ * @param lang the language you want to reset progress to
+ * @param userDoc the current user document
+ * @fires updateWordInFirestore - to update each course (only if needed)
+ */
+export const resetLanguageCoursesProgress = async (
+  lang: langsID,
+  userDoc: UserDoc
+) => {
+  const coursesKeys = Object.keys(userDoc.progress) as (keyof UserProgress)[];
+
+  for (let i = 0; i < coursesKeys.length; i++) {
+    let hasChanged = false;
+    const userCourseProgress = userDoc.progress[coursesKeys[i]].map((x) => x);
+    for (let j = 0; j < userCourseProgress.length; j++) {
+      const word = userCourseProgress[j];
+      const strength = word[`${lang}_strength`];
+      if (!strength === undefined) continue;
+      hasChanged = true;
+      delete userCourseProgress[j][`${lang}_strength`];
+    }
+
+    if (hasChanged) {
+      await updateWordInFirestore(
+        userCourseProgress,
+        userDoc.uid,
+        parseInt(coursesKeys[i].replace("course", ""))
+      );
+    }
+  }
 };

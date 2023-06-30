@@ -33,6 +33,7 @@ const Button = ({
   textColor,
   isDisabled,
   onClickHandle,
+  ...props
 }: Props) => {
   return (
     <>
@@ -51,6 +52,7 @@ const Button = ({
         `}
         disabled={isDisabled}
         onClick={onClickHandle}
+        {...props}
       >
         {children}
       </button>
