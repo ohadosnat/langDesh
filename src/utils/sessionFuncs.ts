@@ -37,20 +37,13 @@ const extractSessionWords = (wordsData: Word[], langID: langsID) => {
 
   // Fisher-Yates Shuffle Modern Algorithm
   for (let i = list.length; i > 1; i--) {
-    let random = Math.floor(Math.random() * i);
-    let temp = list[random];
+    const random = Math.floor(Math.random() * i);
+    const temp = list[random];
     list[random] = list[i - 1];
     list[i - 1] = temp;
   }
   return flattenWords(list.slice(0, 10), langID);
 };
-
-/**
- *
- * @param wordsData
- * @param langID
- * @returns
- */
 
 /**
  * Flatten the given words into a session format.

@@ -1,4 +1,4 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, useId } from "react";
 import { ClearIcon } from "../assets/icons/Icons";
 
 interface Props {
@@ -42,6 +42,7 @@ const Input = ({
     (placeholder || type).charAt(0).toUpperCase() +
     (placeholder || type).slice(1);
 
+  const clearButtonId = useId();
   return (
     <div className="defaultBG w-full my-3 lg:mx-auto">
       {startIcon}
@@ -61,7 +62,7 @@ const Input = ({
       {displayClearBtn && (
         <button
           type="button"
-          id="clearButton"
+          id={`clearButton-${clearButtonId}`}
           onClick={onChangeValue}
           className="flex-none ml-2"
         >

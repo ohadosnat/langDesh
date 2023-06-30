@@ -56,7 +56,7 @@ const AddNewLanguage = () => {
                 langName={name}
                 id={id}
                 flagPath={flagPath}
-                isDisabled={currentUserDoc!.activeLangs.includes(id)}
+                isDisabled={currentUserDoc?.activeLangs.includes(id) ?? false}
               />
             ))}
           </div>
