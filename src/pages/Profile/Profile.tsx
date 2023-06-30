@@ -23,9 +23,10 @@ const Profile = () => {
 
   // turn on/off sound effect
   const handleSoundEffect = async (isChecked: boolean) => {
+    if (!currentUserDoc) return;
     setIsSound(isChecked);
     try {
-      await updateSettings("sound", isChecked, currentUserDoc!.uid);
+      await updateSettings("sound", isChecked, currentUserDoc.uid);
       displayUpdateMsg();
     } catch {
       setError("Failed to update setting");

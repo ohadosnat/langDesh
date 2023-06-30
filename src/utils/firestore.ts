@@ -10,7 +10,7 @@ import { database } from "./firebaseConfig";
 export const updateDocumentInCollection = async (
   collection: string,
   reference: string,
-  data: any
+  data: Partial<unknown>
 ): Promise<void> => {
   const dofRef = doc(database, collection, reference);
   try {

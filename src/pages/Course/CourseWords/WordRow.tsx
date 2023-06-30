@@ -2,6 +2,7 @@ import lottie from "lottie-web";
 import speaker from "../../../assets/lottie/speaker.json";
 import { useEffect, useRef, useState } from "react";
 import { handleAudioClick } from "../../../utils/audio";
+import { inRange } from "lodash";
 
 interface Props {
   wordID: Word["id"];
@@ -21,13 +22,11 @@ const findWordStrength = (
 ) => {
   const userProgress = userDoc.progress[`course${courseID}`];
   const findWord = userProgress.find(({ id }) => id === wordID);
-
-  const wordStrength = findWord ? findWord[`${langID}_strength`]! : 0;
-
-  if (wordStrength > 0 && wordStrength < 2) return 20;
-  if (wordStrength > 1 && wordStrength < 3) return 40;
-  if (wordStrength > 2 && wordStrength < 4) return 60;
-  if (wordStrength > 3 && wordStrength < 5) return 80;
+  const wordStrength = (findWord && findWord[`${langID}_strength`]) ?? 0;
+  if (inRange(wordStrength, 0, 2)) return 20;
+  if (inRange(wordStrength, 1, 3)) return 40;
+  if (inRange(wordStrength, 2, 4)) return 60;
+  if (inRange(wordStrength, 3, 5)) return 80;
   return 100;
 };
 
@@ -42,9 +41,6 @@ const WordRow = ({
   // States.
   const [wordStrength, setWordStrength] = useState<number>(0);
   const playBtnRef = useRef<HTMLButtonElement>(null);
-  // const wordAudio = new Audio(
-  //   `/audio/${langID}Audio/${wordTranslation?.audioID}.mp3`
-  // );
 
   useEffect(() => {
     if (!playBtnRef.current) return;
@@ -62,7 +58,7 @@ const WordRow = ({
     });
   }, [wordID]);
 
-  // // making sure the function doesn't run unless the currentUserDoc has been loaded.
+  // making sure the function doesn't run unless the `currentUserDoc` has been loaded.
   useEffect(() => {
     if (!currentUserDoc) return;
     setWordStrength(findWordStrength(wordID, currentUserDoc, courseID, langID));

@@ -15,7 +15,9 @@ const CourseCard = ({
   // User Document & useStates
   const { currentUserDoc } = useAuth();
   const [inPrecentProgress] = useState<number>(() =>
-    calcProgress(wordsData, currentUserDoc!, courseID, langID)
+    currentUserDoc
+      ? calcProgress(wordsData, currentUserDoc, courseID, langID)
+      : 0
   );
 
   const [isFlipped, setIsFlipped] = useState(false);

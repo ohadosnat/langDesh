@@ -35,7 +35,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
    * @param value - the value we want to update
    * @param uid - the user's id (`uid`)
    */
-  const updateSettings = async (type: string, value: any, uid: string) => {
+  const updateSettings = async (type: string, value: unknown, uid: string) => {
     if (type === "sound") {
       await updateDocumentInCollection("users", uid, { soundEffects: value });
       await getUserDoc(uid);

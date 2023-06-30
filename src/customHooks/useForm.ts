@@ -18,7 +18,7 @@ export const useForm = (initial: Record<string, string>): useFormReturn => {
    * @param e - Change Event
    */
   const setValuesEvent = (e: ChangeEvent<HTMLInputElement>) => {
-    if (e.target.id === "clearButton") {
+    if (e.target.id.startsWith("clearButton")) {
       setValues((state) => {
         const prevElement = e.target.previousElementSibling as HTMLInputElement;
         return { ...state, [prevElement.name]: "" };
