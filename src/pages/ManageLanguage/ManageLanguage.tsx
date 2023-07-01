@@ -1,12 +1,11 @@
-import { ChangeEvent, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Menu from "../../components/Menu";
 import { useAuth } from "../../contexts/AuthContext";
-import { getAllLangs, resetLanguageCoursesProgress } from "../../utils/langs";
 import {
-  ArrowLeftCircleIcon,
-  CircleExitIcon,
-  PlusCircleIcon,
-} from "../../assets/icons/Icons";
+  deleteLanguage,
+  resetLanguageCoursesProgress,
+} from "../../utils/langs";
+import { ArrowLeftCircleIcon } from "../../assets/icons/Icons";
 import LanguageSelectCard from "../AddNewLanguage/LanguageSelectCard";
 import Button from "../../components/Button";
 import { Link } from "react-router-dom";
@@ -14,7 +13,7 @@ import { useLangs } from "../../contexts/LangsContext";
 import Toast from "../../components/Toast";
 
 export default function ManageLanguages() {
-  const { currentUserDoc } = useAuth();
+  const { currentUserDoc, getUserDoc } = useAuth();
   const { userActiveLangs, getActiveLangs } = useLangs();
 
   const [selectedLanguage, setselectedLanguage] = useState<langsID | null>(
@@ -43,13 +42,14 @@ export default function ManageLanguages() {
     setactionInProgress(false);
   };
 
-  const handleDeleteLanguage = () => {
+  const handleDeleteLanguage = async () => {
     if (!currentUserDoc || !selectedLanguage) return;
     console.log("Handle Delete language on", selectedLanguage);
     setactionInProgress(true);
-    // await resetLanguageCoursesProgress(selectedLanguage, currentUserDoc);
+    await deleteLanguage(selectedLanguage, currentUserDoc);
     displayUpdateMsg("Language Deleted Successfully!");
     setactionInProgress(false);
+    await getUserDoc(currentUserDoc.uid);
   };
 
   // update message

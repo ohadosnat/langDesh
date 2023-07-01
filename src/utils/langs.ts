@@ -4,7 +4,6 @@ import {
   doc,
   getDoc,
   getDocs,
-  deleteField,
 } from "@firebase/firestore";
 import { database } from "./firebaseConfig";
 import { updateDocumentInCollection } from "./firestore";
@@ -224,4 +223,18 @@ export const resetLanguageCoursesProgress = async (
       );
     }
   }
+};
+
+/**
+ * Delets the langauge for the current user on Firestore based on given language id
+ * @param lang the language you want to delete
+ * @param userDoc the current user document
+ * @fires resetLanguageCoursesProgress - to reset all the course progress
+ * @fires updateDocumentInCollection - to update the user's `activeLangs` in the Firestore collection
+ */
+export const deleteLanguage = async (lang: langsID, userDoc: UserDoc) => {
+  resetLanguageCoursesProgress(lang, userDoc);
+  await updateDocumentInCollection("users", userDoc.uid, {
+    activeLangs: userDoc.activeLangs.filter((name) => name !== lang),
+  });
 };
