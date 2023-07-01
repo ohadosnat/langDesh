@@ -18,6 +18,7 @@ import Words from "./pages/Course/CourseWords/Words";
 import SignIn from "./pages/Auth/SignIn";
 import Signup from "./pages/Auth/Signup";
 import NotFound from "./pages/NotFound";
+import ManageLanguages from "./pages/ManageLanguage/ManageLanguage";
 
 function App() {
   return (
@@ -78,6 +79,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <AddNewLanguage />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path="/manageLanguages"
+              element={
+                <PrivateRoute>
+                  <ManageLanguages />
                 </PrivateRoute>
               }
             />
