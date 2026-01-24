@@ -13,7 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "firebase": "^9.23.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "lottie-web": "^5.12.2",
     "react-router-dom": "^6.14.0"
   },
